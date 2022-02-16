@@ -1,377 +1,77 @@
 {
-  ".github": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "SwiftMultiaddr": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "SwiftMultihash": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "c-multihash": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "c-multihashing": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "cid": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "cid-utils-website": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "clj-multihash": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "clj-multistream": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "clj-varint": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "cs-multiaddress": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "cs-multibase": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "cs-multicodec": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "cs-multihash": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "cs-multistream": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "docs": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "ex_multihash": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "github-mgmt": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": false,
-    "allow_squash_merge": false
-  },
-  "go-base36": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "go-multiaddr": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "go-multiaddr-dns": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "go-multiaddr-fmt": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "go-multiaddr-net": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "go-multibase": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "go-multicodec": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "go-multicodec-packed": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "go-multigram": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "go-multihash": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "go-multistream": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "go-varint": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "haskell-multibase": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "haskell-multicodec": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "haskell-multihash": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "java-multiaddr": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "java-multibase": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "java-multihash": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "js-blake2": {
-    "allow_merge_commit": false,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "js-cid": {
-    "allow_merge_commit": false,
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true
-  },
-  "js-cid-tool": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "js-mafmt": {
-    "allow_merge_commit": false,
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true
-  },
-  "js-multiaddr": {
-    "allow_merge_commit": false,
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true
-  },
-  "js-multiaddr-to-uri": {
-    "allow_merge_commit": false,
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true
-  },
-  "js-multibase": {
-    "allow_merge_commit": false,
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true
-  },
-  "js-multicodec": {
-    "allow_merge_commit": false,
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true
-  },
-  "js-multiformats": {
-    "allow_merge_commit": false,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "js-multihash": {
-    "allow_merge_commit": false,
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true
-  },
-  "js-multihashing": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "js-multihashing-async": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "js-multistream-select": {
-    "allow_merge_commit": false,
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true
-  },
-  "js-murmur3": {
-    "allow_merge_commit": false,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "js-sha3": {
-    "allow_merge_commit": false,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "js-uri-to-multiaddr": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "ma-pipe": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "multiaddr": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "multibase": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "multicodec": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "multiformats": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "multigram": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "multihash": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "multistream": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "multistream-select": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "php-multihash": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "py-multiaddr": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "py-multibase": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "py-multicodec": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "py-multihash": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "ruby-multihash": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "rust-cid": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "rust-multiaddr": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "rust-multibase": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "rust-multihash": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "scala-multihash": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "specs": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "unsigned-varint": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  },
-  "website": {
-    "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
-  }
+  ".github": {},
+  "SwiftMultiaddr": {},
+  "SwiftMultihash": {},
+  "c-multihash": {},
+  "c-multihashing": {},
+  "cid": {},
+  "cid-utils-website": {},
+  "clj-multihash": {},
+  "clj-multistream": {},
+  "clj-varint": {},
+  "cs-multiaddress": {},
+  "cs-multibase": {},
+  "cs-multicodec": {},
+  "cs-multihash": {},
+  "cs-multistream": {},
+  "docs": {},
+  "ex_multihash": {},
+  "github-mgmt": {},
+  "go-base36": {},
+  "go-multiaddr": {},
+  "go-multiaddr-dns": {},
+  "go-multiaddr-fmt": {},
+  "go-multiaddr-net": {},
+  "go-multibase": {},
+  "go-multicodec": {},
+  "go-multicodec-packed": {},
+  "go-multigram": {},
+  "go-multihash": {},
+  "go-multistream": {},
+  "go-varint": {},
+  "haskell-multibase": {},
+  "haskell-multicodec": {},
+  "haskell-multihash": {},
+  "java-multiaddr": {},
+  "java-multibase": {},
+  "java-multihash": {},
+  "js-blake2": {},
+  "js-cid": {},
+  "js-cid-tool": {},
+  "js-mafmt": {},
+  "js-multiaddr": {},
+  "js-multiaddr-to-uri": {},
+  "js-multibase": {},
+  "js-multicodec": {},
+  "js-multiformats": {},
+  "js-multihash": {},
+  "js-multihashing": {},
+  "js-multihashing-async": {},
+  "js-multistream-select": {},
+  "js-murmur3": {},
+  "js-sha3": {},
+  "js-uri-to-multiaddr": {},
+  "ma-pipe": {},
+  "multiaddr": {},
+  "multibase": {},
+  "multicodec": {},
+  "multiformats": {},
+  "multigram": {},
+  "multihash": {},
+  "multistream": {},
+  "multistream-select": {},
+  "php-multihash": {},
+  "py-multiaddr": {},
+  "py-multibase": {},
+  "py-multicodec": {},
+  "py-multihash": {},
+  "ruby-multihash": {},
+  "rust-cid": {},
+  "rust-multiaddr": {},
+  "rust-multibase": {},
+  "rust-multihash": {},
+  "scala-multihash": {},
+  "specs": {},
+  "unsigned-varint": {},
+  "website": {}
 }
