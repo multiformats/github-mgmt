@@ -1,1 +1,23 @@
-{}
+{
+  "multicodec": {
+    "master": {
+      "required_pull_request_reviews": [
+        {}
+      ],
+      "required_status_checks": [
+        {
+          "contexts": [
+            "validate"
+          ],
+          "strict": true
+        }
+      ]
+    }
+  },
+  "specs": {
+    "master": {
+      "required_pull_request_reviews": [],
+      "required_status_checks": []
+    }
+  }
+}
