@@ -86,8 +86,8 @@
   },
   "github-mgmt": {
     "allow_merge_commit": true,
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true
+    "allow_rebase_merge": false,
+    "allow_squash_merge": false
   },
   "go-base36": {
     "allow_merge_commit": true,
