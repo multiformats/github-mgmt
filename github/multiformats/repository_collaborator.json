@@ -1,1 +1,560 @@
-{}
+{
+  ".github": {
+    "BigLep": {
+      "permission": "admin"
+    },
+    "andyschwab": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "SwiftMultiaddr": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "SwiftMultihash": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "c-multihash": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "c-multihashing": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "cid": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "cid-utils-website": {
+    "jessicaschilling": {
+      "permission": "push"
+    },
+    "lidel": {
+      "permission": "admin"
+    },
+    "olizilla": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "clj-multihash": {
+    "greglook": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "clj-multistream": {
+    "greglook": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "clj-varint": {
+    "ekroon": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "cs-multiaddress": {
+    "tabrath": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "cs-multibase": {
+    "tabrath": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "cs-multicodec": {
+    "tabrath": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "cs-multihash": {
+    "tabrath": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "cs-multistream": {
+    "tabrath": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "docs": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ex_multihash": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-base36": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-multiaddr": {
+    "jbenet": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-multiaddr-dns": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-multiaddr-fmt": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-multibase": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-multicodec": {
+    "jbenet": {
+      "permission": "admin"
+    },
+    "masih": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    },
+    "whyrusleeping": {
+      "permission": "admin"
+    }
+  },
+  "go-multigram": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-multihash": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-multistream": {
+    "locotorp": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    },
+    "whyrusleeping": {
+      "permission": "admin"
+    }
+  },
+  "go-varint": {
+    "Stebalien": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "haskell-multibase": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "haskell-multicodec": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "haskell-multihash": {
+    "lukehoersten": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "java-multiaddr": {
+    "ianopolous": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "java-multibase": {
+    "ianopolous": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "java-multihash": {
+    "ianopolous": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-blake2": {
+    "rvagg": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-cid": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-cid-tool": {
+    "alanshaw": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-mafmt": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-multiaddr": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-multiaddr-to-uri": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-multibase": {
+    "hugomrdias": {
+      "permission": "admin"
+    },
+    "olizilla": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-multicodec": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-multiformats": {
+    "patrickwoodhead": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-multihash": {
+    "hugomrdias": {
+      "permission": "maintain"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-multihashing": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "dignifiedquire": {
+      "permission": "admin"
+    },
+    "hugomrdias": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-multihashing-async": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-multistream-select": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "dignifiedquire": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-murmur3": {
+    "mikeal": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-sha3": {
+    "mikeal": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-uri-to-multiaddr": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ma-pipe": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "multiaddr": {
+    "jbenet": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "multibase": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "multicodec": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "multiformats": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "multigram": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "multihash": {
+    "jbenet": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "multistream": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "multistream-select": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "jbenet": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "php-multihash": {
+    "Fil": {
+      "permission": "admin"
+    },
+    "RichardLitt": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "py-multiaddr": {
+    "sbuss": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "py-multibase": {
+    "dhruvbaldawa": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "py-multicodec": {
+    "dhruvbaldawa": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "py-multihash": {
+    "dhruvbaldawa": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ruby-multihash": {
+    "kyledrake": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "rust-cid": {
+    "dignifiedquire": {
+      "permission": "admin"
+    },
+    "dvc94ch": {
+      "permission": "triage"
+    },
+    "mriise": {
+      "permission": "triage"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "rust-multiaddr": {
+    "dignifiedquire": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "rust-multibase": {
+    "dignifiedquire": {
+      "permission": "admin"
+    },
+    "mriise": {
+      "permission": "triage"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "rust-multihash": {
+    "dignifiedquire": {
+      "permission": "admin"
+    },
+    "dvc94ch": {
+      "permission": "triage"
+    },
+    "mriise": {
+      "permission": "triage"
+    },
+    "rklaehn": {
+      "permission": "triage"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "scala-multihash": {
+    "web3-bot": {
+      "permission": "push"
+    },
+    "yusefnapora": {
+      "permission": "admin"
+    }
+  },
+  "specs": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "unsigned-varint": {
+    "jbenet": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "website": {
+    "alanshaw": {
+      "permission": "admin"
+    },
+    "andrew": {
+      "permission": "push"
+    },
+    "jesseclay": {
+      "permission": "push"
+    },
+    "jessicaschilling": {
+      "permission": "push"
+    },
+    "olizilla": {
+      "permission": "admin"
+    },
+    "richsilv": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  }
+}

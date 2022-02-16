@@ -1,1 +1,65 @@
-{}
+{
+  "Admin": {
+    "id": "2067995"
+  },
+  "Bots": {
+    "id": "3154247"
+  },
+  "C Sharp Team": {
+    "id": "2467155"
+  },
+  "C Team": {
+    "id": "2467178"
+  },
+  "Clojure Team": {
+    "id": "2467166"
+  },
+  "Contributors": {
+    "id": "2183901"
+  },
+  "Elixir Team": {
+    "id": "2467183"
+  },
+  "Go Team": {
+    "id": "2210603"
+  },
+  "Haskell Team": {
+    "id": "2467157"
+  },
+  "Infra": {
+    "id": "3140150"
+  },
+  "Java Team": {
+    "id": "2467171"
+  },
+  "JavaScript Team": {
+    "id": "2123131"
+  },
+  "PHP Team": {
+    "id": "2467185"
+  },
+  "Parity Tech": {
+    "id": "2592234"
+  },
+  "Python Team": {
+    "id": "2242710"
+  },
+  "Ruby Team": {
+    "id": "2467174"
+  },
+  "Rust Team": {
+    "id": "2467162"
+  },
+  "Scala Team": {
+    "id": "2467177"
+  },
+  "Swift Team": {
+    "id": "2467161"
+  },
+  "ci": {
+    "id": "2562374"
+  },
+  "w3dt-stewards": {
+    "id": "4657016"
+  }
+}

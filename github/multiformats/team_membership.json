@@ -1,1 +1,414 @@
-{}
+{
+  "Admin": {
+    "BigLep": {
+      "role": "member"
+    },
+    "Kubuxu": {
+      "role": "maintainer"
+    },
+    "Stebalien": {
+      "role": "maintainer"
+    },
+    "alanshaw": {
+      "role": "member"
+    },
+    "aschmahmann": {
+      "role": "maintainer"
+    },
+    "daviddias": {
+      "role": "maintainer"
+    },
+    "dignifiedquire": {
+      "role": "member"
+    },
+    "hsanjuan": {
+      "role": "member"
+    },
+    "jacobheun": {
+      "role": "member"
+    },
+    "jbenet": {
+      "role": "maintainer"
+    },
+    "marten-seemann": {
+      "role": "maintainer"
+    }
+  },
+  "Bots": {
+    "locotorp": {
+      "role": "member"
+    }
+  },
+  "C Sharp Team": {
+    "daviddias": {
+      "role": "maintainer"
+    },
+    "tabrath": {
+      "role": "member"
+    }
+  },
+  "C Team": {
+    "Kubuxu": {
+      "role": "maintainer"
+    },
+    "daviddias": {
+      "role": "maintainer"
+    }
+  },
+  "Clojure Team": {
+    "daviddias": {
+      "role": "maintainer"
+    },
+    "ekroon": {
+      "role": "member"
+    },
+    "greglook": {
+      "role": "member"
+    }
+  },
+  "Contributors": {
+    "Kubuxu": {
+      "role": "maintainer"
+    },
+    "RichardLitt": {
+      "role": "member"
+    },
+    "adlrocha": {
+      "role": "member"
+    },
+    "bigs": {
+      "role": "member"
+    },
+    "daviddias": {
+      "role": "maintainer"
+    },
+    "flyingzumwalt": {
+      "role": "member"
+    },
+    "hsanjuan": {
+      "role": "member"
+    },
+    "kevina": {
+      "role": "member"
+    },
+    "kumavis": {
+      "role": "member"
+    },
+    "nicola": {
+      "role": "member"
+    },
+    "victorb": {
+      "role": "member"
+    },
+    "wanderer": {
+      "role": "member"
+    },
+    "willscott": {
+      "role": "member"
+    }
+  },
+  "Elixir Team": {
+    "daviddias": {
+      "role": "maintainer"
+    },
+    "zabirauf": {
+      "role": "member"
+    }
+  },
+  "Go Team": {
+    "Kubuxu": {
+      "role": "maintainer"
+    },
+    "Stebalien": {
+      "role": "maintainer"
+    },
+    "aarshkshah1992": {
+      "role": "member"
+    },
+    "aschmahmann": {
+      "role": "maintainer"
+    },
+    "hannahhoward": {
+      "role": "member"
+    },
+    "hsanjuan": {
+      "role": "member"
+    },
+    "magik6k": {
+      "role": "member"
+    },
+    "masih": {
+      "role": "member"
+    },
+    "momack2": {
+      "role": "member"
+    },
+    "mvdan": {
+      "role": "member"
+    },
+    "raulk": {
+      "role": "maintainer"
+    },
+    "ribasushi": {
+      "role": "member"
+    },
+    "rvagg": {
+      "role": "maintainer"
+    },
+    "vyzo": {
+      "role": "member"
+    },
+    "warpfork": {
+      "role": "member"
+    },
+    "whyrusleeping": {
+      "role": "maintainer"
+    },
+    "willscott": {
+      "role": "member"
+    }
+  },
+  "Haskell Team": {
+    "daviddias": {
+      "role": "maintainer"
+    },
+    "lukehoersten": {
+      "role": "member"
+    }
+  },
+  "Java Team": {
+    "celeduc": {
+      "role": "member"
+    },
+    "ianopolous": {
+      "role": "member"
+    },
+    "raulk": {
+      "role": "maintainer"
+    }
+  },
+  "JavaScript Team": {
+    "Gozala": {
+      "role": "member"
+    },
+    "achingbrain": {
+      "role": "member"
+    },
+    "alanshaw": {
+      "role": "member"
+    },
+    "daviddias": {
+      "role": "maintainer"
+    },
+    "dignifiedquire": {
+      "role": "member"
+    },
+    "dryajov": {
+      "role": "member"
+    },
+    "fsdiogo": {
+      "role": "member"
+    },
+    "haadcode": {
+      "role": "member"
+    },
+    "hacdias": {
+      "role": "member"
+    },
+    "hugomrdias": {
+      "role": "member"
+    },
+    "jacobheun": {
+      "role": "member"
+    },
+    "kumavis": {
+      "role": "member"
+    },
+    "lidel": {
+      "role": "member"
+    },
+    "litzenberger": {
+      "role": "member"
+    },
+    "mcollina": {
+      "role": "member"
+    },
+    "mikeal": {
+      "role": "maintainer"
+    },
+    "momack2": {
+      "role": "member"
+    },
+    "olizilla": {
+      "role": "member"
+    },
+    "pkafei": {
+      "role": "member"
+    },
+    "richardschneider": {
+      "role": "member"
+    },
+    "rvagg": {
+      "role": "maintainer"
+    },
+    "vasco-santos": {
+      "role": "member"
+    },
+    "vmx": {
+      "role": "maintainer"
+    },
+    "wanderer": {
+      "role": "member"
+    }
+  },
+  "PHP Team": {
+    "Fil": {
+      "role": "member"
+    },
+    "daviddias": {
+      "role": "maintainer"
+    }
+  },
+  "Parity Tech": {
+    "Vurich": {
+      "role": "member"
+    },
+    "arkpar": {
+      "role": "member"
+    },
+    "debris": {
+      "role": "member"
+    },
+    "folsen": {
+      "role": "member"
+    },
+    "rphmeier": {
+      "role": "member"
+    },
+    "tomaka": {
+      "role": "maintainer"
+    }
+  },
+  "Python Team": {
+    "TKorr": {
+      "role": "member"
+    },
+    "alexh": {
+      "role": "member"
+    },
+    "amstocker": {
+      "role": "member"
+    },
+    "dhruvbaldawa": {
+      "role": "member"
+    },
+    "fredthomsen": {
+      "role": "member"
+    },
+    "mhchia": {
+      "role": "member"
+    },
+    "raulk": {
+      "role": "maintainer"
+    },
+    "robzajac": {
+      "role": "member"
+    },
+    "sbuss": {
+      "role": "member"
+    },
+    "stuckinaboot": {
+      "role": "member"
+    },
+    "zixuanzh": {
+      "role": "member"
+    }
+  },
+  "Ruby Team": {
+    "daviddias": {
+      "role": "maintainer"
+    }
+  },
+  "Rust Team": {
+    "Gozala": {
+      "role": "member"
+    },
+    "MarcoPolo": {
+      "role": "member"
+    },
+    "Vurich": {
+      "role": "member"
+    },
+    "arkpar": {
+      "role": "member"
+    },
+    "daviddias": {
+      "role": "maintainer"
+    },
+    "debris": {
+      "role": "member"
+    },
+    "dignifiedquire": {
+      "role": "member"
+    },
+    "folsen": {
+      "role": "member"
+    },
+    "mxinden": {
+      "role": "member"
+    },
+    "rphmeier": {
+      "role": "member"
+    },
+    "tomaka": {
+      "role": "member"
+    },
+    "vmx": {
+      "role": "maintainer"
+    }
+  },
+  "Scala Team": {
+    "daviddias": {
+      "role": "maintainer"
+    },
+    "yusefnapora": {
+      "role": "member"
+    }
+  },
+  "Swift Team": {
+    "NeoTeo": {
+      "role": "member"
+    },
+    "cloutiertyler": {
+      "role": "member"
+    }
+  },
+  "ci": {
+    "ipfsbot": {
+      "role": "member"
+    },
+    "locotorp": {
+      "role": "member"
+    }
+  },
+  "w3dt-stewards": {
+    "BigLep": {
+      "role": "maintainer"
+    },
+    "Stebalien": {
+      "role": "maintainer"
+    },
+    "achingbrain": {
+      "role": "member"
+    },
+    "aschmahmann": {
+      "role": "maintainer"
+    },
+    "lidel": {
+      "role": "member"
+    },
+    "mxinden": {
+      "role": "member"
+    }
+  }
+}
