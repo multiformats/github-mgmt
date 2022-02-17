@@ -3,12 +3,7 @@
 set -e
 set -u
 set -o pipefail
-
-debug="${TF_DEBUG:-false}"
-
-if [[ "$debug" == 'true' ]]; then
-  set -x
-fi
+# set -x
 
 if [[ " $@ " == ' -h ' || " $@ " == ' --help ' || " $@ " =~ ' -help ' ]]; then
   echo "Usage: $0 [options] [path]"
@@ -48,8 +43,8 @@ resource_targets="$(jq -r 'map("-target=github_\(.).this") | join(" ")' <<< "$re
 
 data_targets="[]"
 while read resource; do
-  data="$(cat "$root/terraform/data.tf" | tr -d '[:space:]' | grep -oP '#@resources.'"$resource"'.data[^"]+"\K.*?"' | tr -d '[:space:]' | tr '"' ' ')"
-  data="$(jq 'split(" ")' <<< '"'"${data:0:-1}"'"')"
+  data="$(cat "$root/terraform/data.tf" | tr -d '[:space:]' | grep -oP '#@resources.'"$resource"'.datadata"\K.*?"' | tr -d '[:space:]')"
+  data="$(jq 'split("\"")' <<< '"'"${data:0:-1}"'"')"
   data_targets="$(jq '$data + .' --argjson data "$data" <<< "$data_targets")"
 done <<< "$(jq -r '.[]' <<< "$resources")"
 data_targets="$(jq -r 'unique | map("-target=data.\(.).this") | join(" ")' <<< "$data_targets")"
@@ -78,14 +73,14 @@ while read resource; do
       id="$(jq -r 'map(select(.index == $index)) | .[0].id' --argjson index "$index" <<< "$remote_data")"
 
       echo "Importing $index ($id)"
-      terraform import -lock=$lock "github_$resource.this[$index]" "$id"
+      terraform import "github_$resource.this[$index]" "$id" -lock=$lock
     fi
   done <<< "$(jq '. - $existing_indices | .[]' --argjson existing_indices "$existing_indices" <<< "$remote_indices")"
 
   while read index; do
     if [[ ! -z "$index" ]]; then
       echo "Removing $index"
-      terraform state rm -lock=$lock "github_$resource.this[$index]"
+      terraform state rm "github_$resource.this[$index]" -lock=$lock
     fi
   done <<< "$(jq '. - $remote_indices | .[]' --argjson remote_indices "$remote_indices" <<< "$existing_indices")"
 done <<< "$(jq -r '.[]' <<< "$resources")"
@@ -94,12 +89,9 @@ echo "Retrieving state"
 state="$(terraform show -json)"
 
 while read resource; do
-  echo "Finding required arguments for $resource"
   required="$(cat "$root/terraform/resources.tf" | tr -d '[:space:]' | grep -oP '#@resources.'"$resource"'.required\K.*?=' | tr -d '[:space:]')"
   required="$(jq 'split("=")' <<< '"'"${required:0:-1}"'"')"
-
-  echo "Finding ignored arguments/attributes for $resource"
-  ignore_changes="$(cat "$root/terraform/resources_override.tf" | tr -d '[:space:]' | { grep -oP '#@resources.'"$resource"'.ignore_changesignore_changes=\K.*?[^0]\]' || true; } | tr -d '[:space:]')"
+  ignore_changes="$(cat "$root/terraform/resources_override.tf" | tr -d '[:space:]' | grep -oP '#@resources.'"$resource"'.ignore_changesignore_changes=\K.*?[^0]\]' | tr -d '[:space:]')"
   if [[ -z "$ignore_changes" ]]; then
     ignore_changes="$(cat "$root/terraform/resources.tf" | tr -d '[:space:]' | grep -oP '#@resources.'"$resource"'.ignore_changesignore_changes=\K.*?[^0]\]' | tr -d '[:space:]')"
   fi
