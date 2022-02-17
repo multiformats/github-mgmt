@@ -1,4 +1,9 @@
 {
+  "github-mgmt": {
+    "galargh": {
+      "permission": "admin"
+    }
+  },
   ".github": {
     "BigLep": {
       "permission": "admin"
