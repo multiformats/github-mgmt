@@ -1,9 +1,4 @@
 {
-  "github-mgmt": {
-    "galargh": {
-      "permission": "admin"
-    }
-  },
   ".github": {
     "BigLep": {
       "permission": "admin"
@@ -126,6 +121,11 @@
   "ex_multihash": {
     "web3-bot": {
       "permission": "push"
+    }
+  },
+  "github-mgmt": {
+    "galargh": {
+      "permission": "admin"
     }
   },
   "go-base36": {
