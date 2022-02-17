@@ -46,7 +46,7 @@ This repository is responsible for managing GitHub configuration of `multiformat
 ### ...apply GitHub Management changes to GitHub?
 
 - [ ] [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) from the branch to the default branch
-- [ ] Merge the pull request once the `Comment` check passes and you verify the plan posted as a comment
+- [ ] Merge the pull request once the `Plan` check passes and you verify the plan posted as a comment
 - [ ] Confirm that the `Push` GitHub Action workflow run applied the plan by inspecting the output
 
 ### ...synchronize GitHub Management with GitHub?
@@ -58,12 +58,12 @@ This repository is responsible for managing GitHub configuration of `multiformat
 *Note*: `Sync` is also going to sort the keys in all the objects lexicographically.
 
 - [ ] Run `Sync` GitHub Action workflow from your desired `branch` - *this will import all the resources from the actual GitHub configuration state into GitHub Management*
-- [ ] Merge the pull request that the workflow created once the `Comment` check passes and you verify the plan posted as a comment - *the plan should not contain any changes*
+- [ ] Merge the pull request that the workflow created once the `Plan` check passes and you verify the plan posted as a comment - *the plan should not contain any changes*
 
 ### ...update GitHub Management?
 
 - [ ] Run `Update` GitHub Action workflow
-- [ ] Merge the pull request that the workflow created once the `Comment` check passes and you verify the plan posted as a comment - *the plan should not contain any changes*
+- [ ] Merge the pull request that the workflow created once the `Plan` check passes and you verify the plan posted as a comment - *the plan should not contain any changes*
 
 ## Notes
 
