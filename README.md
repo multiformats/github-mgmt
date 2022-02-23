@@ -60,9 +60,9 @@ This repository is responsible for managing GitHub configuration of `multiformat
 - [ ] Run `Sync` GitHub Action workflow from your desired `branch` - *this will import all the resources from the actual GitHub configuration state into GitHub Management*
 - [ ] Merge the pull request that the workflow created once the `Plan` check passes and you verify the plan posted as a comment - *the plan should not contain any changes*
 
-### ...update GitHub Management?
+### ...upgrade GitHub Management?
 
-- [ ] Run `Update` GitHub Action workflow
+- [ ] Run `Upgrade` GitHub Action workflow
 - [ ] Merge the pull request that the workflow created once the `Plan` check passes and you verify the plan posted as a comment - *the plan should not contain any changes*
 
 ## Notes
@@ -73,4 +73,4 @@ Because the repository is currently private, it is impossible to enforce branch 
 
 ### Merges
 
-Because we don't have merge queue functionality enabled for the repository yet, after a merge, wait for the `Apply` workflow to complete. After that, update outstanding PRs so that their plans are recreated.
+Because we don't have merge queue functionality enabled for the repository yet, after a merge, wait for the `Apply` and `Update` workflows to complete before merging any other PRs.
