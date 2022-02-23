@@ -31,8 +31,12 @@ jobs:
         run: |
           while read number; do
             if [[ ! -z "$number" ]]; then
-              if ! gh api -X PUT "/repos/${{ github.repository }}/pulls/$number/update-branch"; then
+              head_parent_sha="$(gh api "/repos/${{ github.repository }}/pulls/$number/commits" --jq '.[-1].parents[-1].sha')"
+              base_sha="$(gh api "/repos/${{ github.repository }}/pulls/$number" --jq '.base.sha')"
+              if [[ "$head_parent_sha" == "$base_sha" ]]; then
+                echo '{"message":"Not updating pull request branch.","url":"https://api.github.com/repos/${{ github.repository }}/pulls/'"$number"'"}'
+              elif ! gh api -X PUT "/repos/${{ github.repository }}/pulls/$number/update-branch"; then
                 echo "::warning title=update-branch failure::${{github.repository}}#$number"
               fi
             fi
-          done <<< "$(gh api '/repos/${{ github.repository }}/pulls' --jq '.[] | .number')"
+          done <<< "$(gh api '/repos/${{ github.repository }}/pulls' --jq '.[].number')"
