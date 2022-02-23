@@ -10,8 +10,10 @@ on:
 
 jobs:
   update:
-    if: github.event_name == 'workflow_dispatch' ||
-        github.event.workflow_run.conclusion == 'success'
+    if: (github.event_name == 'workflow_dispatch' &&
+        github.ref_name == github.event.repository.default_branch) ||
+        (github.event_name == 'workflow_run' &&
+        github.event.workflow_run.conclusion == 'success')
     name: Update
     runs-on: ubuntu-latest
     defaults:
@@ -31,9 +33,8 @@ jobs:
         run: |
           while read number; do
             if [[ ! -z "$number" ]]; then
-              head_parent_sha="$(gh api "/repos/${{ github.repository }}/pulls/$number/commits" --jq '.[-1].parents[-1].sha')"
-              base_sha="$(gh api "/repos/${{ github.repository }}/pulls/$number" --jq '.base.sha')"
-              if [[ "$head_parent_sha" == "$base_sha" ]]; then
+              sha="$(gh api "/repos/${{ github.repository }}/pulls/$number" --jq '.base.sha')"
+              if [[ "$sha" == '${{ github.sha }}' ]]; then
                 echo '{"message":"Not updating pull request branch.","url":"https://api.github.com/repos/${{ github.repository }}/pulls/'"$number"'"}'
               elif ! gh api -X PUT "/repos/${{ github.repository }}/pulls/$number/update-branch"; then
                 echo "::warning title=update-branch failure::${{github.repository}}#$number"
