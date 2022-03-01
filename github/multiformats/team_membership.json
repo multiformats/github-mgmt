@@ -391,6 +391,11 @@
       "role": "member"
     }
   },
+  "ip-productivity": {
+    "galargh": {
+      "role": "maintainer"
+    }
+  },
   "w3dt-stewards": {
     "BigLep": {
       "role": "maintainer"
