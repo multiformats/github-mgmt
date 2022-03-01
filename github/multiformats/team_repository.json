@@ -523,6 +523,233 @@
       "permission": "push"
     }
   },
+  "ip-productivity": {
+    ".github": {
+      "permission": "admin"
+    },
+    "MultiHash.Net": {
+      "permission": "admin"
+    },
+    "SwiftMultiaddr": {
+      "permission": "admin"
+    },
+    "SwiftMultihash": {
+      "permission": "admin"
+    },
+    "base-x": {
+      "permission": "admin"
+    },
+    "c-multihash": {
+      "permission": "admin"
+    },
+    "c-multihashing": {
+      "permission": "admin"
+    },
+    "cid": {
+      "permission": "admin"
+    },
+    "cid-utils-website": {
+      "permission": "admin"
+    },
+    "clj-multihash": {
+      "permission": "admin"
+    },
+    "clj-multistream": {
+      "permission": "admin"
+    },
+    "clj-varint": {
+      "permission": "admin"
+    },
+    "cs-multiaddress": {
+      "permission": "admin"
+    },
+    "cs-multibase": {
+      "permission": "admin"
+    },
+    "cs-multicodec": {
+      "permission": "admin"
+    },
+    "cs-multihash": {
+      "permission": "admin"
+    },
+    "cs-multistream": {
+      "permission": "admin"
+    },
+    "docs": {
+      "permission": "admin"
+    },
+    "ex_multihash": {
+      "permission": "admin"
+    },
+    "go-base32": {
+      "permission": "admin"
+    },
+    "go-base36": {
+      "permission": "admin"
+    },
+    "go-multiaddr": {
+      "permission": "admin"
+    },
+    "go-multiaddr-dns": {
+      "permission": "admin"
+    },
+    "go-multiaddr-fmt": {
+      "permission": "admin"
+    },
+    "go-multibase": {
+      "permission": "admin"
+    },
+    "go-multicodec": {
+      "permission": "admin"
+    },
+    "go-multigram": {
+      "permission": "admin"
+    },
+    "go-multihash": {
+      "permission": "admin"
+    },
+    "go-multistream": {
+      "permission": "admin"
+    },
+    "go-varint": {
+      "permission": "admin"
+    },
+    "haskell-multibase": {
+      "permission": "admin"
+    },
+    "haskell-multicodec": {
+      "permission": "admin"
+    },
+    "haskell-multihash": {
+      "permission": "admin"
+    },
+    "java-multiaddr": {
+      "permission": "admin"
+    },
+    "java-multibase": {
+      "permission": "admin"
+    },
+    "java-multihash": {
+      "permission": "admin"
+    },
+    "js-blake2": {
+      "permission": "admin"
+    },
+    "js-cid": {
+      "permission": "admin"
+    },
+    "js-cid-tool": {
+      "permission": "admin"
+    },
+    "js-mafmt": {
+      "permission": "admin"
+    },
+    "js-multiaddr": {
+      "permission": "admin"
+    },
+    "js-multiaddr-to-uri": {
+      "permission": "admin"
+    },
+    "js-multibase": {
+      "permission": "admin"
+    },
+    "js-multicodec": {
+      "permission": "admin"
+    },
+    "js-multiformats": {
+      "permission": "admin"
+    },
+    "js-multihash": {
+      "permission": "admin"
+    },
+    "js-multihashing": {
+      "permission": "admin"
+    },
+    "js-multihashing-async": {
+      "permission": "admin"
+    },
+    "js-multistream-select": {
+      "permission": "admin"
+    },
+    "js-murmur3": {
+      "permission": "admin"
+    },
+    "js-sha3": {
+      "permission": "admin"
+    },
+    "js-uri-to-multiaddr": {
+      "permission": "admin"
+    },
+    "ma-pipe": {
+      "permission": "admin"
+    },
+    "multiaddr": {
+      "permission": "admin"
+    },
+    "multibase": {
+      "permission": "admin"
+    },
+    "multicodec": {
+      "permission": "admin"
+    },
+    "multiformats": {
+      "permission": "admin"
+    },
+    "multigram": {
+      "permission": "admin"
+    },
+    "multihash": {
+      "permission": "admin"
+    },
+    "multistream": {
+      "permission": "admin"
+    },
+    "multistream-select": {
+      "permission": "admin"
+    },
+    "php-multihash": {
+      "permission": "admin"
+    },
+    "py-multiaddr": {
+      "permission": "admin"
+    },
+    "py-multibase": {
+      "permission": "admin"
+    },
+    "py-multicodec": {
+      "permission": "admin"
+    },
+    "py-multihash": {
+      "permission": "admin"
+    },
+    "ruby-multihash": {
+      "permission": "admin"
+    },
+    "rust-cid": {
+      "permission": "admin"
+    },
+    "rust-multiaddr": {
+      "permission": "admin"
+    },
+    "rust-multibase": {
+      "permission": "admin"
+    },
+    "rust-multihash": {
+      "permission": "admin"
+    },
+    "scala-multihash": {
+      "permission": "admin"
+    },
+    "specs": {
+      "permission": "admin"
+    },
+    "unsigned-varint": {
+      "permission": "admin"
+    },
+    "website": {
+      "permission": "admin"
+    }
+  },
   "w3dt-stewards": {
     ".github": {
       "permission": "admin"
