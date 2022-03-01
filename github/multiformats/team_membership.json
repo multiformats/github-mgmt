@@ -404,13 +404,15 @@
     "aschmahmann": {
       "role": "maintainer"
     },
-    "galargh": {
-      "role": "maintainer"
-    },
     "lidel": {
       "role": "member"
     },
     "mxinden": {
+      "role": "member"
+    }
+  },
+  "ip-productivity": {
+    "galargh": {
       "role": "member"
     }
   }
