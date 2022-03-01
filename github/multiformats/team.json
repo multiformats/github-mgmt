@@ -82,5 +82,8 @@
   "w3dt-stewards": {
     "id": "4657016",
     "parent_team_id": null
+  },
+  "ip-productivity": {
+    "parent_team_id": "4657016"
   }
 }
