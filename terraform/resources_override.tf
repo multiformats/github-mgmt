@@ -21,6 +21,23 @@ resource "github_repository_collaborator" "this" {
   }
 }
 
+resource "github_team" "this" {
+  lifecycle {
+    # @resources.team.ignore_changes
+    ignore_changes = [
+      # id,
+      create_default_maintainer,
+      description,
+      etag,
+      ldap_dn,
+      members_count,
+      node_id,
+      # parent_team_id,
+      privacy,
+      slug
+    ]
+  }
+}
 
 resource "github_team_repository" "this" {
   lifecycle {
