@@ -509,7 +509,7 @@
       "permission": "triage"
     },
     "mriise": {
-      "permission": "triage"
+      "permission": "push"
     },
     "rklaehn": {
       "permission": "triage"
