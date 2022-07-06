@@ -35,7 +35,9 @@ class Resource {
           {cwd: env.TF_WORKING_DIR}
         )
       } catch (e) {
-        core.warning(`Skipping import of ${JSON.stringify(this)}, got this error: ${e}`)
+        core.warning(
+          `Skipping import of ${JSON.stringify(this)}, got this error: ${e}`
+        )
       }
     }
   }
