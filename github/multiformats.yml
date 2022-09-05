@@ -97,6 +97,7 @@ members:
     - yusefnapora
     - zabirauf
     - zixuanzh
+    - mriise
 repositories:
   .github:
     collaborators:
@@ -105,6 +106,7 @@ repositories:
         - andyschwab
       push:
         - web3-bot
+    default_branch: main
     teams:
       admin:
         - ip-productivity
@@ -115,6 +117,7 @@ repositories:
       push:
         - MCGPPeters
         - web3-bot
+    default_branch: master
     description: .Net implementation of multihash
     teams:
       admin:
@@ -128,6 +131,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A Multiaddr implementation in Swift.
     teams:
       admin:
@@ -141,6 +145,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Swift implementation of multihash
     teams:
       admin:
@@ -155,6 +160,7 @@ repositories:
       push:
         - Gozala
         - web3-bot
+    default_branch: master
     description: Encode/decode any base
     teams:
       admin:
@@ -168,6 +174,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: C implementation of Multihash parsing and encoding (but not hashing)
     teams:
       admin:
@@ -181,6 +188,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Use all the functions in multihash, in C
     teams:
       admin:
@@ -194,6 +202,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Self-describing content-addressed identifiers for distributed systems
     teams:
       admin:
@@ -217,6 +226,8 @@ repositories:
       push:
         - jessicaschilling
         - web3-bot
+        - hacdias
+    default_branch: master
     description: A website for decoding CIDs
     teams:
       admin:
@@ -226,6 +237,11 @@ repositories:
       pull:
         - JavaScript Team
         - ci
+    topics:
+      - cid
+      - content-addressing
+      - dag-pb
+      - ipfs
     visibility: public
   clj-multihash:
     collaborators:
@@ -233,6 +249,7 @@ repositories:
         - greglook
       push:
         - web3-bot
+    default_branch: develop
     description: Clojure implementation of the Multihash spec
     teams:
       admin:
@@ -248,6 +265,7 @@ repositories:
         - greglook
       push:
         - web3-bot
+    default_branch: develop
     description: Clojure implementation of multistream codecs
     teams:
       admin:
@@ -266,6 +284,7 @@ repositories:
         - ekroon
       push:
         - web3-bot
+    default_branch: master
     description: Simple wrapper around Bazel VarInt code.
     teams:
       admin:
@@ -279,6 +298,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Multiaddress implementation in C#
     teams:
       admin:
@@ -292,6 +312,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Multibase implementation in C#
     teams:
       admin:
@@ -305,6 +326,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Multicodec implementation i C#
     teams:
       admin:
@@ -318,6 +340,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Multihash implementation in C#
     teams:
       admin:
@@ -332,6 +355,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Multistream
     teams:
       admin:
@@ -345,6 +369,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Multiformats documentation website
     teams:
       admin:
@@ -356,6 +381,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Multihash implementation in Elixir
     teams:
       admin:
@@ -371,6 +397,7 @@ repositories:
     collaborators:
       admin:
         - galargh
+    default_branch: master
     files:
       CODEOWNERS:
         content: >
@@ -378,11 +405,13 @@ repositories:
     teams:
       maintain:
         - w3dt-stewards
+        - ip-productivity
     visibility: public
   go-base32:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: base32 encoding package from go with NoPadding option
     teams:
       admin:
@@ -395,6 +424,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - Admin
@@ -409,6 +439,7 @@ repositories:
         - jbenet
       push:
         - web3-bot
+    default_branch: master
     description: Composable and future-proof network addresses
     teams:
       admin:
@@ -422,6 +453,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Go library and CLI tool for /dns4, /dns6, /dnsaddr multiaddr resolution
     teams:
       admin:
@@ -441,6 +473,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A declarative validator for multiaddrs.
     teams:
       admin:
@@ -450,6 +483,7 @@ repositories:
         - Go Team
     visibility: public
   go-multiaddr-net:
+    default_branch: master
     description: "DEPRECATED: Please use the \"net\" subpackage in
       https://github.com/multiformats/go-multiaddr."
     teams:
@@ -462,6 +496,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Implementation of multibase parser in go
     teams:
       admin:
@@ -479,6 +514,7 @@ repositories:
         - whyrusleeping
       push:
         - web3-bot
+    default_branch: master
     description: Go constants for the multicodec table
     teams:
       admin:
@@ -488,6 +524,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   go-multicodec-packed:
+    default_branch: master
     description: DEPRECATED -- see go-multicodec
     teams:
       admin:
@@ -499,6 +536,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Go implementation of multigram
     teams:
       admin:
@@ -512,6 +550,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Multihash implementation in Go
     teams:
       admin:
@@ -528,6 +567,7 @@ repositories:
         - whyrusleeping
       push:
         - web3-bot
+    default_branch: master
     description: an implementation of the multistream protocol in go
     teams:
       admin:
@@ -544,6 +584,7 @@ repositories:
         - Stebalien
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - ip-productivity
@@ -555,6 +596,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: haskell implementation of the multibase multiformat (project by
       protocol labs)
     teams:
@@ -569,6 +611,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: An implementation of the multicodec specification in haskell.
     teams:
       admin:
@@ -584,6 +627,7 @@ repositories:
         - lukehoersten
       push:
         - web3-bot
+    default_branch: master
     description: Multihash Haskell implementation
     teams:
       admin:
@@ -603,6 +647,7 @@ repositories:
         - ianopolous
       push:
         - web3-bot
+    default_branch: master
     description: Java implementation of multiaddr
     teams:
       admin:
@@ -618,6 +663,7 @@ repositories:
         - ianopolous
       push:
         - web3-bot
+    default_branch: master
     description: A Java implementation of multibase
     teams:
       admin:
@@ -633,6 +679,7 @@ repositories:
         - ianopolous
       push:
         - web3-bot
+    default_branch: master
     description: A Java implementation of Multihash
     teams:
       admin:
@@ -648,6 +695,7 @@ repositories:
         - rvagg
       push:
         - web3-bot
+    default_branch: master
     description: BLAKE2 multihash hashers for JavaScript multiformats
     teams:
       admin:
@@ -658,6 +706,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: CID implementation in JavaScript
     teams:
       admin:
@@ -677,6 +726,7 @@ repositories:
         - alanshaw
       push:
         - web3-bot
+    default_branch: master
     description: A module and command line tool for converting, formatting and
       discovering properties of CIDs
     teams:
@@ -692,6 +742,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: javascript multiaddr validation
     teams:
       admin:
@@ -705,6 +756,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript implementation of multiaddr
     teams:
       admin:
@@ -718,6 +770,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Convert a Multiaddr to a URI /dnsaddr/ipfs.io/http -> http://ipfs.io
     teams:
       admin:
@@ -736,6 +789,7 @@ repositories:
         - olizilla
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript implementation of the multibase specification
     teams:
       admin:
@@ -755,6 +809,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript implementation of the multicodec specification
     teams:
       admin:
@@ -770,6 +825,7 @@ repositories:
         - patrickwoodhead
         - web3-bot
         - RangerMauve
+    default_branch: master
     description: Multiformats interface (multihash, multicodec, multibase and CID)
     teams:
       admin:
@@ -785,6 +841,7 @@ repositories:
         - hugomrdias
       push:
         - web3-bot
+    default_branch: master
     description: multihash implementation in JavaScript
     teams:
       admin:
@@ -806,6 +863,7 @@ repositories:
         - hugomrdias
       push:
         - web3-bot
+    default_branch: master
     description: Use all the functions in multihash.
     teams:
       admin:
@@ -819,6 +877,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: The fast version of js-multihashing
     teams:
       admin:
@@ -835,6 +894,7 @@ repositories:
         - dignifiedquire
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript implementation of multistream-select
     teams:
       admin:
@@ -850,6 +910,7 @@ repositories:
         - mikeal
       push:
         - web3-bot
+    default_branch: master
     description: Multiformats hash functions for MurmurHash3
     teams:
       admin:
@@ -864,6 +925,7 @@ repositories:
         - mikeal
       push:
         - web3-bot
+    default_branch: master
     description: "Multiformats hash functions for SHA3 "
     teams:
       admin:
@@ -876,6 +938,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: "Convert a URI to a Multiaddr: https://protocol.ai ->
       /dns4/protocol.ai/tcp/443/https"
     teams:
@@ -892,6 +955,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: multiaddr powered pipes
     teams:
       admin:
@@ -907,6 +971,7 @@ repositories:
         - jbenet
       push:
         - web3-bot
+    default_branch: master
     description: Composable and future-proof network addresses
     teams:
       admin:
@@ -921,6 +986,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Self identifying base encodings
     teams:
       admin:
@@ -937,6 +1003,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Compact self-describing codecs. Save space by using predefined
       multicodec tables.
     teams:
@@ -952,6 +1019,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: The main repository for discussing multiformats.
     teams:
       admin:
@@ -968,6 +1036,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Protocol negotiation and multiplexing over datagrams
     teams:
       admin:
@@ -984,6 +1053,7 @@ repositories:
         - jbenet
       push:
         - web3-bot
+    default_branch: master
     description: Self describing hashes - for future proofing
     teams:
       admin:
@@ -1004,6 +1074,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Make data and streams self-described by prefixing them with human
       readable codecs.
     teams:
@@ -1022,6 +1093,7 @@ repositories:
         - jbenet
       push:
         - web3-bot
+    default_branch: master
     description: Friendly protocol negotiation. It enables a multicodec to be
       negotiated between two entities.
     teams:
@@ -1040,6 +1112,7 @@ repositories:
       push:
         - RichardLitt
         - web3-bot
+    default_branch: master
     description: PHP implementation of multihash
     teams:
       admin:
@@ -1054,6 +1127,7 @@ repositories:
       push:
         - sbuss
         - web3-bot
+    default_branch: master
     description: multiaddr implementation in Python
     teams:
       admin:
@@ -1076,6 +1150,7 @@ repositories:
         - dhruvbaldawa
       push:
         - web3-bot
+    default_branch: master
     description: Multibase implementation in Python
     teams:
       admin:
@@ -1091,6 +1166,7 @@ repositories:
         - dhruvbaldawa
       push:
         - web3-bot
+    default_branch: master
     description: Multicodec implementation in Python
     teams:
       admin:
@@ -1106,6 +1182,7 @@ repositories:
         - dhruvbaldawa
       push:
         - web3-bot
+    default_branch: master
     description: Multihash implementation in Python
     teams:
       admin:
@@ -1119,6 +1196,7 @@ repositories:
       push:
         - kyledrake
         - web3-bot
+    default_branch: master
     description: A simple multihash (https://github.com/multiformats/multihash)
       implementation for ruby.
     teams:
@@ -1138,6 +1216,7 @@ repositories:
       triage:
         - dvc94ch
         - mriise
+    default_branch: master
     description: CID in rust
     teams:
       admin:
@@ -1160,6 +1239,7 @@ repositories:
         - dignifiedquire
       push:
         - web3-bot
+    default_branch: master
     description: multiaddr implementation in rust
     teams:
       admin:
@@ -1176,8 +1256,9 @@ repositories:
         - dignifiedquire
       push:
         - web3-bot
-      triage:
         - mriise
+      triage: []
+    default_branch: master
     description: Multibase in rust
     teams:
       admin:
@@ -1206,6 +1287,7 @@ repositories:
       triage:
         - dvc94ch
         - rklaehn
+    default_branch: master
     description: multihash implementation in Rust
     teams:
       admin:
@@ -1228,6 +1310,7 @@ repositories:
         - yusefnapora
       push:
         - web3-bot
+    default_branch: master
     description: Scala multihash implementation
     teams:
       admin:
@@ -1243,6 +1326,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Specification work regarding multihash, multiaddr, and others
     teams:
       admin:
@@ -1260,6 +1344,7 @@ repositories:
         - jbenet
       push:
         - web3-bot
+    default_branch: master
     description: unsigned varint in use in multiformat specs
     teams:
       admin:
@@ -1278,6 +1363,7 @@ repositories:
         - jessicaschilling
         - richsilv
         - web3-bot
+    default_branch: master
     description: The multiformats website
     teams:
       admin:
@@ -1379,6 +1465,7 @@ teams:
         - vyzo
         - warpfork
         - willscott
+        - mriise
     privacy: closed
   Haskell Team:
     description: And then I Haskell, what is your favourite 🍨
@@ -1491,6 +1578,7 @@ teams:
         - mxinden
         - rphmeier
         - tomaka
+        - mriise
     privacy: closed
   Scala Team:
     members:
