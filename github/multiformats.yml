@@ -1541,10 +1541,12 @@ teams:
       #  - be ready to triage/review org configuration change request in github-mgmt
       maintainer:
         - achingbrain
+        - aschmahmann
         - rvagg
         - vmx
       member:
         - BigLep
+        - lidel
     privacy: closed
   ipdx:
     create_default_maintainer: false
