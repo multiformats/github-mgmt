@@ -2,29 +2,20 @@
 
 members:
   admin:
-    - Kubuxu
-    - Stebalien
     - aschmahmann
     - daviddias
     - galargh
     - jbenet
+    - Kubuxu
     - marten-seemann
     - mikeal
     - protocollabsit
     - raulk
     - rvagg
+    - Stebalien
     - vmx
     - whyrusleeping
   member:
-    - BigLep
-    - Fil
-    - Gozala
-    - MCGPPeters
-    - MarcoPolo
-    - NeoTeo
-    - RichardLitt
-    - TKorr
-    - Vurich
     - aarshkshah1992
     - achingbrain
     - adlrocha
@@ -33,6 +24,7 @@ members:
     - amstocker
     - andyschwab
     - arkpar
+    - BigLep
     - bigs
     - celeduc
     - cloutiertyler
@@ -44,10 +36,12 @@ members:
     - eingenito
     - ekroon
     - elenaf9
+    - Fil
     - flyingzumwalt
     - folsen
     - fredthomsen
     - fsdiogo
+    - Gozala
     - greglook
     - haadcode
     - hacdias
@@ -68,27 +62,34 @@ members:
     - locotorp
     - lukehoersten
     - magik6k
+    - MarcoPolo
     - masih
+    - MCGPPeters
     - mcollina
     - mhchia
     - michaelavila
     - momack2
     - mpetrunic
+    - mriise
     - mxinden
+    - NeoTeo
     - nicola
     - olizilla
     - pkafei
     - protocollabsit-readonly
     - ribasushi
+    - RichardLitt
     - richardschneider
     - robzajac
     - rphmeier
     - sbuss
     - stuckinaboot
+    - TKorr
     - tomaka
     - travisperson
     - vasco-santos
     - victorb
+    - Vurich
     - vyzo
     - wanderer
     - warpfork
@@ -98,13 +99,12 @@ members:
     - yusefnapora
     - zabirauf
     - zixuanzh
-    - mriise
 repositories:
   .github:
     collaborators:
       admin:
-        - BigLep
         - andyschwab
+        - BigLep
       push:
         - web3-bot
     default_branch: main
@@ -112,49 +112,6 @@ repositories:
       admin:
         - ip-productivity
         - w3dt-stewards
-    visibility: public
-  MultiHash.Net:
-    collaborators:
-      push:
-        - MCGPPeters
-        - web3-bot
-    default_branch: master
-    description: .Net implementation of multihash
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - w3dt-stewards
-      push:
-        - C Sharp Team
-    visibility: public
-  SwiftMultiaddr:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: A Multiaddr implementation in Swift.
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - w3dt-stewards
-      push:
-        - Swift Team
-    visibility: public
-  SwiftMultihash:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Swift implementation of multihash
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - w3dt-stewards
-      push:
-        - Swift Team
     visibility: public
   base-x:
     collaborators:
@@ -199,6 +156,31 @@ repositories:
       push:
         - C Team
     visibility: public
+  cid-utils-website:
+    collaborators:
+      admin:
+        - lidel
+        - olizilla
+      push:
+        - hacdias
+        - jessicaschilling
+        - web3-bot
+    default_branch: master
+    description: A website for decoding CIDs
+    teams:
+      admin:
+        - Admin
+        - ip-productivity
+        - w3dt-stewards
+      pull:
+        - ci
+        - JavaScript Team
+    topics:
+      - cid
+      - content-addressing
+      - dag-pb
+      - ipfs
+    visibility: public
   cid:
     collaborators:
       push:
@@ -218,31 +200,6 @@ repositories:
       - ipfs
       - ipld
       - multiformats
-    visibility: public
-  cid-utils-website:
-    collaborators:
-      admin:
-        - lidel
-        - olizilla
-      push:
-        - jessicaschilling
-        - web3-bot
-        - hacdias
-    default_branch: master
-    description: A website for decoding CIDs
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - w3dt-stewards
-      pull:
-        - JavaScript Team
-        - ci
-    topics:
-      - cid
-      - content-addressing
-      - dag-pb
-      - ipfs
     visibility: public
   clj-multihash:
     collaborators:
@@ -442,22 +399,6 @@ repositories:
       push:
         - Go Team
     visibility: public
-  go-multiaddr:
-    collaborators:
-      admin:
-        - jbenet
-      push:
-        - web3-bot
-    default_branch: master
-    description: Composable and future-proof network addresses
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - w3dt-stewards
-      push:
-        - Go Team
-    visibility: public
   go-multiaddr-dns:
     collaborators:
       push:
@@ -501,6 +442,22 @@ repositories:
       push:
         - Go Team
     visibility: public
+  go-multiaddr:
+    collaborators:
+      admin:
+        - jbenet
+      push:
+        - web3-bot
+    default_branch: master
+    description: Composable and future-proof network addresses
+    teams:
+      admin:
+        - Admin
+        - ip-productivity
+        - w3dt-stewards
+      push:
+        - Go Team
+    visibility: public
   go-multibase:
     collaborators:
       push:
@@ -512,6 +469,15 @@ repositories:
         - Admin
         - ip-productivity
         - w3dt-stewards
+      push:
+        - Go Team
+    visibility: public
+  go-multicodec-packed:
+    default_branch: master
+    description: DEPRECATED -- see go-multicodec
+    teams:
+      admin:
+        - Admin
       push:
         - Go Team
     visibility: public
@@ -531,15 +497,6 @@ repositories:
         - Go Team
         - ip-productivity
         - w3dt-stewards
-    visibility: public
-  go-multicodec-packed:
-    default_branch: master
-    description: DEPRECATED -- see go-multicodec
-    teams:
-      admin:
-        - Admin
-      push:
-        - Go Team
     visibility: public
   go-multigram:
     collaborators:
@@ -646,8 +603,8 @@ repositories:
       push:
         - Haskell Team
     topics:
-      - haskell
       - haskell-multihash
+      - haskell
       - multihash
     visibility: public
   java-multiaddr:
@@ -711,24 +668,6 @@ repositories:
         - ip-productivity
         - w3dt-stewards
     visibility: public
-  js-cid:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: CID implementation in JavaScript
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - w3dt-stewards
-      push:
-        - JavaScript Team
-    topics:
-      - cid
-      - ipld
-      - javascript
-    visibility: public
   js-cid-tool:
     collaborators:
       admin:
@@ -747,12 +686,12 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
-  js-mafmt:
+  js-cid:
     collaborators:
       push:
         - web3-bot
     default_branch: master
-    description: javascript multiaddr validation
+    description: CID implementation in JavaScript
     teams:
       admin:
         - Admin
@@ -760,13 +699,17 @@ repositories:
         - w3dt-stewards
       push:
         - JavaScript Team
+    topics:
+      - cid
+      - ipld
+      - javascript
     visibility: public
-  js-multiaddr:
+  js-mafmt:
     collaborators:
       push:
         - web3-bot
     default_branch: master
-    description: JavaScript implementation of multiaddr
+    description: javascript multiaddr validation
     teams:
       admin:
         - Admin
@@ -788,6 +731,20 @@ repositories:
       pull:
         - Admin
         - ci
+      push:
+        - JavaScript Team
+    visibility: public
+  js-multiaddr:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: JavaScript implementation of multiaddr
+    teams:
+      admin:
+        - Admin
+        - ip-productivity
+        - w3dt-stewards
       push:
         - JavaScript Team
     visibility: public
@@ -829,11 +786,13 @@ repositories:
         - JavaScript Team
     visibility: public
   js-multiformats:
+    branch_protection:
+      master: {}
     collaborators:
       push:
         - patrickwoodhead
-        - web3-bot
         - RangerMauve
+        - web3-bot
     default_branch: master
     description: Multiformats interface (multihash, multicodec, multibase and CID)
     teams:
@@ -864,6 +823,20 @@ repositories:
       - js-multihash
       - multihash
     visibility: public
+  js-multihashing-async:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: The fast version of js-multihashing
+    teams:
+      admin:
+        - Admin
+        - ip-productivity
+        - w3dt-stewards
+      push:
+        - JavaScript Team
+    visibility: public
   js-multihashing:
     collaborators:
       admin:
@@ -874,20 +847,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Use all the functions in multihash.
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - w3dt-stewards
-      push:
-        - JavaScript Team
-    visibility: public
-  js-multihashing-async:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: The fast version of js-multihashing
     teams:
       admin:
         - Admin
@@ -1056,6 +1015,21 @@ repositories:
         - Go Team
         - JavaScript Team
     visibility: public
+  MultiHash.Net:
+    collaborators:
+      push:
+        - MCGPPeters
+        - web3-bot
+    default_branch: master
+    description: .Net implementation of multihash
+    teams:
+      admin:
+        - Admin
+        - ip-productivity
+        - w3dt-stewards
+      push:
+        - C Sharp Team
+    visibility: public
   multihash:
     collaborators:
       admin:
@@ -1079,22 +1053,6 @@ repositories:
       - protocol
       - varint
     visibility: public
-  multistream:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Make data and streams self-described by prefixing them with human
-      readable codecs.
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - w3dt-stewards
-      push:
-        - Go Team
-        - JavaScript Team
-    visibility: public
   multistream-select:
     collaborators:
       admin:
@@ -1105,6 +1063,22 @@ repositories:
     default_branch: master
     description: Friendly protocol negotiation. It enables a multicodec to be
       negotiated between two entities.
+    teams:
+      admin:
+        - Admin
+        - ip-productivity
+        - w3dt-stewards
+      push:
+        - Go Team
+        - JavaScript Team
+    visibility: public
+  multistream:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: Make data and streams self-described by prefixing them with human
+      readable codecs.
     teams:
       admin:
         - Admin
@@ -1239,8 +1213,8 @@ repositories:
       - crate
       - ipld
       - multiformats
-      - rust
       - rust-cid
+      - rust
     visibility: public
   rust-multiaddr:
     collaborators:
@@ -1264,9 +1238,8 @@ repositories:
       admin:
         - dignifiedquire
       push:
-        - web3-bot
         - mriise
-      triage: []
+        - web3-bot
     default_branch: master
     description: Multibase in rust
     teams:
@@ -1307,8 +1280,8 @@ repositories:
         - Parity Tech
         - Rust Team
     topics:
-      - hash
       - hash-algorithm
+      - hash
       - ipfs
       - multiformats
       - rust
@@ -1346,6 +1319,34 @@ repositories:
         - Go Team
         - JavaScript Team
         - Rust Team
+    visibility: public
+  SwiftMultiaddr:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: A Multiaddr implementation in Swift.
+    teams:
+      admin:
+        - Admin
+        - ip-productivity
+        - w3dt-stewards
+      push:
+        - Swift Team
+    visibility: public
+  SwiftMultihash:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: Swift implementation of multihash
+    teams:
+      admin:
+        - Admin
+        - ip-productivity
+        - w3dt-stewards
+      push:
+        - Swift Team
     visibility: public
   unsigned-varint:
     collaborators:
@@ -1387,15 +1388,15 @@ teams:
     description: Should have Admin access on every repo
     members:
       maintainer:
-        - Kubuxu
-        - Stebalien
         - aschmahmann
         - daviddias
         - jbenet
+        - Kubuxu
         - marten-seemann
+        - Stebalien
       member:
-        - BigLep
         - alanshaw
+        - BigLep
         - dignifiedquire
         - hsanjuan
         - jacobheun
@@ -1416,8 +1417,15 @@ teams:
     description: This is a low level as it will get
     members:
       maintainer:
-        - Kubuxu
         - daviddias
+        - Kubuxu
+    privacy: closed
+  ci:
+    description: ci
+    members:
+      member:
+        - ipfsbot
+        - locotorp
     privacy: closed
   Clojure Team:
     members:
@@ -1430,10 +1438,9 @@ teams:
   Contributors:
     members:
       maintainer:
-        - Kubuxu
         - daviddias
+        - Kubuxu
       member:
-        - RichardLitt
         - adlrocha
         - bigs
         - flyingzumwalt
@@ -1441,6 +1448,7 @@ teams:
         - kevina
         - kumavis
         - nicola
+        - RichardLitt
         - victorb
         - wanderer
         - willscott
@@ -1457,11 +1465,11 @@ teams:
     description: Go multiformats people
     members:
       maintainer:
-        - Kubuxu
-        - Stebalien
         - aschmahmann
+        - Kubuxu
         - raulk
         - rvagg
+        - Stebalien
         - whyrusleeping
       member:
         - aarshkshah1992
@@ -1470,11 +1478,11 @@ teams:
         - magik6k
         - masih
         - momack2
+        - mriise
         - ribasushi
         - vyzo
         - warpfork
         - willscott
-        - mriise
     privacy: closed
   Haskell Team:
     description: And then I Haskell, what is your favourite 🍨
@@ -1486,6 +1494,12 @@ teams:
     privacy: closed
   Infra:
     description: https://github.com/protocol/infra-team/
+    privacy: closed
+  ip-productivity:
+    members:
+      maintainer:
+        - galargh
+    parent_team_id: w3dt-stewards
     privacy: closed
   Java Team:
     description: Java Java Java Java Java ☕️
@@ -1505,12 +1519,12 @@ teams:
         - rvagg
         - vmx
       member:
-        - Gozala
         - achingbrain
         - alanshaw
         - dignifiedquire
         - dryajov
         - fsdiogo
+        - Gozala
         - haadcode
         - hacdias
         - hugomrdias
@@ -1526,6 +1540,17 @@ teams:
         - vasco-santos
         - wanderer
     privacy: closed
+  Parity Tech:
+    members:
+      maintainer:
+        - tomaka
+      member:
+        - arkpar
+        - debris
+        - folsen
+        - rphmeier
+        - Vurich
+    privacy: closed
   PHP Team:
     description: "🐘 Personal Home Page "
     members:
@@ -1534,24 +1559,12 @@ teams:
       member:
         - Fil
     privacy: closed
-  Parity Tech:
-    members:
-      maintainer:
-        - tomaka
-      member:
-        - Vurich
-        - arkpar
-        - debris
-        - folsen
-        - rphmeier
-    privacy: closed
   Python Team:
     description: Enchanters of cobras 🐍
     members:
       maintainer:
         - raulk
       member:
-        - TKorr
         - alexh
         - amstocker
         - dhruvbaldawa
@@ -1560,6 +1573,7 @@ teams:
         - robzajac
         - sbuss
         - stuckinaboot
+        - TKorr
         - zixuanzh
     privacy: closed
   Ruby Team:
@@ -1576,18 +1590,18 @@ teams:
         - daviddias
         - vmx
       member:
-        - Gozala
-        - MarcoPolo
-        - Vurich
         - arkpar
         - debris
         - dignifiedquire
         - elenaf9
         - folsen
+        - Gozala
+        - MarcoPolo
+        - mriise
         - mxinden
         - rphmeier
         - tomaka
-        - mriise
+        - Vurich
     privacy: closed
   Scala Team:
     members:
@@ -1600,21 +1614,8 @@ teams:
     description: 🦅
     members:
       member:
-        - NeoTeo
         - cloutiertyler
-    privacy: closed
-  ci:
-    description: ci
-    members:
-      member:
-        - ipfsbot
-        - locotorp
-    privacy: closed
-  ip-productivity:
-    members:
-      maintainer:
-        - galargh
-    parent_team_id: w3dt-stewards
+        - NeoTeo
     privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
@@ -1646,14 +1647,14 @@ teams:
   w3dt-stewards:
     members:
       maintainer:
+        - aschmahmann
         - BigLep
         - Stebalien
-        - aschmahmann
       member:
-        - MarcoPolo
         - achingbrain
         - galargh
         - Jorropo
         - lidel
+        - MarcoPolo
         - mxinden
     privacy: closed
