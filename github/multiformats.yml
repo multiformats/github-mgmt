@@ -820,6 +820,8 @@ repositories:
         - JavaScript Team
     visibility: public
   js-multiformats:
+    branch_protection:
+      master: {}
     collaborators:
       push:
         - patrickwoodhead
