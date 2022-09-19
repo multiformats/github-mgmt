@@ -56,7 +56,6 @@ members:
     - Jorropo
     - kevina
     - kumavis
-    - laurentsenta
     - lidel
     - litzenberger
     - locotorp
@@ -111,6 +110,7 @@ repositories:
     teams:
       admin:
         - ip-productivity
+        - ipdx
         - w3dt-stewards
     visibility: public
   base-x:
@@ -123,6 +123,7 @@ repositories:
     teams:
       admin:
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       pull:
         - Admin
@@ -138,6 +139,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - C Team
@@ -152,6 +154,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - C Team
@@ -171,6 +174,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       pull:
         - ci
@@ -190,6 +194,7 @@ repositories:
     teams:
       admin:
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       pull:
         - Admin
@@ -213,6 +218,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Clojure Team
@@ -229,6 +235,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Clojure Team
@@ -248,6 +255,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Clojure Team
@@ -262,6 +270,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - C Sharp Team
@@ -276,6 +285,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - C Sharp Team
@@ -290,6 +300,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - C Sharp Team
@@ -304,6 +315,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - C Sharp Team
@@ -319,6 +331,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - C Sharp Team
@@ -333,6 +346,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
     visibility: public
   ex_multihash:
@@ -345,6 +359,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Elixir Team
@@ -382,6 +397,7 @@ repositories:
     teams:
       admin:
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -395,6 +411,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -409,6 +426,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -428,6 +446,7 @@ repositories:
     teams:
       admin:
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -454,6 +473,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -468,6 +488,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -496,6 +517,7 @@ repositories:
         - Admin
         - Go Team
         - ip-productivity
+        - ipdx
         - w3dt-stewards
     visibility: public
   go-multigram:
@@ -508,6 +530,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -522,6 +545,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -540,6 +564,7 @@ repositories:
         - Admin
         - Bots
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -554,6 +579,7 @@ repositories:
     teams:
       admin:
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -569,6 +595,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Haskell Team
@@ -583,6 +610,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Haskell Team
@@ -599,6 +627,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Haskell Team
@@ -619,6 +648,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Java Team
@@ -635,6 +665,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Java Team
@@ -651,6 +682,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Java Team
@@ -666,6 +698,7 @@ repositories:
     teams:
       admin:
         - ip-productivity
+        - ipdx
         - w3dt-stewards
     visibility: public
   js-cid-tool:
@@ -680,6 +713,7 @@ repositories:
     teams:
       admin:
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       pull:
         - Admin
@@ -696,6 +730,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - JavaScript Team
@@ -714,6 +749,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - JavaScript Team
@@ -727,6 +763,7 @@ repositories:
     teams:
       admin:
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       pull:
         - Admin
@@ -744,6 +781,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - JavaScript Team
@@ -761,6 +799,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - JavaScript Team
@@ -781,6 +820,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - JavaScript Team
@@ -799,6 +839,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       maintain:
         - JavaScript Team
@@ -815,6 +856,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - JavaScript Team
@@ -833,6 +875,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - JavaScript Team
@@ -851,6 +894,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - JavaScript Team
@@ -868,6 +912,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - JavaScript Team
@@ -883,6 +928,7 @@ repositories:
     teams:
       admin:
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - JavaScript Team
@@ -898,6 +944,7 @@ repositories:
     teams:
       admin:
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       pull:
         - JavaScript Team
@@ -912,6 +959,7 @@ repositories:
     teams:
       admin:
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       pull:
         - Admin
@@ -929,6 +977,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -945,6 +994,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -960,6 +1010,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -978,6 +1029,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -993,6 +1045,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       pull:
         - Contributors
@@ -1010,6 +1063,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -1026,6 +1080,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - C Sharp Team
@@ -1042,6 +1097,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -1067,6 +1123,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -1083,6 +1140,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -1101,6 +1159,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - PHP Team
@@ -1115,6 +1174,7 @@ repositories:
     teams:
       admin:
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       pull:
         - Admin
@@ -1139,6 +1199,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Python Team
@@ -1155,6 +1216,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Python Team
@@ -1170,6 +1232,7 @@ repositories:
     teams:
       admin:
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Python Team
@@ -1186,6 +1249,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Ruby Team
@@ -1204,6 +1268,7 @@ repositories:
     teams:
       admin:
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       pull:
         - Admin
@@ -1228,6 +1293,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Parity Tech
@@ -1246,6 +1312,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Parity Tech
@@ -1275,6 +1342,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Parity Tech
@@ -1298,6 +1366,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Scala Team
@@ -1314,6 +1383,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       pull:
         - Go Team
@@ -1330,6 +1400,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Swift Team
@@ -1344,6 +1415,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - Swift Team
@@ -1360,6 +1432,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
     visibility: public
   website:
@@ -1379,6 +1452,7 @@ repositories:
       admin:
         - Admin
         - ip-productivity
+        - ipdx
         - w3dt-stewards
       push:
         - ci
@@ -1525,7 +1599,6 @@ teams:
     members:
       maintainer:
         - galargh
-        - laurentsenta
     parent_team_id: w3dt-stewards
     privacy: closed
   Java Team:
