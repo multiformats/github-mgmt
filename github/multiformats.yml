@@ -463,6 +463,8 @@ repositories:
         - Go Team
     visibility: public
   go-multiaddr:
+    branch_protection:
+      master: {}
     collaborators:
       admin:
         - jbenet
