@@ -1280,6 +1280,8 @@ repositories:
       - rust
     visibility: public
   rust-multiaddr:
+    branch_protection:
+      master: {}
     collaborators:
       admin:
         - dignifiedquire
