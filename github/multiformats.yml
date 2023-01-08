@@ -2,6 +2,7 @@
 
 members:
   admin:
+    - andyschwab-admin
     - aschmahmann
     - daviddias
     - galargh
@@ -9,7 +10,6 @@ members:
     - Kubuxu
     - marten-seemann
     - mikeal
-    - protocollabsit
     - raulk
     - rvagg
     - Stebalien
@@ -73,7 +73,6 @@ members:
     - nicola
     - olizilla
     - pkafei
-    - protocollabsit-readonly
     - ribasushi
     - RichardLitt
     - richardschneider
