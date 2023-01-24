@@ -52,8 +52,8 @@ members:
     - jacobheun
     - jbenetsafer
     - jesseclay
-    - juliaxbow
     - Jorropo
+    - juliaxbow
     - kevina
     - kumavis
     - lidel
@@ -177,8 +177,8 @@ repositories:
         - Admin
         - ip-productivity
         - ipdx
-        - w3dt-stewards
         - ipfs-gui
+        - w3dt-stewards
       pull:
         - ci
         - JavaScript Team
@@ -1589,20 +1589,6 @@ teams:
       member:
         - lukehoersten
     privacy: closed
-  ipfs-gui:
-    description: IPFS GUI Team
-    members:
-      maintainer:
-        - lidel
-        - SgtPooki
-        - tinytb
-      member:
-        - djmcquillan
-        - juliaxbow
-        - lidel
-        - SgtPooki
-        - whizzzkid
-    privacy: closed
   Infra:
     description: https://github.com/protocol/infra-team/
     privacy: closed
@@ -1618,6 +1604,20 @@ teams:
       maintainer:
         - galargh
     parent_team_id: w3dt-stewards
+    privacy: closed
+  ipfs-gui:
+    description: IPFS GUI Team
+    members:
+      maintainer:
+        - lidel
+        - SgtPooki
+        - tinytb
+      member:
+        - djmcquillan
+        - juliaxbow
+        - lidel
+        - SgtPooki
+        - whizzzkid
     privacy: closed
   Java Team:
     description: Java Java Java Java Java ☕️
