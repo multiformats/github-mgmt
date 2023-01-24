@@ -32,6 +32,7 @@ members:
     - dhruvbaldawa
     - dignifiedquire
     - djdv
+    - djmcquillan
     - dryajov
     - ekroon
     - elenaf9
@@ -52,6 +53,7 @@ members:
     - jbenetsafer
     - jesseclay
     - Jorropo
+    - juliaxbow
     - kevina
     - kumavis
     - lidel
@@ -79,7 +81,9 @@ members:
     - robzajac
     - rphmeier
     - sbuss
+    - SgtPooki
     - stuckinaboot
+    - tinytb
     - TKorr
     - tomaka
     - travisperson
@@ -91,6 +95,7 @@ members:
     - warpfork
     - web3-bot
     - wemeetagain
+    - whizzzkid
     - willscott
     - yusefnapora
     - zabirauf
@@ -172,6 +177,7 @@ repositories:
         - Admin
         - ip-productivity
         - ipdx
+        - ipfs-gui
         - w3dt-stewards
       pull:
         - ci
@@ -1599,6 +1605,18 @@ teams:
         - galargh
     parent_team_id: w3dt-stewards
     privacy: closed
+  ipfs-gui:
+    description: IPFS GUI Team
+    members:
+      maintainer:
+        - lidel
+        - SgtPooki
+        - tinytb
+      member:
+        - djmcquillan
+        - juliaxbow
+        - whizzzkid
+    privacy: closed
   Java Team:
     description: Java Java Java Java Java ☕️
     members:
@@ -1723,9 +1741,12 @@ teams:
         - Stebalien
       member:
         - achingbrain
+        - djmcquillan
         - galargh
         - Jorropo
         - lidel
         - MarcoPolo
         - mxinden
+        - SgtPooki
+        - whizzzkid
     privacy: closed
