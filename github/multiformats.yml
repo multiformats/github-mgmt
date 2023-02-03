@@ -53,7 +53,6 @@ members:
     - jbenetsafer
     - jesseclay
     - Jorropo
-    - juliaxbow
     - kevina
     - kumavis
     - lidel
@@ -1468,6 +1467,7 @@ teams:
         - jacobheun
     privacy: closed
   Alumni:
+    create_default_maintainer: false
     privacy: closed
   Bots:
     description: Admin access for bots in repos that need it
@@ -1602,7 +1602,6 @@ teams:
         - lidel
         - SgtPooki
       member:
-        - juliaxbow
         - whizzzkid
     privacy: closed
   Java Team:
