@@ -53,7 +53,6 @@ members:
     - jbenetsafer
     - jesseclay
     - Jorropo
-    - SgtPooki
     - kevina
     - kumavis
     - lidel
@@ -81,6 +80,7 @@ members:
     - robzajac
     - rphmeier
     - sbuss
+    - SgtPooki
     - SgtPooki
     - stuckinaboot
     - tinytb
@@ -1731,10 +1731,10 @@ teams:
         - achingbrain
         - galargh
         - Jorropo
-        - SgtPooki
         - lidel
         - MarcoPolo
         - mxinden
+        - SgtPooki
         - SgtPooki
         - whizzzkid
     privacy: closed
