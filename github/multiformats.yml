@@ -1467,6 +1467,8 @@ teams:
         - hsanjuan
         - jacobheun
     privacy: closed
+  Alumni:
+    privacy: closed
   Bots:
     description: Admin access for bots in repos that need it
     members:
