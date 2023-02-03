@@ -2,16 +2,17 @@
 
 import * as core from '@actions/core'
 import {Octokit} from '@octokit/rest'
-import {graphql} from '@octokit/graphql'
 import {retry} from '@octokit/plugin-retry'
 import {throttling} from '@octokit/plugin-throttling'
 import {createAppAuth} from '@octokit/auth-app'
-import {env} from './utils'
-import {graphql as GraphQL} from '@octokit/graphql/dist-types/types' // eslint-disable-line import/no-unresolved
+import env from './env'
 import {GetResponseDataTypeFromEndpointMethod} from '@octokit/types' // eslint-disable-line import/named
 
 const Client = Octokit.plugin(retry, throttling)
 const Endpoints = new Octokit()
+type Members = GetResponseDataTypeFromEndpointMethod<
+  typeof Endpoints.orgs.getMembershipForUser
+>[]
 type Repositories = GetResponseDataTypeFromEndpointMethod<
   typeof Endpoints.repos.listForOrg
 >
@@ -34,8 +35,7 @@ export class GitHub {
     return GitHub.github
   }
 
-  client: Octokit
-  graphqlClient: GraphQL
+  client: InstanceType<typeof Client>
 
   private constructor(token: string) {
     this.client = new Client({
@@ -71,18 +71,27 @@ export class GitHub {
         }
       }
     })
-    this.graphqlClient = graphql.defaults({
-      headers: {
-        authorization: `token ${token}`
-      }
-    })
   }
 
+  private members?: Members
   async listMembers() {
-    core.info('Listing members...')
-    return this.client.paginate(this.client.orgs.listMembers, {
-      org: env.GITHUB_ORG
-    })
+    if (!this.members) {
+      core.info('Listing members...')
+      const members = await this.client.paginate(this.client.orgs.listMembers, {
+        org: env.GITHUB_ORG
+      })
+      const memberships = await Promise.all(
+        members.map(
+          async member =>
+            await this.client.orgs.getMembershipForUser({
+              org: env.GITHUB_ORG,
+              username: member.login
+            })
+        )
+      )
+      this.members = memberships.map(m => m.data)
+    }
+    return this.members
   }
 
   private repositories?: Repositories
@@ -137,7 +146,7 @@ export class GitHub {
           branchProtectionRules: {nodes}
         }
       }: {repository: {branchProtectionRules: {nodes: {pattern: string}[]}}} =
-        await this.graphqlClient(
+        await this.client.graphql(
           `
           {
             repository(owner: "${env.GITHUB_ORG}", name: "${repository.name}") {
@@ -166,7 +175,25 @@ export class GitHub {
         this.client.teams.listMembersInOrg,
         {org: env.GITHUB_ORG, team_slug: team.slug}
       )
-      teamMembers.push(...members.map(member => ({team, member})))
+      const memberships = await Promise.all(
+        members.map(async member => {
+          const membership = (
+            await this.client.teams.getMembershipForUserInOrg({
+              org: env.GITHUB_ORG,
+              team_slug: team.slug,
+              username: member.login
+            })
+          ).data
+          return {member, membership}
+        })
+      )
+      teamMembers.push(
+        ...memberships.map(({member, membership}) => ({
+          team,
+          member,
+          membership
+        }))
+      )
     }
     return teamMembers
   }
@@ -190,16 +217,90 @@ export class GitHub {
   async getRepositoryFile(repository: string, path: string) {
     core.info(`Checking if ${repository}/${path} exists...`)
     try {
-      return (
-        await this.client.repos.getContent({
+      const repo = (
+        await this.client.repos.get({
           owner: env.GITHUB_ORG,
-          repo: repository,
-          path
+          repo: repository
         })
-      ).data as {path: string; url: string}
+      ).data
+      if (repo.owner.login === env.GITHUB_ORG && repo.name === repository) {
+        const file = (
+          await this.client.repos.getContent({
+            owner: env.GITHUB_ORG,
+            repo: repository,
+            path,
+            ref: repo.default_branch
+          })
+        ).data as {path: string; url: string}
+        return {
+          ...file,
+          ref: repo.default_branch
+        }
+      } else {
+        core.debug(
+          `${env.GITHUB_ORG}/${repository} has moved to ${repo.owner.login}/${repo.name}`
+        )
+        return undefined
+      }
     } catch (e) {
       core.debug(JSON.stringify(e))
       return undefined
     }
+  }
+
+  async listInvitations() {
+    core.info('Listing invitations...')
+    const invitations = await this.client.paginate(
+      this.client.orgs.listPendingInvitations,
+      {
+        org: env.GITHUB_ORG
+      }
+    )
+    return invitations.filter(
+      i => i.failed_at === null || i.failed_at === undefined
+    )
+  }
+
+  async listRepositoryInvitations() {
+    const repositoryInvitations = []
+    const repositories = await this.listRepositories()
+    for (const repository of repositories) {
+      core.info(`Listing ${repository.name} invitations...`)
+      const invitations = await this.client.paginate(
+        this.client.repos.listInvitations,
+        {
+          owner: env.GITHUB_ORG,
+          repo: repository.name
+        }
+      )
+      repositoryInvitations.push(
+        ...invitations.filter(
+          i => i.expired === false || i.expired === undefined
+        )
+      )
+    }
+    return repositoryInvitations
+  }
+
+  async listTeamInvitations() {
+    this.client.orgs.listInvitationTeams
+    const teamInvitations = []
+    const teams = await this.listTeams()
+    for (const team of teams) {
+      core.info(`Listing ${team.name} invitations...`)
+      const invitations = await this.client.paginate(
+        this.client.teams.listPendingInvitationsInOrg,
+        {
+          org: env.GITHUB_ORG,
+          team_slug: team.slug
+        }
+      )
+      teamInvitations.push(
+        ...invitations
+          .filter(i => i.failed_at === null || i.failed_at === undefined)
+          .map(invitation => ({team, invitation}))
+      )
+    }
+    return teamInvitations
   }
 }
