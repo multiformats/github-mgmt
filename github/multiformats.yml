@@ -509,6 +509,8 @@ repositories:
         - Go Team
     visibility: public
   go-multicodec:
+    branch_protection:
+      main: {}
     collaborators:
       admin:
         - jbenet
