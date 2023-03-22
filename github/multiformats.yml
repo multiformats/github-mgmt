@@ -369,7 +369,22 @@ repositories:
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - Comment
+          strict: true
     collaborators:
       admin:
         - galargh
@@ -467,7 +482,18 @@ repositories:
     visibility: public
   go-multiaddr:
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     collaborators:
       admin:
         - jbenet
@@ -510,7 +536,18 @@ repositories:
     visibility: public
   go-multicodec:
     branch_protection:
-      main: {}
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     collaborators:
       admin:
         - jbenet
@@ -1015,7 +1052,22 @@ repositories:
     visibility: public
   multicodec:
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: true
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - validate
+          strict: true
     collaborators:
       push:
         - web3-bot
@@ -1276,7 +1328,22 @@ repositories:
     visibility: public
   rust-multiaddr:
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - Build (ubuntu-latest)
+          strict: true
     collaborators:
       admin:
         - dignifiedquire
@@ -1366,7 +1433,15 @@ repositories:
     visibility: public
   specs:
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VGVhbTIwNjc5OTU=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
