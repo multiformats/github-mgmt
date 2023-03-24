@@ -1080,6 +1080,9 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      push:
+        - Go Team
+        - JavaScript Team
     visibility: public
   multiformats:
     collaborators:
