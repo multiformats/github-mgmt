@@ -1061,7 +1061,7 @@ repositories:
         required_linear_history: false
         required_pull_request_reviews:
           dismiss_stale_reviews: false
-          require_code_owner_reviews: false
+          require_code_owner_reviews: true
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -1074,12 +1074,19 @@ repositories:
     default_branch: master
     description: Compact self-describing codecs. Save space by using predefined
       multicodec tables.
+    files:
+      CODEOWNERS:
+        content: |
+          * @darobin @rvagg @vmx
     teams:
       admin:
         - Admin
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      push:
+        - Go Team
+        - JavaScript Team
     visibility: public
   multiformats:
     collaborators:
