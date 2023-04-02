@@ -686,6 +686,7 @@ repositories:
       admin:
         - ianopolous
       push:
+        - kevodwyer
         - web3-bot
     default_branch: master
     description: Java implementation of multiaddr
@@ -1055,7 +1056,7 @@ repositories:
       master:
         allows_deletions: false
         allows_force_pushes: false
-        enforce_admins: true
+        enforce_admins: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
