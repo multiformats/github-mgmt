@@ -1677,6 +1677,7 @@ teams:
     members:
       maintainer:
         - galargh
+        - laurentsenta
     parent_team_id: w3dt-stewards
     privacy: closed
   ipfs-gui:
