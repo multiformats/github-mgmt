@@ -82,6 +82,7 @@ members:
     - sbuss
     - SgtPooki
     - stuckinaboot
+    - thomaseizinger
     - tinytb
     - TKorr
     - tomaka
@@ -1789,6 +1790,7 @@ teams:
         - mriise
         - mxinden
         - rphmeier
+        - thomaseizinger
         - tomaka
         - Vurich
     privacy: closed
