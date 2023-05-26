@@ -34,6 +34,7 @@ members:
     - djdv
     - djmcquillan
     - dryajov
+    - eira-fransham
     - ekroon
     - elenaf9
     - Fil
@@ -89,7 +90,6 @@ members:
     - travisperson
     - vasco-santos
     - victorb
-    - Vurich
     - vyzo
     - wanderer
     - warpfork
@@ -2452,8 +2452,8 @@ teams:
       member:
         - arkpar
         - debris
+        - eira-fransham
         - rphmeier
-        - Vurich
     privacy: closed
   PHP Team:
     description: "🐘 Personal Home Page "
@@ -2497,6 +2497,7 @@ teams:
         - arkpar
         - debris
         - dignifiedquire
+        - eira-fransham
         - elenaf9
         - Gozala
         - MarcoPolo
@@ -2505,7 +2506,6 @@ teams:
         - rphmeier
         - thomaseizinger
         - tomaka
-        - Vurich
     privacy: closed
   Scala Team:
     members:
