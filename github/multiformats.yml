@@ -104,6 +104,7 @@ repositories:
   .github:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - andyschwab
@@ -127,6 +128,7 @@ repositories:
   base-x:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - Gozala
@@ -152,6 +154,7 @@ repositories:
   c-multihash:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -176,6 +179,7 @@ repositories:
   c-multihashing:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -200,6 +204,7 @@ repositories:
   cid-utils-website:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - lidel
@@ -236,6 +241,7 @@ repositories:
   cid:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -266,6 +272,7 @@ repositories:
   clj-multihash:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - greglook
@@ -292,6 +299,7 @@ repositories:
   clj-multistream:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - greglook
@@ -321,6 +329,7 @@ repositories:
   clj-varint:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - ekroon
@@ -347,6 +356,7 @@ repositories:
   cs-multiaddress:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -371,6 +381,7 @@ repositories:
   cs-multibase:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -395,6 +406,7 @@ repositories:
   cs-multicodec:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -419,6 +431,7 @@ repositories:
   cs-multihash:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -444,6 +457,7 @@ repositories:
   cs-multistream:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -468,6 +482,7 @@ repositories:
   docs:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -490,6 +505,7 @@ repositories:
   ex_multihash:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -515,6 +531,7 @@ repositories:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     advanced_security: false
     allow_update_branch: true
+    archived: false
     branch_protection:
       master:
         allows_deletions: false
@@ -566,6 +583,7 @@ repositories:
   go-base32:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -589,6 +607,7 @@ repositories:
   go-base36:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -612,6 +631,7 @@ repositories:
   go-multiaddr-dns:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -642,6 +662,7 @@ repositories:
   go-multiaddr-fmt:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -665,6 +686,7 @@ repositories:
   go-multiaddr-net:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     default_branch: master
     description: "DEPRECATED: Please use the \"net\" subpackage in
       https://github.com/multiformats/go-multiaddr."
@@ -684,6 +706,7 @@ repositories:
   go-multiaddr:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       master:
         allows_deletions: false
@@ -725,6 +748,7 @@ repositories:
   go-multibase:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -749,6 +773,7 @@ repositories:
   go-multicodec-packed:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     default_branch: master
     description: DEPRECATED -- see go-multicodec
     has_discussions: false
@@ -767,6 +792,7 @@ repositories:
   go-multicodec:
     advanced_security: false
     allow_update_branch: true
+    archived: false
     branch_protection:
       main:
         allows_deletions: false
@@ -809,6 +835,7 @@ repositories:
   go-multigram:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -833,6 +860,7 @@ repositories:
   go-multihash:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -857,6 +885,7 @@ repositories:
   go-multistream:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - locotorp
@@ -885,6 +914,7 @@ repositories:
   go-varint:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - Stebalien
@@ -909,6 +939,7 @@ repositories:
   haskell-multibase:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -934,6 +965,7 @@ repositories:
   haskell-multicodec:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -958,6 +990,7 @@ repositories:
   haskell-multihash:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - lukehoersten
@@ -988,6 +1021,7 @@ repositories:
   java-multiaddr:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - ianopolous
@@ -1015,6 +1049,7 @@ repositories:
   java-multibase:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - ianopolous
@@ -1041,6 +1076,7 @@ repositories:
   java-multihash:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - ianopolous
@@ -1067,6 +1103,7 @@ repositories:
   js-blake2:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - rvagg
@@ -1090,6 +1127,7 @@ repositories:
   js-cid-tool:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - alanshaw
@@ -1118,6 +1156,7 @@ repositories:
   js-cid:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1146,6 +1185,7 @@ repositories:
   js-mafmt:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1170,6 +1210,7 @@ repositories:
   js-multiaddr-to-uri:
     advanced_security: false
     allow_update_branch: true
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1196,6 +1237,7 @@ repositories:
   js-multiaddr:
     advanced_security: false
     allow_update_branch: true
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1220,6 +1262,7 @@ repositories:
   js-multibase:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1250,6 +1293,7 @@ repositories:
   js-multicodec:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1274,6 +1318,7 @@ repositories:
   js-multiformats:
     advanced_security: false
     allow_update_branch: true
+    archived: false
     collaborators:
       push:
         - patrickwoodhead
@@ -1300,6 +1345,7 @@ repositories:
   js-multihash:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1328,6 +1374,7 @@ repositories:
   js-multihashing-async:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1352,6 +1399,7 @@ repositories:
   js-multihashing:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1376,6 +1424,7 @@ repositories:
   js-multistream-select:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - daviddias
@@ -1403,6 +1452,7 @@ repositories:
   js-murmur3:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - mikeal
@@ -1428,6 +1478,7 @@ repositories:
   js-sha3:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - mikeal
@@ -1453,6 +1504,7 @@ repositories:
   js-uri-to-multiaddr:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1480,6 +1532,7 @@ repositories:
   ma-pipe:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1504,6 +1557,7 @@ repositories:
   multiaddr:
     advanced_security: false
     allow_update_branch: true
+    archived: false
     collaborators:
       admin:
         - jbenet
@@ -1531,6 +1585,7 @@ repositories:
   multibase:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1556,6 +1611,7 @@ repositories:
   multicodec:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       master:
         allows_deletions: false
@@ -1605,6 +1661,7 @@ repositories:
   multiformats:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1632,6 +1689,7 @@ repositories:
   multigram:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1657,6 +1715,7 @@ repositories:
   MultiHash.Net:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - MCGPPeters
@@ -1682,6 +1741,7 @@ repositories:
   multihash:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - jbenet
@@ -1715,6 +1775,7 @@ repositories:
   multistream-select:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - daviddias
@@ -1744,6 +1805,7 @@ repositories:
   multistream:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1770,6 +1832,7 @@ repositories:
   php-multihash:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - Fil
@@ -1797,6 +1860,7 @@ repositories:
   py-multiaddr:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - sbuss
@@ -1829,6 +1893,7 @@ repositories:
   py-multibase:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - dhruvbaldawa
@@ -1855,6 +1920,7 @@ repositories:
   py-multicodec:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - dhruvbaldawa
@@ -1881,6 +1947,7 @@ repositories:
   py-multihash:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - dhruvbaldawa
@@ -1906,6 +1973,7 @@ repositories:
   ruby-multihash:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - kyledrake
@@ -1932,6 +2000,7 @@ repositories:
   rust-cid:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - dignifiedquire
@@ -1967,6 +2036,7 @@ repositories:
   rust-multiaddr:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       master:
         allows_deletions: false
@@ -2013,6 +2083,7 @@ repositories:
   rust-multibase:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - dignifiedquire
@@ -2048,6 +2119,7 @@ repositories:
   rust-multihash:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - dignifiedquire
@@ -2084,6 +2156,7 @@ repositories:
   scala-multihash:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - yusefnapora
@@ -2110,6 +2183,7 @@ repositories:
   specs:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       master:
         allows_deletions: false
@@ -2148,6 +2222,7 @@ repositories:
   SwiftMultiaddr:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -2172,6 +2247,7 @@ repositories:
   SwiftMultihash:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -2196,6 +2272,7 @@ repositories:
   unsigned-varint:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - jbenet
@@ -2220,6 +2297,7 @@ repositories:
   website:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - alanshaw
