@@ -9,7 +9,6 @@ members:
     - jbenet
     - Kubuxu
     - marten-seemann
-    - mikeal
     - raulk
     - rvagg
     - Stebalien
@@ -1454,8 +1453,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - mikeal
       push:
         - web3-bot
     default_branch: master
@@ -1480,8 +1477,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - mikeal
       push:
         - web3-bot
     default_branch: master
@@ -2496,7 +2491,6 @@ teams:
     members:
       maintainer:
         - daviddias
-        - mikeal
         - rvagg
         - vmx
       member:
