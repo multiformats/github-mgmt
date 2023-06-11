@@ -1292,7 +1292,7 @@ repositories:
   js-multicodec:
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     collaborators:
       push:
         - web3-bot
