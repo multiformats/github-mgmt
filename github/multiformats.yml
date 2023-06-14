@@ -1029,6 +1029,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: Java implementation of multiaddr
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1056,6 +1059,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: A Java implementation of multibase
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1083,6 +1089,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: A Java implementation of Multihash
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1110,6 +1119,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: BLAKE2 multihash hashers for JavaScript multiformats
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1325,6 +1337,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: Multiformats interface (multihash, multicodec, multibase and CID)
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1481,6 +1496,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: "Multiformats hash functions for SHA3 "
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1560,6 +1578,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: Composable and future-proof network addresses
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2005,6 +2026,9 @@ repositories:
         - dvc94ch
     default_branch: master
     description: CID in rust
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2058,6 +2082,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: multiaddr implementation in rust
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2086,6 +2113,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: Multibase in rust
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2125,6 +2155,9 @@ repositories:
         - rklaehn
     default_branch: master
     description: multihash implementation in Rust
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
