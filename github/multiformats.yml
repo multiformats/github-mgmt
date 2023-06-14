@@ -1121,7 +1121,23 @@ repositories:
     description: BLAKE2 multihash hashers for JavaScript multiformats
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+            - package-ecosystem: 'github-actions'
+              directory: '/'
+              schedule:
+                interval: 'daily'
+              commit-message:
+                prefix: 'chore'
+                include: 'scope'
+            - package-ecosystem: 'npm'
+              directory: '/'
+              schedule:
+                interval: 'daily'
+              commit-message:
+                prefix: 'chore'
+                include: 'scope'
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1339,7 +1355,18 @@ repositories:
     description: Multiformats interface (multihash, multicodec, multibase and CID)
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+          - package-ecosystem: npm
+            directory: "/"
+            schedule:
+              interval: daily
+              time: "10:00"
+            open-pull-requests-limit: 10
+            commit-message:
+              prefix: "deps"
+              prefix-development: "deps(dev)"
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1498,7 +1525,23 @@ repositories:
     description: "Multiformats hash functions for SHA3 "
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+            - package-ecosystem: 'github-actions'
+              directory: '/'
+              schedule:
+                interval: 'daily'
+              commit-message:
+                prefix: 'chore'
+                include: 'scope'
+            - package-ecosystem: 'npm'
+              directory: '/'
+              schedule:
+                interval: 'daily'
+              commit-message:
+                prefix: 'chore'
+                include: 'scope'
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2028,7 +2071,18 @@ repositories:
     description: CID in rust
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+            - package-ecosystem: "cargo"
+              directory: "/"
+              schedule:
+                interval: "daily"
+
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "daily"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2084,7 +2138,18 @@ repositories:
     description: multiaddr implementation in rust
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+            - package-ecosystem: "cargo"
+              directory: "/"
+              schedule:
+                interval: "daily"
+
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "daily"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2115,7 +2180,18 @@ repositories:
     description: Multibase in rust
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+            - package-ecosystem: "cargo"
+              directory: "/"
+              schedule:
+                interval: "daily"
+
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "daily"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2157,7 +2233,18 @@ repositories:
     description: multihash implementation in Rust
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+            - package-ecosystem: "cargo"
+              directory: "/"
+              schedule:
+                interval: "daily"
+
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "daily"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
