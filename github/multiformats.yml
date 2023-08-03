@@ -108,8 +108,6 @@ repositories:
       admin:
         - andyschwab
         - BigLep
-      push:
-        - web3-bot
     default_branch: main
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -131,7 +129,6 @@ repositories:
     collaborators:
       push:
         - Gozala
-        - web3-bot
     default_branch: master
     description: Encode/decode any base
     has_discussions: false
@@ -154,9 +151,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: C implementation of Multihash parsing and encoding (but not hashing)
     has_discussions: false
@@ -179,9 +173,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Use all the functions in multihash, in C
     has_discussions: false
@@ -211,7 +202,6 @@ repositories:
       push:
         - hacdias
         - jessicaschilling
-        - web3-bot
     default_branch: master
     description: A website for decoding CIDs
     has_discussions: false
@@ -241,9 +231,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Self-describing content-addressed identifiers for distributed systems
     has_discussions: false
@@ -275,8 +262,6 @@ repositories:
     collaborators:
       admin:
         - greglook
-      push:
-        - web3-bot
     default_branch: develop
     description: Clojure implementation of the Multihash spec
     has_discussions: false
@@ -302,8 +287,6 @@ repositories:
     collaborators:
       admin:
         - greglook
-      push:
-        - web3-bot
     default_branch: develop
     description: Clojure implementation of multistream codecs
     has_discussions: false
@@ -332,8 +315,6 @@ repositories:
     collaborators:
       admin:
         - ekroon
-      push:
-        - web3-bot
     default_branch: master
     description: Simple wrapper around Bazel VarInt code.
     has_discussions: false
@@ -356,9 +337,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Multiaddress implementation in C#
     has_discussions: false
@@ -381,9 +359,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Multibase implementation in C#
     has_discussions: false
@@ -406,9 +381,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Multicodec implementation i C#
     has_discussions: false
@@ -431,9 +403,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Multihash implementation in C#
     has_discussions: false
@@ -457,9 +426,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Multistream
     has_discussions: false
@@ -482,9 +448,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Multiformats documentation website
     has_discussions: false
@@ -505,9 +468,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Multihash implementation in Elixir
     has_discussions: false
@@ -835,9 +795,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Go implementation of multigram
     has_discussions: false
@@ -939,9 +896,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: haskell implementation of the multibase multiformat (project by
       protocol labs)
@@ -965,9 +919,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: An implementation of the multicodec specification in haskell.
     has_discussions: false
@@ -993,8 +944,6 @@ repositories:
     collaborators:
       admin:
         - lukehoersten
-      push:
-        - web3-bot
     default_branch: master
     description: Multihash Haskell implementation
     has_discussions: false
@@ -1026,7 +975,6 @@ repositories:
         - ianopolous
       push:
         - kevodwyer
-        - web3-bot
     default_branch: master
     description: Java implementation of multiaddr
     files:
@@ -1055,8 +1003,6 @@ repositories:
     collaborators:
       admin:
         - ianopolous
-      push:
-        - web3-bot
     default_branch: master
     description: A Java implementation of multibase
     files:
@@ -1085,8 +1031,6 @@ repositories:
     collaborators:
       admin:
         - ianopolous
-      push:
-        - web3-bot
     default_branch: master
     description: A Java implementation of Multihash
     files:
@@ -1115,8 +1059,6 @@ repositories:
     collaborators:
       admin:
         - rvagg
-      push:
-        - web3-bot
     default_branch: master
     description: BLAKE2 multihash hashers for JavaScript multiformats
     files:
@@ -1158,8 +1100,6 @@ repositories:
     collaborators:
       admin:
         - alanshaw
-      push:
-        - web3-bot
     default_branch: master
     description: A module and command line tool for converting, formatting and
       discovering properties of CIDs
@@ -1184,9 +1124,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: CID implementation in JavaScript
     has_discussions: false
@@ -1290,9 +1227,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: JavaScript implementation of the multibase specification
     has_discussions: false
@@ -1336,9 +1270,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: JavaScript implementation of the multicodec specification
     has_discussions: false
@@ -1406,9 +1337,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: multihash implementation in JavaScript
     has_discussions: false
@@ -1435,9 +1363,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: The fast version of js-multihashing
     has_discussions: false
@@ -1460,9 +1385,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Use all the functions in multihash.
     has_discussions: false
@@ -1489,8 +1411,6 @@ repositories:
       admin:
         - daviddias
         - dignifiedquire
-      push:
-        - web3-bot
     default_branch: master
     description: JavaScript implementation of multistream-select
     has_discussions: false
@@ -1537,9 +1457,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: "Multiformats hash functions for SHA3 "
     files:
@@ -1636,8 +1553,6 @@ repositories:
     collaborators:
       admin:
         - jbenet
-      push:
-        - web3-bot
     default_branch: master
     description: Composable and future-proof network addresses
     files:
@@ -1664,9 +1579,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Self identifying base encodings
     has_discussions: false
@@ -1709,9 +1621,6 @@ repositories:
           contexts:
             - validate
           strict: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Compact self-describing codecs. Save space by using predefined
       multicodec tables.
@@ -1740,9 +1649,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: The main repository for discussing multiformats.
     has_discussions: false
@@ -1768,9 +1674,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Protocol negotiation and multiplexing over datagrams
     has_discussions: false
@@ -1797,7 +1700,6 @@ repositories:
     collaborators:
       push:
         - MCGPPeters
-        - web3-bot
     default_branch: master
     description: .Net implementation of multihash
     has_discussions: false
@@ -1823,8 +1725,6 @@ repositories:
     collaborators:
       admin:
         - jbenet
-      push:
-        - web3-bot
     default_branch: master
     description: Self describing hashes - for future proofing
     has_discussions: false
@@ -1858,8 +1758,6 @@ repositories:
       admin:
         - daviddias
         - jbenet
-      push:
-        - web3-bot
     default_branch: master
     description: Friendly protocol negotiation. It enables a multicodec to be
       negotiated between two entities.
@@ -1884,9 +1782,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Make data and streams self-described by prefixing them with human
       readable codecs.
@@ -1916,7 +1811,6 @@ repositories:
         - Fil
       push:
         - RichardLitt
-        - web3-bot
     default_branch: master
     description: PHP implementation of multihash
     has_discussions: false
@@ -1942,7 +1836,6 @@ repositories:
     collaborators:
       push:
         - sbuss
-        - web3-bot
     default_branch: master
     description: multiaddr implementation in Python
     has_discussions: false
@@ -1975,8 +1868,6 @@ repositories:
     collaborators:
       admin:
         - dhruvbaldawa
-      push:
-        - web3-bot
     default_branch: master
     description: Multibase implementation in Python
     has_discussions: false
@@ -2002,8 +1893,6 @@ repositories:
     collaborators:
       admin:
         - dhruvbaldawa
-      push:
-        - web3-bot
     default_branch: master
     description: Multicodec implementation in Python
     has_discussions: false
@@ -2029,8 +1918,6 @@ repositories:
     collaborators:
       admin:
         - dhruvbaldawa
-      push:
-        - web3-bot
     default_branch: master
     description: Multihash implementation in Python
     has_discussions: false
@@ -2055,7 +1942,6 @@ repositories:
     collaborators:
       push:
         - kyledrake
-        - web3-bot
     default_branch: master
     description: A simple multihash (https://github.com/multiformats/multihash)
       implementation for ruby.
@@ -2082,8 +1968,6 @@ repositories:
     collaborators:
       admin:
         - dignifiedquire
-      push:
-        - web3-bot
       triage:
         - dvc94ch
     default_branch: master
@@ -2151,8 +2035,6 @@ repositories:
     collaborators:
       admin:
         - dignifiedquire
-      push:
-        - web3-bot
     default_branch: master
     description: multiaddr implementation in rust
     files:
@@ -2193,8 +2075,6 @@ repositories:
     collaborators:
       admin:
         - dignifiedquire
-      push:
-        - web3-bot
     default_branch: master
     description: Multibase in rust
     files:
@@ -2243,8 +2123,6 @@ repositories:
     collaborators:
       admin:
         - dignifiedquire
-      push:
-        - web3-bot
       triage:
         - dvc94ch
         - rklaehn
@@ -2294,8 +2172,6 @@ repositories:
     collaborators:
       admin:
         - yusefnapora
-      push:
-        - web3-bot
     default_branch: master
     description: Scala multihash implementation
     has_discussions: false
@@ -2330,9 +2206,6 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Specification work regarding multihash, multiaddr, and others
     has_discussions: false
@@ -2357,9 +2230,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: A Multiaddr implementation in Swift.
     has_discussions: false
@@ -2382,9 +2252,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Swift implementation of multihash
     has_discussions: false
@@ -2410,8 +2277,6 @@ repositories:
     collaborators:
       admin:
         - jbenet
-      push:
-        - web3-bot
     default_branch: master
     description: unsigned varint in use in multiformat specs
     has_discussions: false
@@ -2441,7 +2306,6 @@ repositories:
         - jesseclay
         - jessicaschilling
         - richsilv
-        - web3-bot
     default_branch: master
     description: The multiformats website
     has_discussions: false
