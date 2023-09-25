@@ -1385,7 +1385,8 @@ repositories:
               schedule:
                 interval: "weekly"
       CODEOWNERS:
-        *  @multiformats/helia-maintainers @multiformats/js-libp2p-maintainers @rvagg @Gozala
+        content: |
+          *  @multiformats/helia-maintainers @multiformats/js-libp2p-maintainers @rvagg @Gozala
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
