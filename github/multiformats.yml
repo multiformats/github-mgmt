@@ -1386,7 +1386,7 @@ repositories:
                 interval: "weekly"
       CODEOWNERS:
         content: |
-          *  @multiformats/helia-maintainers @multiformats/js-libp2p-maintainers @rvagg @Gozala
+          *  @multiformats/helia-dev @multiformats/js-libp2p-dev @rvagg @Gozala
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2551,10 +2551,13 @@ teams:
       member:
         - lukehoersten
     privacy: closed
-  Helia Maintainers:
+  Helia Dev:
+    # This should match https://github.com/orgs/ipfs/teams/helia-dev
     members:
       member:
         - achingbrain
+        - SgtPooki
+        - whizzzkid
     privacy: closed
   Infra:
     description: https://github.com/protocol/infra-team/
@@ -2622,10 +2625,15 @@ teams:
         - wanderer
         - wemeetagain
     privacy: closed
-  js-libp2p Maintainers:
+  js-libp2p-dev:
+    # Should match https://github.com/orgs/libp2p/teams/js-libp2p-dev
     members:
       member:
         - achingbrain
+        - SgtPooki
+        - wemeetagain
+        - whizzzkid
+        - maschad
     privacy: closed
   Parity Tech:
     members:
