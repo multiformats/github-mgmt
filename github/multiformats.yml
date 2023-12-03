@@ -1269,7 +1269,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
-    default_branch: master
+    default_branch: main
     description: JavaScript implementation of multiaddr
     has_discussions: false
     merge_commit_message: PR_TITLE
