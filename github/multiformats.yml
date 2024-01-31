@@ -55,6 +55,7 @@ members:
     - Jorropo
     - kevina
     - kumavis
+    - laurentsenta
     - lidel
     - litzenberger
     - locotorp
@@ -159,12 +160,8 @@ repositories:
     default_branch: master
     description: C implementation of Multihash parsing and encoding (but not hashing)
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -184,12 +181,8 @@ repositories:
     default_branch: master
     description: Use all the functions in multihash, in C
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -275,12 +268,8 @@ repositories:
     default_branch: develop
     description: Clojure implementation of the Multihash spec
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -302,12 +291,8 @@ repositories:
     default_branch: develop
     description: Clojure implementation of multistream codecs
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -332,12 +317,8 @@ repositories:
     default_branch: master
     description: Simple wrapper around Bazel VarInt code.
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -357,12 +338,8 @@ repositories:
     default_branch: master
     description: Multiaddress implementation in C#
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -382,12 +359,8 @@ repositories:
     default_branch: master
     description: Multibase implementation in C#
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -407,12 +380,8 @@ repositories:
     default_branch: master
     description: Multicodec implementation i C#
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -432,12 +401,8 @@ repositories:
     default_branch: master
     description: Multihash implementation in C#
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -458,12 +423,8 @@ repositories:
     default_branch: master
     description: Multistream
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -503,12 +464,8 @@ repositories:
     default_branch: master
     description: Multihash implementation in Elixir
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -564,8 +521,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
-      maintain:
-        - ipdx # NOTE: ipdx are the creators of GitHub Management framework
+      admin:
+        - ipdx
       push:
         - github-mgmt stewards
     topics:
@@ -682,12 +639,8 @@ repositories:
     description: "DEPRECATED: Please use the \"net\" subpackage in
       https://github.com/multiformats/go-multiaddr."
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -768,12 +721,8 @@ repositories:
     default_branch: master
     description: DEPRECATED -- see go-multicodec
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -935,12 +884,8 @@ repositories:
     description: haskell implementation of the multibase multiformat (project by
       protocol labs)
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -960,12 +905,8 @@ repositories:
     default_branch: master
     description: An implementation of the multicodec specification in haskell.
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -987,12 +928,8 @@ repositories:
     default_branch: master
     description: Multihash Haskell implementation
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1165,12 +1102,8 @@ repositories:
     default_branch: master
     description: CID implementation in JavaScript
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1298,12 +1231,8 @@ repositories:
     default_branch: master
     description: JavaScript implementation of the multibase specification
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1411,12 +1340,8 @@ repositories:
     default_branch: master
     description: multihash implementation in JavaScript
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1440,12 +1365,8 @@ repositories:
     default_branch: master
     description: The fast version of js-multihashing
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1465,12 +1386,8 @@ repositories:
     default_branch: master
     description: Use all the functions in multihash.
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1493,12 +1410,8 @@ repositories:
     default_branch: master
     description: JavaScript implementation of multistream-select
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1754,12 +1667,8 @@ repositories:
     default_branch: master
     description: Protocol negotiation and multiplexing over datagrams
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1781,12 +1690,8 @@ repositories:
     default_branch: master
     description: .Net implementation of multihash
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1893,12 +1798,8 @@ repositories:
     default_branch: master
     description: PHP implementation of multihash
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1919,12 +1820,8 @@ repositories:
     default_branch: master
     description: multiaddr implementation in Python
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ip-productivity
@@ -1953,12 +1850,8 @@ repositories:
     default_branch: master
     description: Multibase implementation in Python
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1980,12 +1873,8 @@ repositories:
     default_branch: master
     description: Multicodec implementation in Python
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2007,12 +1896,8 @@ repositories:
     default_branch: master
     description: Multihash implementation in Python
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ip-productivity
@@ -2033,12 +1918,8 @@ repositories:
     description: A simple multihash (https://github.com/multiformats/multihash)
       implementation for ruby.
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2264,12 +2145,8 @@ repositories:
     default_branch: master
     description: Scala multihash implementation
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2291,7 +2168,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - MDQ6VGVhbTIwNjc5OTU=
+          - multiformats/admin
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -2325,12 +2202,8 @@ repositories:
     default_branch: master
     description: A Multiaddr implementation in Swift.
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2350,12 +2223,8 @@ repositories:
     default_branch: master
     description: Swift implementation of multihash
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2438,7 +2307,6 @@ teams:
         - jacobheun
     privacy: closed
   Alumni:
-    create_default_maintainer: false
     privacy: closed
   Bots:
     description: Admin access for bots in repos that need it
@@ -2503,7 +2371,6 @@ teams:
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
-    create_default_maintainer: false
     description: Users that are effectively org admins
     members:
       # WARN: membership here should be treated exactly as cautiosly as having an org admin role
@@ -2556,17 +2423,15 @@ teams:
     members:
       maintainer:
         - galargh
-    parent_team_id: w3dt-stewards
     privacy: closed
   ipdx:
-    create_default_maintainer: false
     members:
       maintainer:
         - galargh
-    parent_team_id: w3dt-stewards
+      member:
+        - laurentsenta
     privacy: closed
   ipfs-gui:
-    create_default_maintainer: false
     description: IPFS GUI Team
     members:
       maintainer:
@@ -2701,6 +2566,7 @@ teams:
         - achingbrain
         - galargh
         - Jorropo
+        - laurentsenta
         - lidel
         - MarcoPolo
         - mxinden
