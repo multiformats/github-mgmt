@@ -16,6 +16,7 @@ members:
     - whyrusleeping
   member:
     - 0xDanomite
+    - 2color
     - aarshkshah1992
     - achingbrain
     - adlrocha
@@ -2457,6 +2458,7 @@ teams:
         - rvagg
         - vmx
       member:
+        - 2color
         - achingbrain
         - alanshaw
         - dignifiedquire
