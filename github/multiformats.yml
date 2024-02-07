@@ -2556,9 +2556,9 @@ teams:
     # This should match https://github.com/orgs/ipfs/teams/helia-dev
     members:
       member:
+        - 2color
         - achingbrain
         - SgtPooki
-        - 2color
     privacy: closed
   Infra:
     description: https://github.com/protocol/infra-team/
@@ -2629,10 +2629,10 @@ teams:
     # Should match https://github.com/orgs/libp2p/teams/js-libp2p-dev
     members:
       member:
+        - 2color
         - achingbrain
         - SgtPooki
         - wemeetagain
-        - 2color
     privacy: closed
   Parity Tech:
     members:
