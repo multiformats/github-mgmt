@@ -1245,7 +1245,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
-    default_branch: master
+    default_branch: main
     description: Convert a Multiaddr to a URI /dnsaddr/ipfs.io/http -> http://ipfs.io
     has_discussions: false
     merge_commit_message: PR_TITLE
