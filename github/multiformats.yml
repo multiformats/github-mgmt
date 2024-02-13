@@ -13,13 +13,6 @@ members:
     - rvagg
     - vmx
   member:
-    - daviddias
-    - jbenet
-    - Kubuxu
-    - marten-seemann
-    - raulk
-    - Stebalien
-    - whyrusleeping
     - 0xDanomite
     - 2color
     - aarshkshah1992
@@ -34,6 +27,7 @@ members:
     - bigs
     - celeduc
     - cloutiertyler
+    - daviddias
     - debris
     - dhruvbaldawa
     - dignifiedquire
@@ -56,10 +50,12 @@ members:
     - ianopolous
     - ipfsbot
     - jacobheun
+    - jbenet
     - jbenetsafer
     - jesseclay
     - Jorropo
     - kevina
+    - Kubuxu
     - kumavis
     - laurentsenta
     - lidel
@@ -68,6 +64,7 @@ members:
     - lukehoersten
     - magik6k
     - MarcoPolo
+    - marten-seemann
     - masih
     - MCGPPeters
     - mcollina
@@ -82,6 +79,7 @@ members:
     - olizilla
     - p-shahi
     - pkafei
+    - raulk
     - ribasushi
     - RichardLitt
     - richardschneider
@@ -89,6 +87,7 @@ members:
     - rphmeier
     - sbuss
     - SgtPooki
+    - Stebalien
     - stuckinaboot
     - sukunrt
     - thomaseizinger
@@ -104,6 +103,7 @@ members:
     - web3-bot
     - wemeetagain
     - whizzzkid
+    - whyrusleeping
     - willscott
     - yusefnapora
     - zabirauf
