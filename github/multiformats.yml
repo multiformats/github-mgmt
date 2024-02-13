@@ -549,7 +549,6 @@ repositories:
           contexts:
             - Comment
           strict: true
-    collaborators:
     default_branch: master
     files:
       CODEOWNERS:
