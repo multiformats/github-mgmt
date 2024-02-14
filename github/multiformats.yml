@@ -1,19 +1,17 @@
 # yaml-language-server: $schema=.schema.json
 
 members:
+  # Admin permissions map to "org owner" permissions listed in 
+  # https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#permissions-for-organization-rolesare 
+  # These permissions are very broad, and thus, the list of people is intentionally minimal. 
+  # Permissions are distributed across 3-4 separate organizations.
+  # One can request additional permissions for specific repos using ipld/github-mgmt.
   admin:
     - andyschwab-admin
     - aschmahmann
-    - daviddias
     - galargh
-    - jbenet
-    - Kubuxu
-    - marten-seemann
-    - raulk
     - rvagg
-    - Stebalien
     - vmx
-    - whyrusleeping
   member:
     - 0xDanomite
     - 2color
@@ -29,6 +27,7 @@ members:
     - bigs
     - celeduc
     - cloutiertyler
+    - daviddias
     - debris
     - dhruvbaldawa
     - dignifiedquire
@@ -51,10 +50,12 @@ members:
     - ianopolous
     - ipfsbot
     - jacobheun
+    - jbenet
     - jbenetsafer
     - jesseclay
     - Jorropo
     - kevina
+    - Kubuxu
     - kumavis
     - laurentsenta
     - lidel
@@ -63,6 +64,7 @@ members:
     - lukehoersten
     - magik6k
     - MarcoPolo
+    - marten-seemann
     - masih
     - MCGPPeters
     - mcollina
@@ -77,6 +79,7 @@ members:
     - olizilla
     - p-shahi
     - pkafei
+    - raulk
     - ribasushi
     - RichardLitt
     - richardschneider
@@ -84,6 +87,7 @@ members:
     - rphmeier
     - sbuss
     - SgtPooki
+    - Stebalien
     - stuckinaboot
     - sukunrt
     - thomaseizinger
@@ -99,6 +103,7 @@ members:
     - web3-bot
     - wemeetagain
     - whizzzkid
+    - whyrusleeping
     - willscott
     - yusefnapora
     - zabirauf
@@ -544,9 +549,6 @@ repositories:
           contexts:
             - Comment
           strict: true
-    collaborators:
-      admin:
-        - galargh
     default_branch: master
     files:
       CODEOWNERS:
@@ -2506,18 +2508,19 @@ teams:
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
     description: Users that are effectively org admins
     members:
-      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
+      # WARN: membership here should be treated as cautiously as having an "org owner" role,
+      # since one can escalate their privileges accordingly.
       # ATTN: members are expected to:
       #  - be familiar with GitHub Management
       #  - be ready to triage/review org configuration change request in github-mgmt
-      maintainer:
+      # Intentionally don't have any "maintainers" so that additional membership is done through github-mgmt rather than the GitHub UI.
+      # That said, since most of these people are also "org owners" ("members.admin" above), 
+      # they can still make changes in the UI.
+      member:
         - achingbrain
         - aschmahmann
         - rvagg
         - vmx
-      member:
-        - BigLep
-        - lidel
     privacy: closed
   Go Team:
     description: Go multiformats people
