@@ -21,7 +21,7 @@ resource "github_repository" "this" {
   for_each = {
     for repository, config in lookup(local.config, "repositories", {}) : lower(repository) =>
     {
-      key = try(repository_config.archived, false) ? "state" : "config"
+      key = try(config.archived, false) ? "state" : "config"
       state = local.state["managed.github_repository.this.${repository}"]
       config = merge(config, {
         name = repository
