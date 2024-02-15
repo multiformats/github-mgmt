@@ -22,7 +22,7 @@ resource "github_repository" "this" {
     for repository, config in lookup(local.config, "repositories", {}) : lower(repository) =>
     {
       key = try(config.archived, false) ? "state" : "config"
-      state = local.state["managed.github_repository.this.${repository}"]
+      state = local.state["managed.github_repository.this.${lower(repository)}"]
       config = merge(config, {
         name = repository
         security_and_analysis = (try(config.visibility, "private") == "public" || local.advanced_security) ? [
@@ -136,7 +136,7 @@ resource "github_repository_collaborator" "this" {
       key = try(repository_config.archived, false) ? "state" : "config"
       state = [
         {
-          for address, resource in local.state : resource.index => resource if startswith(address, "managed.github_repository_collaborator.this.${repository}:")
+          for address, resource in local.state : resource.index => resource if startswith(address, "managed.github_repository_collaborator.this.${lower(repository)}:")
         }
       ]
       config = [
@@ -170,7 +170,7 @@ resource "github_branch_protection" "this" {
       state = {
         for address, resource in local.state : resource.index => merge(resource, {
           repository_key = split(":", resource.index)[0]
-        }) if startswith(address, "managed.github_branch_protection.this.${repository}:")
+        }) if startswith(address, "managed.github_branch_protection.this.${lower(repository)}:")
       }
       config = {
         for pattern, config in lookup(repository_config, "branch_protection", {}) : lower("${repository}:${pattern}") => merge(config, {
@@ -240,7 +240,7 @@ resource "github_team_repository" "this" {
         {
           for address, resource in local.state : resource.index => merge(resource, {
             team_key   = split(":", resource.index)[1]
-          }) if startswith(address, "managed.github_team_repository.this.${repository}:")
+          }) if startswith(address, "managed.github_team_repository.this.${lower(repository)}:")
         }
       ]
       config = [
@@ -300,7 +300,7 @@ resource "github_repository_file" "this" {
       state = {
         for address, resource in local.state : resource.index => merge(resource, {
           repository_key = split("/", resource.index)[0]
-        }) if startswith(address, "managed.github_repository_file.this.${repository}:")
+        }) if startswith(address, "managed.github_repository_file.this.${lower(repository)}:")
       }
       config = {
         for obj in [
@@ -343,7 +343,7 @@ resource "github_issue_label" "this" {
     {
       key = try(repository_config.archived, false) ? "state" : "config"
       state = {
-        for address, resource in local.state : resource.index => resource if startswith(address, "managed.github_issue_label.this.${repository}:")
+        for address, resource in local.state : resource.index => resource if startswith(address, "managed.github_issue_label.this.${lower(repository)}:")
       }
       config = {
         for label, config in lookup(repository_config, "labels", {}) : lower("${repository}:${label}") => merge(config, {
