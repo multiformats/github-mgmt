@@ -115,7 +115,7 @@ resource "github_repository" "this" {
 
 resource "github_repository_collaborator" "this" {
   for_each = {
-    for item in [
+    for item in flatten([
       for repository, config in local.resources.config.github_repository.this : flatten([
         try(config.archived, false) ? [
           for member, config in local.resources.state.github_repository_collaborator.this : {
@@ -129,7 +129,7 @@ resource "github_repository_collaborator" "this" {
           } if try(regex("^${repository}:", member), null) != null
         ]
       ])
-    ] : item.index => item.source
+    ]) : item.index => item.source
   }
 
   depends_on = [github_repository.this]
@@ -145,7 +145,7 @@ resource "github_repository_collaborator" "this" {
 
 resource "github_branch_protection" "this" {
   for_each = {
-    for item in [
+    for item in flatten([
       for repository, config in local.resources.config.github_repository.this : flatten([
         try(config.archived, false) ? [
           for branch_protection, config in local.resources.state.github_branch_protection.this : {
@@ -159,7 +159,7 @@ resource "github_branch_protection" "this" {
           } if try(regex("^${repository}:", branch_protection), null) != null
         ]
       ])
-    ] : item.index => item.source
+    ]) : item.index => item.source
   }
 
   depends_on = [github_repository.this]
@@ -222,7 +222,7 @@ resource "github_team" "this" {
 
 resource "github_team_repository" "this" {
   for_each = {
-    for item in [
+    for item in flatten([
       for repository, config in local.resources.config.github_repository.this : flatten([
         try(config.archived, false) ? [
           for team, config in local.resources.state.github_team_repository.this : {
@@ -236,7 +236,7 @@ resource "github_team_repository" "this" {
           } if try(regex(":${repository}$", team), null) != null
         ]
       ])
-    ] : item.index => item.source
+    ]) : item.index => item.source
   }
 
   depends_on = [github_team.this, github_repository.this]
@@ -275,7 +275,7 @@ resource "github_team_membership" "this" {
 
 resource "github_repository_file" "this" {
   for_each = {
-    for item in [
+    for item in flatten([
       for repository, config in local.resources.config.github_repository.this : flatten([
         try(config.archived, false) ? [
           for file, config in local.resources.state.github_repository_file.this : {
@@ -289,7 +289,7 @@ resource "github_repository_file" "this" {
           } if try(regex("^${repository}/", file), null) != null
         ]
       ])
-    ] : item.index => item.source
+    ]) : item.index => item.source
   }
 
   depends_on = [github_repository.this]
@@ -313,7 +313,7 @@ resource "github_repository_file" "this" {
 
 resource "github_issue_label" "this" {
   for_each = {
-    for item in [
+    for item in flatten([
       for repository, config in local.resources.config.github_repository.this : flatten([
         try(config.archived, false) ? [
           for label, config in local.resources.state.github_issue_label.this : {
@@ -327,7 +327,7 @@ resource "github_issue_label" "this" {
           } if try(regex("^${repository}:", label), null) != null
         ]
       ])
-    ] : item.index => item.source
+    ]) : item.index => item.source
   }
 
   depends_on = [github_repository.this]
