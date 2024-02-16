@@ -157,55 +157,9 @@ repositories:
         - JavaScript Team
     visibility: public
   c-multihash:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: C implementation of Multihash parsing and encoding (but not hashing)
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - C Team
-    visibility: public
   c-multihashing:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Use all the functions in multihash, in C
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - C Team
-    visibility: public
   cid-utils-website:
     advanced_security: false
     allow_update_branch: false
@@ -271,215 +225,21 @@ repositories:
       - multiformats
     visibility: public
   clj-multihash:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - greglook
-      push:
-        - web3-bot
-    default_branch: develop
-    description: Clojure implementation of the Multihash spec
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Clojure Team
-    visibility: public
   clj-multistream:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - greglook
-      push:
-        - web3-bot
-    default_branch: develop
-    description: Clojure implementation of multistream codecs
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Clojure Team
-    topics:
-      - multicodec
-      - stream
-    visibility: public
   clj-varint:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - ekroon
-      push:
-        - web3-bot
-    default_branch: master
-    description: Simple wrapper around Bazel VarInt code.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Clojure Team
-    visibility: public
   cs-multiaddress:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Multiaddress implementation in C#
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - C Sharp Team
-    visibility: public
   cs-multibase:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Multibase implementation in C#
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - C Sharp Team
-    visibility: public
   cs-multicodec:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Multicodec implementation i C#
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - C Sharp Team
-    visibility: public
   cs-multihash:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Multihash implementation in C#
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - C Sharp Team
-        - Go Team
-    visibility: public
   cs-multistream:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Multistream
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - C Sharp Team
-    visibility: public
   docs:
     advanced_security: false
     allow_update_branch: false
@@ -501,30 +261,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   ex_multihash:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Multihash implementation in Elixir
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Elixir Team
-    visibility: public
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     advanced_security: false
@@ -679,25 +416,7 @@ repositories:
         - Go Team
     visibility: public
   go-multiaddr-net:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    default_branch: master
-    description: "DEPRECATED: Please use the \"net\" subpackage in
-      https://github.com/multiformats/go-multiaddr."
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-      push:
-        - Go Team
-    visibility: public
   go-multiaddr:
     advanced_security: false
     allow_update_branch: false
@@ -766,24 +485,7 @@ repositories:
         - Go Team
     visibility: public
   go-multicodec-packed:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    default_branch: master
-    description: DEPRECATED -- see go-multicodec
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-      push:
-        - Go Team
-    visibility: public
   go-multicodec:
     advanced_security: false
     allow_update_branch: true
@@ -929,87 +631,11 @@ repositories:
         - Go Team
     visibility: public
   haskell-multibase:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: haskell implementation of the multibase multiformat (project by
-      protocol labs)
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Haskell Team
-    visibility: public
   haskell-multicodec:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: An implementation of the multicodec specification in haskell.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Haskell Team
-    visibility: public
   haskell-multihash:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - lukehoersten
-      push:
-        - web3-bot
-    default_branch: master
-    description: Multihash Haskell implementation
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Haskell Team
-    topics:
-      - haskell-multihash
-      - haskell
-      - multihash
-    visibility: public
   java-multiaddr:
     advanced_security: false
     allow_update_branch: false
@@ -1160,34 +786,7 @@ repositories:
         - JavaScript Team
     visibility: public
   js-cid:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: CID implementation in JavaScript
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - JavaScript Team
-    topics:
-      - cid
-      - ipld
-      - javascript
-    visibility: public
   js-mafmt:
     advanced_security: false
     allow_update_branch: false
@@ -1293,36 +892,7 @@ repositories:
         - JavaScript Team
     visibility: public
   js-multibase:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: JavaScript implementation of the multibase specification
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - JavaScript Team
-    topics:
-      - decoding
-      - encoding
-      - js-multibase
-      - multibase
-      - rfc4648
-    visibility: public
   js-multicodec-table:
     advanced_security: false
     allow_update_branch: false
@@ -1406,112 +976,13 @@ repositories:
         - JavaScript Team
     visibility: public
   js-multihash:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: multihash implementation in JavaScript
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - JavaScript Team
-    topics:
-      - javascript
-      - js-multihash
-      - multihash
-    visibility: public
   js-multihashing-async:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: The fast version of js-multihashing
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - JavaScript Team
-    visibility: public
   js-multihashing:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Use all the functions in multihash.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - JavaScript Team
-    visibility: public
   js-multistream-select:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - daviddias
-        - dignifiedquire
-      push:
-        - web3-bot
-    default_branch: master
-    description: JavaScript implementation of multistream-select
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - JavaScript Team
-    visibility: public
   js-murmur3:
     advanced_security: false
     allow_update_branch: false
@@ -1749,57 +1220,9 @@ repositories:
         - JavaScript Team
     visibility: public
   multigram:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Protocol negotiation and multiplexing over datagrams
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Go Team
-        - JavaScript Team
-    visibility: public
   MultiHash.Net:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - MCGPPeters
-        - web3-bot
-    default_branch: master
-    description: .Net implementation of multihash
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - C Sharp Team
-    visibility: public
   multihash:
     advanced_security: false
     allow_update_branch: false
@@ -1885,173 +1308,17 @@ repositories:
         - JavaScript Team
     visibility: public
   php-multihash:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - Fil
-      push:
-        - RichardLitt
-        - web3-bot
-    default_branch: master
-    description: PHP implementation of multihash
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - PHP Team
-    visibility: public
   py-multiaddr:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - sbuss
-        - web3-bot
-    default_branch: master
-    description: multiaddr implementation in Python
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - Admin
-      push:
-        - Python Team
-    topics:
-      - ipfs
-      - libp2p
-      - multiformats
-      - network
-      - python
-    visibility: public
   py-multibase:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - dhruvbaldawa
-      push:
-        - web3-bot
-    default_branch: master
-    description: Multibase implementation in Python
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Python Team
-    visibility: public
   py-multicodec:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - dhruvbaldawa
-      push:
-        - web3-bot
-    default_branch: master
-    description: Multicodec implementation in Python
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Python Team
-    visibility: public
   py-multihash:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - dhruvbaldawa
-      push:
-        - web3-bot
-    default_branch: master
-    description: Multihash implementation in Python
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Python Team
-    visibility: public
   ruby-multihash:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - kyledrake
-        - web3-bot
-    default_branch: master
-    description: A simple multihash (https://github.com/multiformats/multihash)
-      implementation for ruby.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Ruby Team
-    visibility: public
   rust-cid:
     advanced_security: false
     allow_update_branch: false
@@ -2257,32 +1524,7 @@ repositories:
       - rust
     visibility: public
   scala-multihash:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - yusefnapora
-      push:
-        - web3-bot
-    default_branch: master
-    description: Scala multihash implementation
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Scala Team
-    visibility: public
   specs:
     advanced_security: false
     allow_update_branch: false
@@ -2320,55 +1562,9 @@ repositories:
         - Rust Team
     visibility: public
   SwiftMultiaddr:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: A Multiaddr implementation in Swift.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Swift Team
-    visibility: public
   SwiftMultihash:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Swift implementation of multihash
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      push:
-        - Swift Team
-    visibility: public
   unsigned-varint:
     advanced_security: false
     allow_update_branch: false
