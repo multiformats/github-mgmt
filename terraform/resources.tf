@@ -118,7 +118,7 @@ resource "github_repository_collaborator" "this" {
     for item in flatten([
       for repository, config in local.resources.config.github_repository.this : flatten([
         try(config.archived, false) ? [
-          for member, config in local.resources.state.github_repository_collaborator.this : {
+          for member, config in try(local.resources.state.github_repository_collaborator.this, {}) : {
             source = "state"
             index = member
           } if try(regex("^${repository}:", member), null) != null
@@ -148,7 +148,7 @@ resource "github_branch_protection" "this" {
     for item in flatten([
       for repository, config in local.resources.config.github_repository.this : flatten([
         try(config.archived, false) ? [
-          for branch_protection, config in local.resources.state.github_branch_protection.this : {
+          for branch_protection, config in try(local.resources.state.github_branch_protection.this, {}) : {
             source = "state"
             index = branch_protection
           } if try(regex("^${repository}:", branch_protection), null) != null
@@ -225,7 +225,7 @@ resource "github_team_repository" "this" {
     for item in flatten([
       for repository, config in local.resources.config.github_repository.this : flatten([
         try(config.archived, false) ? [
-          for team, config in local.resources.state.github_team_repository.this : {
+          for team, config in try(local.resources.state.github_team_repository.this, {}) : {
             source = "state"
             index = team
           } if try(regex(":${repository}$", team), null) != null
@@ -278,7 +278,7 @@ resource "github_repository_file" "this" {
     for item in flatten([
       for repository, config in local.resources.config.github_repository.this : flatten([
         try(config.archived, false) ? [
-          for file, config in local.resources.state.github_repository_file.this : {
+          for file, config in try(local.resources.state.github_repository_file.this, {}) : {
             source = "state"
             index = file
           } if try(regex("^${repository}/", file), null) != null
@@ -316,7 +316,7 @@ resource "github_issue_label" "this" {
     for item in flatten([
       for repository, config in local.resources.config.github_repository.this : flatten([
         try(config.archived, false) ? [
-          for label, config in local.resources.state.github_issue_label.this : {
+          for label, config in try(local.resources.state.github_issue_label.this, {}) : {
             source = "state"
             index = label
           } if try(regex("^${repository}:", label), null) != null
