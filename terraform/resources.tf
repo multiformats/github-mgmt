@@ -21,7 +21,7 @@ resource "github_repository" "this" {
   for_each = {
     for repository, config in lookup(local.config, "repositories", {}) : lower(repository) =>
     try(config.archived, false) ?
-    local.state["managed.github_repository.this.${lower(repository)}"] :
+    merge(local.defaults.github_repository, local.state["managed.github_repository.this.${lower(repository)}"]) :
     merge(local.defaults.github_repository, merge(config, {
       name = repository
       security_and_analysis = (try(config.visibility, "private") == "public" || local.advanced_security) ? [
