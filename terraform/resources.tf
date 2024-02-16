@@ -166,7 +166,7 @@ resource "github_branch_protection" "this" {
 
   pattern                         = each.value.pattern
 
-  repository_id = try(each.value.repository)].node_id)
+  repository_id = try(each.value.repository_id, github_repository.this[each.value.repository].node_id)
 
   allows_deletions                = try(each.value.allows_deletions, null)
   allows_force_pushes             = try(each.value.allows_force_pushes, null)
@@ -244,7 +244,7 @@ resource "github_team_repository" "this" {
   repository = each.value.repository
   permission = each.value.permission
 
-  team_id = try(each.value.team)].id)
+  team_id = try(each.value.team_id, github_team.this[each.value.team].id)
 
   lifecycle {
     ignore_changes = []
@@ -266,7 +266,7 @@ resource "github_team_membership" "this" {
   username = each.value.username
   role     = each.value.role
 
-  team_id = try(each.value.team)].id)
+  team_id = try(each.value.team_id, github_team.this[each.value.team].id)
 
   lifecycle {
     ignore_changes = []
