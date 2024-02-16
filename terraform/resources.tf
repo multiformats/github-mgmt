@@ -121,12 +121,12 @@ resource "github_repository_collaborator" "this" {
           for member, config in try(local.resources.state.github_repository_collaborator.this, {}) : {
             source = "state"
             index = member
-          } if try(regex("^${repository}:", member), null) != null
+          } if lower(config.repository) == repository
         ] : [
           for member, config in local.resources.config.github_repository_collaborator.this : {
             source = "config"
             index = member
-          } if try(regex("^${repository}:", member), null) != null
+          } if lower(config.repository) == repository
         ]
       ])
     ]) : item.index => local.resources[item.source].github_repository_collaborator.this[item.index]
@@ -151,12 +151,12 @@ resource "github_branch_protection" "this" {
           for branch_protection, config in try(local.resources.state.github_branch_protection.this, {}) : {
             source = "state"
             index = branch_protection
-          } if try(regex("^${repository}:", branch_protection), null) != null
+          } if split(":", branch_protection)[0] == repository
         ] : [
           for branch_protection, config in local.resources.config.github_branch_protection.this : {
             source = "config"
             index = branch_protection
-          } if try(regex("^${repository}:", branch_protection), null) != null
+          } if lower(config.repository) == repository
         ]
       ])
     ]) : item.index => local.resources[item.source].github_branch_protection.this[item.index]
@@ -166,7 +166,7 @@ resource "github_branch_protection" "this" {
 
   pattern                         = each.value.pattern
 
-  repository_id = try(each.value.repository_id, github_repository.this[each.value.repository].node_id)
+  repository_id = try(each.value.repository_id, github_repository.this[lower(each.value.repository)].node_id)
 
   allows_deletions                = try(each.value.allows_deletions, null)
   allows_force_pushes             = try(each.value.allows_force_pushes, null)
@@ -228,12 +228,12 @@ resource "github_team_repository" "this" {
           for team, config in try(local.resources.state.github_team_repository.this, {}) : {
             source = "state"
             index = team
-          } if try(regex(":${repository}$", team), null) != null
+          } if config.repository == repository
         ] : [
           for team, config in local.resources.config.github_team_repository.this : {
             source = "config"
             index = team
-          } if try(regex(":${repository}$", team), null) != null
+          } if config.repository == repository
         ]
       ])
     ]) : item.index => local.resources[item.source].github_team_repository.this[item.index]
@@ -244,7 +244,7 @@ resource "github_team_repository" "this" {
   repository = each.value.repository
   permission = each.value.permission
 
-  team_id = try(each.value.team_id, github_team.this[each.value.team].id)
+  team_id = try(each.value.team_id, github_team.this[lower(each.value.team)].id)
 
   lifecycle {
     ignore_changes = []
@@ -266,7 +266,7 @@ resource "github_team_membership" "this" {
   username = each.value.username
   role     = each.value.role
 
-  team_id = try(each.value.team_id, github_team.this[each.value.team].id)
+  team_id = try(each.value.team_id, github_team.this[lower(each.value.team)].id)
 
   lifecycle {
     ignore_changes = []
@@ -281,12 +281,12 @@ resource "github_repository_file" "this" {
           for file, config in try(local.resources.state.github_repository_file.this, {}) : {
             source = "state"
             index = file
-          } if try(regex("^${repository}/", file), null) != null
+          } if config.repository == repository
         ] : [
           for file, config in local.resources.config.github_repository_file.this : {
             source = try(local.resources.state.github_repository_file.this[file].content, "") == try(config.content, "") ? "state" : "config"
             index = file
-          } if try(regex("^${repository}/", file), null) != null
+          } if config.repository == repository
         ]
       ])
     ]) : item.index => local.resources[item.source].github_repository_file.this[item.index]
@@ -319,12 +319,12 @@ resource "github_issue_label" "this" {
           for label, config in try(local.resources.state.github_issue_label.this, {}) : {
             source = "state"
             index = label
-          } if try(regex("^${repository}:", label), null) != null
+          } if config.repository == repository
         ] : [
           for label, config in local.resources.config.github_issue_label.this : {
             source = "config"
             index = label
-          } if try(regex("^${repository}:", label), null) != null
+          } if config.repository == repository
         ]
       ])
     ]) : item.index => local.resources[item.source].github_issue_label.this[item.index]
