@@ -70,7 +70,7 @@ locals {
                 required_status_checks        = try([config.required_status_checks], [])
               })
             ]
-          ]): lower("${item.repository}:${item.username}") => item...
+          ]): lower("${item.repository}:${item.pattern}") => item...
         }
       }
       "github_team" = {
@@ -107,7 +107,7 @@ locals {
                 }
               ]
             ])
-          ]): lower("${item.repository}:${item.username}") => item...
+          ]): lower("${item.team}:${item.username}") => item...
         }
       }
       "github_repository_file" = {
@@ -120,7 +120,7 @@ locals {
                 content = try(file("${path.module}/../files/${config.content}"), config.content)
               })
             ]
-          ]): lower("${item.repository}/${item.path}") => item...
+          ]): lower("${item.repository}/${item.file}") => item...
         }
       }
       "github_issue_label" = {
