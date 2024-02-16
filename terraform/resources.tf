@@ -228,12 +228,12 @@ resource "github_team_repository" "this" {
           for team, config in try(local.resources.state.github_team_repository.this, {}) : {
             source = "state"
             index = team
-          } if config.repository == repository
+          } if lower(config.repository) == repository
         ] : [
           for team, config in local.resources.config.github_team_repository.this : {
             source = "config"
             index = team
-          } if config.repository == repository
+          } if lower(config.repository) == repository
         ]
       ])
     ]) : item.index => local.resources[item.source].github_team_repository.this[item.index]
@@ -281,12 +281,12 @@ resource "github_repository_file" "this" {
           for file, config in try(local.resources.state.github_repository_file.this, {}) : {
             source = "state"
             index = file
-          } if config.repository == repository
+          } if lower(config.repository) == repository
         ] : [
           for file, config in local.resources.config.github_repository_file.this : {
             source = try(local.resources.state.github_repository_file.this[file].content, "") == try(config.content, "") ? "state" : "config"
             index = file
-          } if config.repository == repository
+          } if lower(config.repository) == repository
         ]
       ])
     ]) : item.index => local.resources[item.source].github_repository_file.this[item.index]
@@ -319,12 +319,12 @@ resource "github_issue_label" "this" {
           for label, config in try(local.resources.state.github_issue_label.this, {}) : {
             source = "state"
             index = label
-          } if config.repository == repository
+          } if lower(config.repository) == repository
         ] : [
           for label, config in local.resources.config.github_issue_label.this : {
             source = "config"
             index = label
-          } if config.repository == repository
+          } if lower(config.repository) == repository
         ]
       ])
     ]) : item.index => local.resources[item.source].github_issue_label.this[item.index]
