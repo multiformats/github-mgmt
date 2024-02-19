@@ -139,6 +139,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   base-x:
     advanced_security: false
@@ -163,6 +165,7 @@ repositories:
         - w3dt-stewards
       pull:
         - Admin
+        - github-mgmt stewards
         - JavaScript Team
     visibility: public
   c-multihash:
@@ -198,6 +201,7 @@ repositories:
         - w3dt-stewards
       pull:
         - ci
+        - github-mgmt stewards
         - JavaScript Team
     topics:
       - cid
@@ -225,6 +229,7 @@ repositories:
         - w3dt-stewards
       pull:
         - Admin
+        - github-mgmt stewards
         - Go Team
         - JavaScript Team
     topics:
@@ -268,6 +273,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   ex_multihash:
     archived: true
@@ -342,6 +349,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
     visibility: public
@@ -366,6 +375,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
     visibility: public
@@ -391,6 +402,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
     topics:
@@ -421,6 +434,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
     visibility: public
@@ -465,6 +480,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
     visibility: public
@@ -490,6 +507,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
     visibility: public
@@ -537,6 +556,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-multigram:
     advanced_security: false
@@ -557,6 +578,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
     visibility: public
@@ -582,6 +605,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
     visibility: public
@@ -592,9 +617,9 @@ repositories:
     collaborators:
       admin:
         - locotorp
-        - whyrusleeping
       push:
         - web3-bot
+        - whyrusleeping
     default_branch: master
     description: an implementation of the multistream protocol in go
     has_discussions: false
@@ -611,6 +636,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
     visibility: public
@@ -636,6 +663,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
     visibility: public
@@ -672,6 +701,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Java Team
     visibility: public
@@ -700,6 +731,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Java Team
     visibility: public
@@ -728,6 +761,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Java Team
     visibility: public
@@ -766,6 +801,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-cid-tool:
     advanced_security: false
@@ -791,6 +828,7 @@ repositories:
         - w3dt-stewards
       pull:
         - Admin
+        - github-mgmt stewards
       push:
         - JavaScript Team
     visibility: public
@@ -818,6 +856,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - JavaScript Team
     visibility: public
@@ -845,6 +885,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - JavaScript Team
     visibility: public
@@ -872,6 +914,7 @@ repositories:
       pull:
         - Admin
         - ci
+        - github-mgmt stewards
       push:
         - JavaScript Team
     visibility: public
@@ -897,6 +940,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - JavaScript Team
     visibility: public
@@ -916,6 +961,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-multicodec:
     advanced_security: false
@@ -936,6 +984,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - JavaScript Team
     visibility: public
@@ -983,6 +1033,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - JavaScript Team
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-multihash:
     archived: true
@@ -1013,6 +1065,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - JavaScript Team
     visibility: public
@@ -1049,6 +1103,7 @@ repositories:
         - ipdx
         - w3dt-stewards
       pull:
+        - github-mgmt stewards
         - JavaScript Team
     visibility: public
   js-uri-to-multiaddr:
@@ -1076,6 +1131,7 @@ repositories:
       pull:
         - Admin
         - ci
+        - github-mgmt stewards
       push:
         - JavaScript Team
     visibility: public
@@ -1101,6 +1157,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
     visibility: public
@@ -1129,6 +1187,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
         - JavaScript Team
@@ -1152,6 +1212,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
         - JavaScript Team
@@ -1199,6 +1261,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
         - JavaScript Team
@@ -1224,6 +1288,7 @@ repositories:
         - w3dt-stewards
       pull:
         - Contributors
+        - github-mgmt stewards
       push:
         - Go Team
         - JavaScript Team
@@ -1254,6 +1319,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
         - JavaScript Team
@@ -1288,6 +1355,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
         - JavaScript Team
@@ -1312,6 +1381,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Go Team
         - JavaScript Team
@@ -1367,6 +1438,7 @@ repositories:
         - w3dt-stewards
       pull:
         - Admin
+        - github-mgmt stewards
         - Rust Team
     topics:
       - cid
@@ -1431,6 +1503,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Parity Tech
         - Rust Team
@@ -1471,6 +1545,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Parity Tech
         - Rust Team
@@ -1522,6 +1598,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Parity Tech
         - Rust Team
@@ -1566,6 +1644,7 @@ repositories:
         - ipdx
         - w3dt-stewards
       pull:
+        - github-mgmt stewards
         - Go Team
         - JavaScript Team
         - Rust Team
@@ -1596,6 +1675,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   website:
     advanced_security: false
@@ -1625,6 +1706,8 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - ci
     visibility: public
@@ -1632,19 +1715,18 @@ teams:
   Admin:
     description: Should have Admin access on every repo
     members:
-      maintainer:
+      member:
+        - alanshaw
         - aschmahmann
+        - BigLep
         - daviddias
+        - dignifiedquire
+        - hsanjuan
+        - jacobheun
         - jbenet
         - Kubuxu
         - marten-seemann
         - Stebalien
-      member:
-        - alanshaw
-        - BigLep
-        - dignifiedquire
-        - hsanjuan
-        - jacobheun
     privacy: closed
   Alumni:
     privacy: closed
@@ -1657,13 +1739,13 @@ teams:
   C Sharp Team:
     description: How shaaaarp can you seee 🎤
     members:
-      maintainer:
+      member:
         - daviddias
     privacy: closed
   C Team:
     description: This is a low level as it will get
     members:
-      maintainer:
+      member:
         - daviddias
         - Kubuxu
     privacy: closed
@@ -1676,23 +1758,21 @@ teams:
     privacy: closed
   Clojure Team:
     members:
-      maintainer:
-        - daviddias
       member:
+        - daviddias
         - ekroon
         - greglook
     privacy: closed
   Contributors:
     members:
-      maintainer:
-        - daviddias
-        - Kubuxu
       member:
         - adlrocha
         - bigs
+        - daviddias
         - flyingzumwalt
         - hsanjuan
         - kevina
+        - Kubuxu
         - kumavis
         - nicola
         - RichardLitt
@@ -1703,9 +1783,8 @@ teams:
   Elixir Team:
     description: Magic Potions ⚗️
     members:
-      maintainer:
-        - daviddias
       member:
+        - daviddias
         - zabirauf
     privacy: closed
   github-mgmt stewards:
@@ -1747,31 +1826,29 @@ teams:
   Go Team:
     description: Go multiformats people
     members:
-      maintainer:
-        - aschmahmann
-        - Kubuxu
-        - raulk
-        - rvagg
-        - Stebalien
-        - whyrusleeping
       member:
         - aarshkshah1992
+        - aschmahmann
         - hannahhoward
         - hsanjuan
+        - Kubuxu
         - magik6k
         - masih
         - momack2
+        - raulk
         - ribasushi
+        - rvagg
+        - Stebalien
         - vyzo
         - warpfork
+        - whyrusleeping
         - willscott
     privacy: closed
   Haskell Team:
     description: And then I Haskell, what is your favourite 🍨
     members:
-      maintainer:
-        - daviddias
       member:
+        - daviddias
         - lukehoersten
     privacy: closed
   Infra:
@@ -1810,14 +1887,11 @@ teams:
   JavaScript Team:
     description: We asked ourselves, how can we make JavaScript more dynamic..
     members:
-      maintainer:
-        - daviddias
-        - rvagg
-        - vmx
       member:
         - 2color
         - achingbrain
         - alanshaw
+        - daviddias
         - dignifiedquire
         - dryajov
         - fsdiogo
@@ -1835,7 +1909,9 @@ teams:
         - olizilla
         - pkafei
         - richardschneider
+        - rvagg
         - vasco-santos
+        - vmx
         - wanderer
         - wemeetagain
     privacy: closed
@@ -1852,9 +1928,8 @@ teams:
   PHP Team:
     description: "🐘 Personal Home Page "
     members:
-      maintainer:
-        - daviddias
       member:
+        - daviddias
         - Fil
     privacy: closed
   Python Team:
@@ -1878,17 +1953,15 @@ teams:
     description: 🎶 Empenhei o meu anel de rubi.. P'ra te levar ao concerto que
       havia no Rivoli 🎶
     members:
-      maintainer:
+      member:
         - daviddias
     privacy: closed
   Rust Team:
     description: ⚙ The Iron Giant
     members:
-      maintainer:
-        - daviddias
-        - vmx
       member:
         - arkpar
+        - daviddias
         - debris
         - dignifiedquire
         - eira-fransham
@@ -1900,12 +1973,12 @@ teams:
         - rphmeier
         - thomaseizinger
         - tomaka
+        - vmx
     privacy: closed
   Scala Team:
     members:
-      maintainer:
-        - daviddias
       member:
+        - daviddias
         - yusefnapora
     privacy: closed
   Swift Team:
@@ -1918,11 +1991,10 @@ teams:
   w3dt-stewards:
     members:
       maintainer:
-        - aschmahmann
         - BigLep
-        - Stebalien
       member:
         - achingbrain
+        - aschmahmann
         - galargh
         - Jorropo
         - laurentsenta
@@ -1931,6 +2003,7 @@ teams:
         - mxinden
         - p-shahi
         - SgtPooki
+        - Stebalien
         - sukunrt
         - whizzzkid
     privacy: closed
