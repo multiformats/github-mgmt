@@ -76,6 +76,7 @@ jobs:
         run: |
           terraform workspace select "${TF_WORKSPACE_OPT}" || terraform workspace new "${TF_WORKSPACE_OPT}"
           echo "TF_WORKSPACE=${TF_WORKSPACE_OPT}" >> $GITHUB_ENV
+          terraform show -json > $TF_WORKSPACE.tfstate.json
         working-directory: terraform
       - name: Sync
         run: |
