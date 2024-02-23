@@ -2,8 +2,8 @@ import 'reflect-metadata'
 import {Repository} from '../resources/repository'
 import {format} from './shared/format'
 import {setPropertyInAllRepos} from './shared/set-property-in-all-repos'
-import { toggleArchivedRepos } from './shared/toggle-archived-repos'
-import { getAccessSummaryDescription } from './shared/get-access-summary-description'
+import {toggleArchivedRepos} from './shared/toggle-archived-repos'
+import {describeAccessChanges} from './shared/describe-access-changes'
 
 import * as core from '@actions/core'
 
@@ -24,11 +24,21 @@ async function run() {
   
   await toggleArchivedRepos()
   
-  const accessSummaryDescription = await getAccessSummaryDescription()
-  core.setOutput('comment', accessSummaryDescription)
-  
+  const accessChangesDescription = await describeAccessChanges()
+  core.setOutput(
+    'comment',
+    `The following access changes will be introduced as a result of applying the plan:
+
+<details><summary>Access Changes</summary>
+
+\`\`\`
+${accessChangesDescription}
+\`\`\`
+
+</details>`
+  )
+
   await format()
 }
+
 run()
-
-
