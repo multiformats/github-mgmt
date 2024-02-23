@@ -14,10 +14,11 @@ members:
     # 3. general long-standing sysadmin for these organizations with his past roles at PL Inc
     # 4. This isn't andyschwab's day-to-day GitHub account
     - andyschwab-admin
-    # Why @galargh?
-    # 1. co-founder of [IPDX](https://ipdx.co), and IPDX is contracted to look after GitHub for this organization.
+    # Why @galargh and laurentsenta?
+    # 1. co-founders of [IPDX](https://ipdx.co), and IPDX is contracted to look after GitHub for this organization.
     # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org.
     - galargh
+    - laurentsenta
   member:
     - 0xDanomite
     - 2color
@@ -64,7 +65,6 @@ members:
     - kevina
     - Kubuxu
     - kumavis
-    - laurentsenta
     - lidel
     - litzenberger
     - locotorp
@@ -1997,9 +1997,7 @@ teams:
       member:
         - achingbrain
         - aschmahmann
-        - galargh
         - Jorropo
-        - laurentsenta
         - lidel
         - MarcoPolo
         - mxinden
