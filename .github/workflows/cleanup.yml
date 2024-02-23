@@ -27,8 +27,8 @@ defaults:
 jobs:
   sync:
     permissions:
-      contents: read
-    name: Sync
+      contents: write
+    name: Clean Up
     runs-on: ubuntu-latest
     env:
       GITHUB_APP_ID: ${{ secrets.RO_GITHUB_APP_ID }}
@@ -60,6 +60,8 @@ jobs:
       - uses: ./.github/actions/git-config-user
         if: steps.github-modified.outputs.this == 'true'
       - if: steps.github-modified.outputs.this == 'true'
+        env:
+          SUFFIX: cleanup
         run: |
           git add --all -- github
           git commit -m "cleanup@${GITHUB_RUN_ID}"
