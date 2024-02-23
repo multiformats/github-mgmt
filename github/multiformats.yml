@@ -1439,6 +1439,7 @@ repositories:
       pull:
         - Admin
         - github-mgmt stewards
+      push:
         - Rust Team
     topics:
       - cid
@@ -1971,6 +1972,7 @@ teams:
         - mriise
         - mxinden
         - rphmeier
+        - Stebalien
         - thomaseizinger
         - tomaka
         - vmx
