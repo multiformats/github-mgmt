@@ -121,7 +121,7 @@ repositories:
   .github:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - andyschwab
