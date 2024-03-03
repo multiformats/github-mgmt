@@ -1081,7 +1081,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
-    default_branch: master
+    default_branch: main
     description: "Convert a URI to a Multiaddr: https://protocol.ai ->
       /dns4/protocol.ai/tcp/443/https"
     has_discussions: false
@@ -1089,8 +1089,8 @@ repositories:
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
     secret_scanning: true
-    squash_merge_commit_message: PR_BODY
-    squash_merge_commit_title: PR_TITLE
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ip-productivity
