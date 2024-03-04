@@ -124,9 +124,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - Gozala
     default_branch: master
     description: Encode/decode any base
     has_discussions: false
@@ -439,8 +436,6 @@ repositories:
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
-      admin:
-        - jbenet
       push:
         - web3-bot
     default_branch: master
@@ -513,9 +508,7 @@ repositories:
           restrict_dismissals: false
     collaborators:
       admin:
-        - jbenet
         - masih
-        - whyrusleeping
       push:
         - web3-bot
     default_branch: master
@@ -593,11 +586,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - locotorp
       push:
         - web3-bot
-        - whyrusleeping
     default_branch: master
     description: an implementation of the multistream protocol in go
     has_discussions: false
@@ -1144,9 +1134,6 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
-    collaborators:
-      admin:
-        - jbenet
     default_branch: master
     description: Composable and future-proof network addresses
     files:
@@ -1279,9 +1266,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - jbenet
     default_branch: master
     description: Self describing hashes - for future proofing
     has_discussions: false
@@ -1313,10 +1297,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - daviddias
-        - jbenet
     default_branch: master
     description: Friendly protocol negotiation. It enables a multicodec to be
       negotiated between two entities.
@@ -1636,9 +1616,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - jbenet
     default_branch: master
     description: unsigned varint in use in multiformat specs
     has_discussions: false
@@ -1663,13 +1640,9 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - alanshaw
         - olizilla
       push:
-        - andrew
-        - jesseclay
         - jessicaschilling
-        - richsilv
     default_branch: master
     description: The multiformats website
     has_discussions: false
@@ -1708,63 +1681,63 @@ teams:
         - Stebalien
     privacy: closed
   Alumni:
-    privacy: closed
-  Bots:
-    description: Admin access for bots in repos that need it
-    members:
-      member:
-        - locotorp
-    privacy: closed
-  C Sharp Team:
-    description: How shaaaarp can you seee 🎤
-    members:
-      member:
-        - daviddias
-    privacy: closed
-  C Team:
-    description: This is a low level as it will get
-    members:
-      member:
-        - daviddias
-        - Kubuxu
-    privacy: closed
-  ci:
-    description: ci
-    members:
-      member:
-        - ipfsbot
-        - locotorp
-    privacy: closed
-  Clojure Team:
-    members:
-      member:
-        - daviddias
-        - ekroon
-        - greglook
-    privacy: closed
-  Contributors:
     members:
       member:
         - adlrocha
-        - bigs
-        - daviddias
+        - alexh
+        - amstocker
+        - arkpar
+        - celeduc
+        - cloutiertyler
+        - debris
+        - dryajov
+        - eira-fransham
+        - ekroon
+        - Fil
         - flyingzumwalt
-        - hsanjuan
+        - fredthomsen
+        - fsdiogo
+        - greglook
+        - haadcode
+        - ipfsbot
+        - jbenetsafer
+        - jesseclay
         - kevina
-        - Kubuxu
-        - kumavis
+        - litzenberger
+        - lukehoersten
+        - MCGPPeters
+        - michaelavila
+        - momack2
+        - NeoTeo
         - nicola
-        - RichardLitt
+        - pkafei
+        - rphmeier
+        - sbuss
+        - stuckinaboot
+        - tinytb
+        - TKorr
+        - travisperson
         - victorb
         - wanderer
-        - willscott
+    privacy: closed
+  Bots:
+    description: Admin access for bots in repos that need it
+    privacy: closed
+  C Sharp Team:
+    description: How shaaaarp can you seee 🎤
+    privacy: closed
+  C Team:
+    description: This is a low level as it will get
+    privacy: closed
+  ci:
+    description: ci
+    privacy: closed
+  Clojure Team:
+    privacy: closed
+  Contributors:
     privacy: closed
   Elixir Team:
     description: Magic Potions ⚗️
-    members:
-      member:
-        - daviddias
-        - zabirauf
     privacy: closed
   github-mgmt stewards:
     # Notes: 
@@ -1813,7 +1786,6 @@ teams:
         - Kubuxu
         - magik6k
         - masih
-        - momack2
         - raulk
         - ribasushi
         - rvagg
@@ -1825,10 +1797,6 @@ teams:
     privacy: closed
   Haskell Team:
     description: And then I Haskell, what is your favourite 🍨
-    members:
-      member:
-        - daviddias
-        - lukehoersten
     privacy: closed
   Infra:
     description: https://github.com/protocol/infra-team/
@@ -1851,16 +1819,11 @@ teams:
       maintainer:
         - lidel
         - SgtPooki
-      member:
-        - whizzzkid
     privacy: closed
   Java Team:
     description: Java Java Java Java Java ☕️
     members:
-      maintainer:
-        - raulk
       member:
-        - celeduc
         - ianopolous
     privacy: closed
   JavaScript Team:
@@ -1872,101 +1835,55 @@ teams:
         - alanshaw
         - daviddias
         - dignifiedquire
-        - dryajov
-        - fsdiogo
         - Gozala
-        - haadcode
         - hacdias
         - hugomrdias
         - jacobheun
         - kumavis
         - lidel
-        - litzenberger
         - mcollina
-        - momack2
         - mpetrunic
         - olizilla
-        - pkafei
         - richardschneider
         - rvagg
         - vasco-santos
         - vmx
-        - wanderer
         - wemeetagain
     privacy: closed
   Parity Tech:
     members:
       maintainer:
         - tomaka
-      member:
-        - arkpar
-        - debris
-        - eira-fransham
-        - rphmeier
     privacy: closed
   PHP Team:
     description: "🐘 Personal Home Page "
-    members:
-      member:
-        - daviddias
-        - Fil
     privacy: closed
   Python Team:
     description: Enchanters of cobras 🐍
-    members:
-      maintainer:
-        - raulk
-      member:
-        - alexh
-        - amstocker
-        - dhruvbaldawa
-        - fredthomsen
-        - mhchia
-        - robzajac
-        - sbuss
-        - stuckinaboot
-        - TKorr
-        - zixuanzh
     privacy: closed
   Ruby Team:
     description: 🎶 Empenhei o meu anel de rubi.. P'ra te levar ao concerto que
       havia no Rivoli 🎶
-    members:
-      member:
-        - daviddias
     privacy: closed
   Rust Team:
     description: ⚙ The Iron Giant
     members:
       member:
-        - arkpar
         - daviddias
-        - debris
         - dignifiedquire
-        - eira-fransham
         - elenaf9
         - Gozala
-        - MarcoPolo
         - mriise
         - mxinden
-        - rphmeier
         - Stebalien
         - thomaseizinger
         - tomaka
         - vmx
     privacy: closed
   Scala Team:
-    members:
-      member:
-        - daviddias
-        - yusefnapora
     privacy: closed
   Swift Team:
     description: 🦅
-    members:
-      member:
-        - cloutiertyler
-        - NeoTeo
     privacy: closed
   w3dt-stewards:
     members:
