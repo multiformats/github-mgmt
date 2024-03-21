@@ -819,8 +819,15 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - Admin
+        - ip-productivity
+        - ipdx
+        - w3dt-stewards
       pull:
         - github-mgmt stewards
+      push:
+        - JavaScript Team
     visibility: public
   js-mafmt:
     advanced_security: false
