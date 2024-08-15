@@ -154,9 +154,9 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - 2color
         - lidel
         - olizilla
-        - 2color
       push:
         - hacdias
         - jessicaschilling
