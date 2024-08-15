@@ -156,6 +156,7 @@ repositories:
       admin:
         - lidel
         - olizilla
+        - 2color
       push:
         - hacdias
         - jessicaschilling
