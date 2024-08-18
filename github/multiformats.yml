@@ -157,9 +157,6 @@ repositories:
         - 2color
         - lidel
         - olizilla
-      push:
-        - hacdias
-        - jessicaschilling
     default_branch: master
     description: A website for decoding CIDs
     has_discussions: false
