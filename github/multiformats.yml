@@ -1180,10 +1180,10 @@ repositories:
         - w3dt-stewards
       pull:
         - github-mgmt stewards
-        - ipfs-tech
       push:
         - Go Team
         - JavaScript Team
+        - ipfs-tech
     visibility: public
   multibase:
     advanced_security: false
@@ -1851,6 +1851,12 @@ teams:
         - lidel
         - SgtPooki
     privacy: closed
+  ipfs-tech:
+    description: IPFS Foundation spec and registry maintenance crew
+      member:
+        - bumblefudge
+        - darobin
+        - mishmosh
   Java Team:
     description: Java Java Java Java Java ☕️
     members:
