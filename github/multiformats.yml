@@ -1203,8 +1203,8 @@ repositories:
         - Admin
         - ip-productivity
         - ipdx
-        - w3dt-stewards
         - ipfs-tech
+        - w3dt-stewards
       pull:
         - github-mgmt stewards
       push:
@@ -1253,8 +1253,8 @@ repositories:
         - Admin
         - ip-productivity
         - ipdx
-        - w3dt-stewards
         - ipfs-tech
+        - w3dt-stewards
       pull:
         - github-mgmt stewards
       push:
@@ -1279,8 +1279,8 @@ repositories:
         - Admin
         - ip-productivity
         - ipdx
-        - w3dt-stewards
         - ipfs-tech
+        - w3dt-stewards
       pull:
         - Contributors
         - github-mgmt stewards
@@ -1631,8 +1631,8 @@ repositories:
         - Admin
         - ip-productivity
         - ipdx
-        - w3dt-stewards
         - ipfs-tech
+        - w3dt-stewards
       pull:
         - github-mgmt stewards
         - Go Team
@@ -1688,8 +1688,8 @@ repositories:
         - Admin
         - ip-productivity
         - ipdx
-        - w3dt-stewards
         - ipfs-tech
+        - w3dt-stewards
       pull:
         - github-mgmt stewards
       push:
