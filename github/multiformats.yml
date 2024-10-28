@@ -1180,6 +1180,7 @@ repositories:
         - w3dt-stewards
       pull:
         - github-mgmt stewards
+        - ipfs-tech
       push:
         - Go Team
         - JavaScript Team
@@ -1203,6 +1204,7 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+        - ipfs-tech
       pull:
         - github-mgmt stewards
       push:
@@ -1252,6 +1254,7 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+        - ipfs-tech
       pull:
         - github-mgmt stewards
       push:
@@ -1277,6 +1280,7 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+        - ipfs-tech
       pull:
         - Contributors
         - github-mgmt stewards
@@ -1628,6 +1632,7 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+        - ipfs-tech
       pull:
         - github-mgmt stewards
         - Go Team
@@ -1684,6 +1689,7 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
+        - ipfs-tech
       pull:
         - github-mgmt stewards
       push:
