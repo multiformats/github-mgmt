@@ -1203,12 +1203,12 @@ repositories:
         - Admin
         - ip-productivity
         - ipdx
-        - ipfs-tech
         - w3dt-stewards
       pull:
         - github-mgmt stewards
       push:
         - Go Team
+        - ipfs-tech
         - JavaScript Team
     visibility: public
   multicodec:
@@ -1253,12 +1253,12 @@ repositories:
         - Admin
         - ip-productivity
         - ipdx
-        - ipfs-tech
         - w3dt-stewards
       pull:
         - github-mgmt stewards
       push:
         - Go Team
+        - ipfs-tech
         - JavaScript Team
     visibility: public
   multiformats:
@@ -1279,13 +1279,13 @@ repositories:
         - Admin
         - ip-productivity
         - ipdx
-        - ipfs-tech
         - w3dt-stewards
       pull:
         - Contributors
         - github-mgmt stewards
       push:
         - Go Team
+        - ipfs-tech
         - JavaScript Team
     visibility: public
   multigram:
@@ -1631,13 +1631,14 @@ repositories:
         - Admin
         - ip-productivity
         - ipdx
-        - ipfs-tech
         - w3dt-stewards
       pull:
         - github-mgmt stewards
         - Go Team
         - JavaScript Team
         - Rust Team
+      push:
+        - ipfs-tech
     visibility: public
   SwiftMultiaddr:
     archived: true
