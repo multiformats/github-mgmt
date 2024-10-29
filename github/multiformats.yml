@@ -1182,8 +1182,8 @@ repositories:
         - github-mgmt stewards
       push:
         - Go Team
-        - JavaScript Team
         - ipfs-tech
+        - JavaScript Team
     visibility: public
   multibase:
     advanced_security: false
