@@ -1854,7 +1854,8 @@ teams:
     privacy: closed
   ipfs-tech:
     description: IPFS Foundation spec and registry maintenance crew
-      member:
+    members:
+      maintainer:
         - bumblefudge
         - darobin
         - mishmosh
