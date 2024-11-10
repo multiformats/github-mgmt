@@ -32,7 +32,6 @@ members:
     - aschmahmann
     - BigLep
     - bigs
-    - bumblefudge
     - celeduc
     - cloutiertyler
     - darobin
@@ -80,7 +79,6 @@ members:
     - mcollina
     - mhchia
     - michaelavila
-    - mishmosh
     - momack2
     - mpetrunic
     - mriise
@@ -1860,9 +1858,7 @@ teams:
     description: IPFS Foundation spec and registry maintenance crew
     members:
       maintainer:
-        - bumblefudge
         - darobin
-        - mishmosh
     privacy: secret
   Java Team:
     description: Java Java Java Java Java ☕️
