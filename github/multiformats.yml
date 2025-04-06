@@ -157,7 +157,7 @@ repositories:
         - 2color
         - lidel
         - olizilla
-    default_branch: master
+    default_branch: main
     description: A website for decoding CIDs
     has_discussions: false
     merge_commit_message: PR_TITLE
