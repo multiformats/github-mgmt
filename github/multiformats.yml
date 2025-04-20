@@ -100,7 +100,7 @@ members:
     - stuckinaboot
     - sukunrt
     - thomaseizinger
-    - tinytb
+    - TinyTb
     - TKorr
     - tomaka
     - travisperson
@@ -1745,7 +1745,7 @@ teams:
         - rphmeier
         - sbuss
         - stuckinaboot
-        - tinytb
+        - TinyTb
         - TKorr
         - travisperson
         - victorb
@@ -1852,7 +1852,6 @@ teams:
         - SgtPooki
     privacy: closed
   ipfs-tech:
-    create_default_maintainer: false
     description: IPFS Foundation spec and registry maintenance crew
     members:
       maintainer:
