@@ -779,8 +779,7 @@ repositories:
       admin:
         - alanshaw
     default_branch: master
-    description: A module and command line tool for converting, formatting and
-      discovering properties of CIDs
+    description: A module and command line tool for converting, formatting and discovering properties of CIDs
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -946,8 +945,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: main
-    description: "@multiformats/multicodec-table a JavaScript form of the current
-      multicodec table"
+    description: "@multiformats/multicodec-table a JavaScript form of the current multicodec table"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1108,8 +1106,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    description: "Convert a URI to a Multiaddr: https://protocol.ai ->
-      /dns4/protocol.ai/tcp/443/https"
+    description: "Convert a URI to a Multiaddr: https://protocol.ai -> /dns4/protocol.ai/tcp/443/https"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1235,8 +1232,7 @@ repositories:
             - validate
           strict: true
     default_branch: master
-    description: Compact self-describing codecs. Save space by using predefined
-      multicodec tables.
+    description: Compact self-describing codecs. Save space by using predefined multicodec tables.
     files:
       CODEOWNERS:
         content: |
@@ -1328,8 +1324,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: master
-    description: Friendly protocol negotiation. It enables a multicodec to be
-      negotiated between two entities.
+    description: Friendly protocol negotiation. It enables a multicodec to be negotiated between two entities.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1354,8 +1349,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: master
-    description: Make data and streams self-described by prefixing them with human
-      readable codecs.
+    description: Make data and streams self-described by prefixing them with human readable codecs.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1898,8 +1892,7 @@ teams:
     description: Enchanters of cobras 🐍
     privacy: closed
   Ruby Team:
-    description: 🎶 Empenhei o meu anel de rubi.. P'ra te levar ao concerto que
-      havia no Rivoli 🎶
+    description: 🎶 Empenhei o meu anel de rubi.. P'ra te levar ao concerto que havia no Rivoli 🎶
     privacy: closed
   Rust Team:
     description: ⚙ The Iron Giant
