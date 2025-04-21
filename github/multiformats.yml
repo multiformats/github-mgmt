@@ -125,6 +125,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Encode/decode any base
     has_discussions: false
@@ -157,6 +160,8 @@ repositories:
         - 2color
         - lidel
         - olizilla
+      push:
+        - web3-bot
     default_branch: main
     description: A website for decoding CIDs
     has_discussions: false
@@ -187,6 +192,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Self-describing content-addressed identifiers for distributed systems
     has_discussions: false
@@ -232,6 +240,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Multiformats documentation website
     has_discussions: false
@@ -276,6 +287,9 @@ repositories:
           contexts:
             - Comment
           strict: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     files:
       CODEOWNERS:
@@ -533,6 +547,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Go implementation of multigram
     has_discussions: false
@@ -650,6 +667,7 @@ repositories:
         - ianopolous
       push:
         - kevodwyer
+        - web3-bot
     default_branch: master
     description: Java implementation of multiaddr
     files:
@@ -680,6 +698,8 @@ repositories:
     collaborators:
       admin:
         - ianopolous
+      push:
+        - web3-bot
     default_branch: master
     description: A Java implementation of multibase
     files:
@@ -710,6 +730,8 @@ repositories:
     collaborators:
       admin:
         - ianopolous
+      push:
+        - web3-bot
     default_branch: master
     description: A Java implementation of Multihash
     files:
@@ -740,6 +762,8 @@ repositories:
     collaborators:
       admin:
         - rvagg
+      push:
+        - web3-bot
     default_branch: master
     description: BLAKE2 multihash hashers for JavaScript multiformats
     files:
@@ -778,6 +802,8 @@ repositories:
     collaborators:
       admin:
         - alanshaw
+      push:
+        - web3-bot
     default_branch: master
     description: A module and command line tool for converting, formatting and discovering properties of CIDs
     has_discussions: false
@@ -807,6 +833,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: main
     description: Resolve DNS queries with browser fallback
     has_discussions: false
@@ -944,6 +972,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: "@multiformats/multicodec-table a JavaScript form of the current multicodec table"
     has_discussions: false
@@ -961,6 +992,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: JavaScript implementation of the multicodec specification
     has_discussions: false
@@ -1066,6 +1100,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: "Multiformats hash functions for SHA3 "
     files:
@@ -1157,6 +1194,9 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Composable and future-proof network addresses
     files:
@@ -1186,6 +1226,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Self identifying base encodings
     has_discussions: true
@@ -1231,6 +1274,9 @@ repositories:
           contexts:
             - validate
           strict: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Compact self-describing codecs. Save space by using predefined multicodec tables.
     files:
@@ -1261,6 +1307,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: The main repository for discussing multiformats.
     has_discussions: true
@@ -1292,6 +1341,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Self describing hashes - for future proofing
     has_discussions: false
@@ -1323,6 +1375,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Friendly protocol negotiation. It enables a multicodec to be negotiated between two entities.
     has_discussions: false
@@ -1348,6 +1403,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Make data and streams self-described by prefixing them with human readable codecs.
     has_discussions: false
@@ -1388,6 +1446,8 @@ repositories:
     collaborators:
       admin:
         - dignifiedquire
+      push:
+        - web3-bot
       triage:
         - dvc94ch
     default_branch: master
@@ -1457,6 +1517,8 @@ repositories:
     collaborators:
       admin:
         - dignifiedquire
+      push:
+        - web3-bot
     default_branch: master
     description: multiaddr implementation in rust
     files:
@@ -1499,6 +1561,8 @@ repositories:
     collaborators:
       admin:
         - dignifiedquire
+      push:
+        - web3-bot
     default_branch: master
     description: Multibase in rust
     files:
@@ -1549,6 +1613,8 @@ repositories:
     collaborators:
       admin:
         - dignifiedquire
+      push:
+        - web3-bot
       triage:
         - dvc94ch
         - rklaehn
@@ -1611,6 +1677,9 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Specification work regarding multihash, multiaddr, and others
     has_discussions: false
@@ -1642,6 +1711,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: unsigned varint in use in multiformat specs
     has_discussions: false
@@ -1669,6 +1741,7 @@ repositories:
         - olizilla
       push:
         - jessicaschilling
+        - web3-bot
     default_branch: master
     description: The multiformats website
     has_discussions: false
