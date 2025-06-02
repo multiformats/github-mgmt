@@ -1434,6 +1434,7 @@ repositories:
     archived: false
     collaborators:
       push:
+        - sbuss
         - web3-bot
     default_branch: master
     description: multiaddr implementation in Python
