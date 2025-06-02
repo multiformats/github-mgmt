@@ -1430,24 +1430,39 @@ repositories:
     archived: true
   py-multiaddr:
     advanced_security: false
-    allow_update_branch: true
+    allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - sbuss
+        - web3-bot
+    default_branch: master
     description: multiaddr implementation in Python
     has_discussions: false
-    default_branch: master
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
+    secret_scanning_push_protection: false
+    secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
+        - ip-productivity
+        - ipdx
         - Python Team
-    visibility: public
+        - w3dt-stewards
+      pull:
+        - Admin
+        - github-mgmt stewards
+      push:
+        - Python Team
     topics:
-      - multiaddr
+      - ipfs
+      - libp2p
+      - multiformats
+      - network
       - python
+    visibility: public
   py-multibase:
     archived: true
   py-multicodec:
