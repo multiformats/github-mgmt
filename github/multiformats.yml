@@ -1430,7 +1430,7 @@ repositories:
     archived: true
   py-multiaddr:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -1449,12 +1449,11 @@ repositories:
       admin:
         - ip-productivity
         - ipdx
-        - Python Team
         - w3dt-stewards
       pull:
         - Admin
         - github-mgmt stewards
-      push:
+      maintain:
         - Python Team
     topics:
       - ipfs
