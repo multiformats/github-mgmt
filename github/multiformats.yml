@@ -1434,7 +1434,6 @@ repositories:
     archived: false
     collaborators:
       push:
-        - sbuss
         - web3-bot
     default_branch: master
     description: multiaddr implementation in Python
@@ -1450,8 +1449,6 @@ repositories:
         - ip-productivity
         - ipdx
         - w3dt-stewards
-      maintain:
-        - Python Team
       pull:
         - Admin
         - github-mgmt stewards
