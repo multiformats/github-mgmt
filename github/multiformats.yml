@@ -993,32 +993,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
   js-multicodec:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: JavaScript implementation of the multicodec specification
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-      push:
-        - JavaScript Team
-    visibility: public
+    archived: true
   js-multiformats:
     advanced_security: false
     allow_update_branch: true
