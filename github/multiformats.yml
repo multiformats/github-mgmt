@@ -1000,7 +1000,7 @@ repositories:
     archived: false
     collaborators:
       push:
-        - patrickwoodhead
+        - geomatrick
         - RangerMauve
         - web3-bot
     default_branch: master
