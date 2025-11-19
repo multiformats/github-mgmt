@@ -1447,20 +1447,23 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - dhruvbaldawa
       push:
         - sbuss
         - web3-bot
     default_branch: master
-    description: multiaddr implementation in Python
+    description: Multibase implementation in Python
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
+    secret_scanning_push_protection: false
+    secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
+        - Admin
         - ip-productivity
         - ipdx
         - w3dt-stewards
@@ -1468,32 +1471,29 @@ repositories:
         - github-mgmt stewards
       push:
         - Python Team
-    topics:
-      - ipfs
-      - libp2p
-      - multiformats
-      - network
-      - python
     visibility: public
   py-multicodec:
     advanced_security: false
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - dhruvbaldawa
       push:
         - sbuss
         - web3-bot
     default_branch: master
-    description: multiaddr implementation in Python
+    description: Multicodec implementation in Python
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
+    secret_scanning_push_protection: false
+    secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
+        - Admin
         - ip-productivity
         - ipdx
         - w3dt-stewards
@@ -1501,28 +1501,24 @@ repositories:
         - github-mgmt stewards
       push:
         - Python Team
-    topics:
-      - ipfs
-      - libp2p
-      - multiformats
-      - network
-      - python
     visibility: public
   py-multihash:
     advanced_security: false
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - dhruvbaldawa
       push:
         - sbuss
         - web3-bot
     default_branch: master
-    description: multiaddr implementation in Python
+    description: Multihash implementation in Python
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
+    secret_scanning_push_protection: false
+    secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
@@ -1534,12 +1530,6 @@ repositories:
         - github-mgmt stewards
       push:
         - Python Team
-    topics:
-      - ipfs
-      - libp2p
-      - multiformats
-      - network
-      - python
     visibility: public
   ruby-multihash:
     archived: true
