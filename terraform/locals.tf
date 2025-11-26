@@ -173,7 +173,7 @@ locals {
     "github_repository" = {
       for item in [
         for repository, config in local.sources.config.github_repository.this :
-        try(config.archived, false) ? {
+        try(config.archived, false) && try(contains(keys(local.sources.state.github_repository.this), repository), false) ? {
           source   = "state"
           index    = repository
           archived = config.archived
