@@ -151,6 +151,7 @@ repositories:
         - github-mgmt stewards
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   c-multihash:
     archived: true
   c-multihashing:
@@ -192,6 +193,7 @@ repositories:
       - dag-pb
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   cid:
     advanced_security: false
     allow_update_branch: false
@@ -224,6 +226,7 @@ repositories:
       - ipld
       - multiformats
     visibility: public
+    web_commit_signoff_required: false
   clj-multihash:
     archived: true
   clj-multistream:
@@ -265,6 +268,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   ex_multihash:
     archived: true
   github-mgmt:
@@ -278,6 +282,8 @@ repositories:
         allows_force_pushes: false
         blocks_creations: false
         enforce_admins: false
+        force_push_bypassers:
+          - /galargh
         lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
@@ -285,6 +291,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -320,6 +327,7 @@ repositories:
     topics:
       - ipdx
     visibility: public
+    web_commit_signoff_required: false
   go-base32:
     advanced_security: false
     allow_update_branch: false
@@ -346,6 +354,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-base36:
     advanced_security: false
     allow_update_branch: false
@@ -372,6 +381,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-multiaddr-dns:
     advanced_security: false
     allow_update_branch: false
@@ -405,6 +415,7 @@ repositories:
       - multiaddr
       - resolve
     visibility: public
+    web_commit_signoff_required: false
   go-multiaddr-fmt:
     advanced_security: false
     allow_update_branch: false
@@ -431,6 +442,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-multiaddr-net:
     archived: true
   go-multiaddr:
@@ -450,6 +462,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
@@ -475,6 +488,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-multibase:
     advanced_security: false
     allow_update_branch: false
@@ -502,6 +516,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-multicodec-packed:
     archived: true
   go-multicodec:
@@ -521,6 +536,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
@@ -547,6 +563,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   go-multigram:
     advanced_security: false
     allow_update_branch: false
@@ -574,6 +591,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-multihash:
     advanced_security: false
     allow_update_branch: false
@@ -601,6 +619,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-multistream:
     advanced_security: false
     allow_update_branch: false
@@ -629,6 +648,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-varint:
     advanced_security: false
     allow_update_branch: false
@@ -656,6 +676,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   haskell-multibase:
     archived: true
   haskell-multicodec:
@@ -695,6 +716,7 @@ repositories:
       push:
         - Java Team
     visibility: public
+    web_commit_signoff_required: false
   java-multibase:
     advanced_security: false
     allow_update_branch: false
@@ -727,6 +749,7 @@ repositories:
       push:
         - Java Team
     visibility: public
+    web_commit_signoff_required: false
   java-multihash:
     advanced_security: false
     allow_update_branch: false
@@ -759,6 +782,7 @@ repositories:
       push:
         - Java Team
     visibility: public
+    web_commit_signoff_required: false
   js-blake2:
     advanced_security: false
     allow_update_branch: false
@@ -799,6 +823,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   js-cid-tool:
     advanced_security: false
     allow_update_branch: false
@@ -828,6 +853,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-cid:
     archived: true
   js-dns:
@@ -859,6 +885,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-mafmt:
     advanced_security: false
     allow_update_branch: false
@@ -886,6 +913,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-multiaddr-matcher:
     advanced_security: false
     allow_update_branch: true
@@ -915,6 +943,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-multiaddr-to-uri:
     advanced_security: false
     allow_update_branch: true
@@ -943,6 +972,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-multiaddr:
     advanced_security: false
     allow_update_branch: true
@@ -970,6 +1000,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-multibase:
     archived: true
   js-multicodec-table:
@@ -992,6 +1023,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   js-multicodec:
     archived: true
   js-multiformats:
@@ -1041,6 +1073,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   js-multihash:
     archived: true
   js-multihashing-async:
@@ -1075,6 +1108,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-sha3:
     advanced_security: false
     allow_update_branch: false
@@ -1114,6 +1148,7 @@ repositories:
         - github-mgmt stewards
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-uri-to-multiaddr:
     advanced_security: false
     allow_update_branch: false
@@ -1142,6 +1177,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   ma-pipe:
     advanced_security: false
     allow_update_branch: false
@@ -1169,6 +1205,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   multiaddr:
     advanced_security: false
     allow_update_branch: true
@@ -1201,6 +1238,7 @@ repositories:
         - ipfs-tech
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   multibase:
     advanced_security: false
     allow_update_branch: false
@@ -1230,6 +1268,7 @@ repositories:
         - ipfs-tech
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   multicodec:
     advanced_security: false
     allow_update_branch: true
@@ -1247,6 +1286,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: true
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -1282,6 +1322,7 @@ repositories:
         - ipfs-tech
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   multiformats:
     advanced_security: false
     allow_update_branch: false
@@ -1312,6 +1353,7 @@ repositories:
         - ipfs-tech
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   multigram:
     archived: true
   MultiHash.Net:
@@ -1350,6 +1392,7 @@ repositories:
       - protocol
       - varint
     visibility: public
+    web_commit_signoff_required: false
   multistream-select:
     advanced_security: false
     allow_update_branch: false
@@ -1378,6 +1421,7 @@ repositories:
         - Go Team
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   multistream:
     advanced_security: false
     allow_update_branch: false
@@ -1406,6 +1450,7 @@ repositories:
         - Go Team
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   php-multihash:
     archived: true
   py-multiaddr:
@@ -1442,6 +1487,7 @@ repositories:
       - network
       - python
     visibility: public
+    web_commit_signoff_required: false
   py-multibase:
     advanced_security: false
     allow_update_branch: false
@@ -1457,8 +1503,8 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
+    secret_scanning_push_protection: false
+    secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
@@ -1472,6 +1518,7 @@ repositories:
       push:
         - Python Team
     visibility: public
+    web_commit_signoff_required: false
   py-multicodec:
     advanced_security: false
     allow_update_branch: false
@@ -1487,8 +1534,8 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
+    secret_scanning_push_protection: false
+    secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
@@ -1502,6 +1549,7 @@ repositories:
       push:
         - Python Team
     visibility: public
+    web_commit_signoff_required: false
   py-multihash:
     advanced_security: false
     allow_update_branch: false
@@ -1517,8 +1565,8 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
+    secret_scanning_push_protection: false
+    secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
@@ -1531,6 +1579,7 @@ repositories:
       push:
         - Python Team
     visibility: public
+    web_commit_signoff_required: false
   ruby-multihash:
     archived: true
   rust-cid:
@@ -1585,6 +1634,7 @@ repositories:
       - rust-cid
       - rust
     visibility: public
+    web_commit_signoff_required: false
   rust-multiaddr:
     advanced_security: false
     allow_update_branch: false
@@ -1602,6 +1652,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -1648,6 +1699,7 @@ repositories:
         - Parity Tech
         - Rust Team
     visibility: public
+    web_commit_signoff_required: false
   rust-multibase:
     advanced_security: false
     allow_update_branch: false
@@ -1700,6 +1752,7 @@ repositories:
       - multiformats
       - rust
     visibility: public
+    web_commit_signoff_required: false
   rust-multihash:
     advanced_security: false
     allow_update_branch: false
@@ -1753,6 +1806,7 @@ repositories:
       - multiformats
       - rust
     visibility: public
+    web_commit_signoff_required: false
   scala-multihash:
     archived: true
   specs:
@@ -1771,6 +1825,10 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
+        restrict_pushes:
+          - blocks_creations: false
+            push_allowances:
+              - multiformats/admin
     collaborators:
       push:
         - web3-bot
@@ -1797,6 +1855,7 @@ repositories:
       push:
         - ipfs-tech
     visibility: public
+    web_commit_signoff_required: false
   SwiftMultiaddr:
     archived: true
   SwiftMultihash:
@@ -1826,6 +1885,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   website:
     advanced_security: false
     allow_update_branch: false
@@ -1857,8 +1917,10 @@ repositories:
       push:
         - ci
     visibility: public
+    web_commit_signoff_required: false
 teams:
   Admin:
+    create_default_maintainer: false
     description: Should have Admin access on every repo
     members:
       member:
@@ -1875,6 +1937,7 @@ teams:
         - Stebalien
     privacy: closed
   Alumni:
+    create_default_maintainer: false
     members:
       member:
         - adlrocha
@@ -1912,22 +1975,29 @@ teams:
         - wanderer
     privacy: closed
   Bots:
+    create_default_maintainer: false
     description: Admin access for bots in repos that need it
     privacy: closed
   C Sharp Team:
+    create_default_maintainer: false
     description: How shaaaarp can you seee 🎤
     privacy: closed
   C Team:
+    create_default_maintainer: false
     description: This is a low level as it will get
     privacy: closed
   ci:
+    create_default_maintainer: false
     description: ci
     privacy: closed
   Clojure Team:
+    create_default_maintainer: false
     privacy: closed
   Contributors:
+    create_default_maintainer: false
     privacy: closed
   Elixir Team:
+    create_default_maintainer: false
     description: Magic Potions ⚗️
     privacy: closed
   github-mgmt stewards:
@@ -1939,6 +2009,7 @@ teams:
     # 3. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
     # 4. Leaning on "github-mgmt stewards" for day-to-day admin over true org owners was done
     #    as part of the effort to reduce org owners in https://github.com/ipfs/ipfs/issues/511
+    create_default_maintainer: false
     description: Users that are effectively org admins
     members:
       # WARN: membership here should be treated as cautiously as having an "org owner" role,
@@ -1967,6 +2038,7 @@ teams:
         - vmx
     privacy: closed
   Go Team:
+    create_default_maintainer: false
     description: Go multiformats people
     members:
       member:
@@ -1987,24 +2059,31 @@ teams:
         - willscott
     privacy: closed
   Haskell Team:
+    create_default_maintainer: false
     description: And then I Haskell, what is your favourite 🍨
     privacy: closed
   Infra:
+    create_default_maintainer: false
     description: https://github.com/protocol/infra-team/
     privacy: closed
   ip-productivity:
+    create_default_maintainer: false
     members:
       maintainer:
         - galargh
+    parent_team_id: w3dt-stewards
     privacy: closed
   ipdx:
+    create_default_maintainer: false
     members:
       maintainer:
         - galargh
       member:
         - laurentsenta
+    parent_team_id: w3dt-stewards
     privacy: closed
   ipfs-gui:
+    create_default_maintainer: false
     description: IPFS GUI Team
     members:
       maintainer:
@@ -2012,18 +2091,21 @@ teams:
         - SgtPooki
     privacy: closed
   ipfs-tech:
+    create_default_maintainer: false
     description: IPFS Foundation spec and registry maintenance crew
     members:
       maintainer:
         - darobin
     privacy: secret
   Java Team:
+    create_default_maintainer: false
     description: Java Java Java Java Java ☕️
     members:
       member:
         - ianopolous
     privacy: closed
   JavaScript Team:
+    create_default_maintainer: false
     description: We asked ourselves, how can we make JavaScript more dynamic..
     members:
       member:
@@ -2047,14 +2129,17 @@ teams:
         - wemeetagain
     privacy: closed
   Parity Tech:
+    create_default_maintainer: false
     members:
       maintainer:
         - tomaka
     privacy: closed
   PHP Team:
+    create_default_maintainer: false
     description: "🐘 Personal Home Page "
     privacy: closed
   Python Team:
+    create_default_maintainer: false
     description: Enchanters of cobras 🐍
     members:
       member:
@@ -2065,9 +2150,11 @@ teams:
         - seetadev
     privacy: closed
   Ruby Team:
+    create_default_maintainer: false
     description: 🎶 Empenhei o meu anel de rubi.. P'ra te levar ao concerto que havia no Rivoli 🎶
     privacy: closed
   Rust Team:
+    create_default_maintainer: false
     description: ⚙ The Iron Giant
     members:
       member:
@@ -2085,11 +2172,14 @@ teams:
         - vmx
     privacy: closed
   Scala Team:
+    create_default_maintainer: false
     privacy: closed
   Swift Team:
+    create_default_maintainer: false
     description: 🦅
     privacy: closed
   w3dt-stewards:
+    create_default_maintainer: false
     members:
       maintainer:
         - BigLep
