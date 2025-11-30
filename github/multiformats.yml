@@ -1555,8 +1555,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - dhruvbaldawa
       push:
         - sbuss
         - web3-bot
