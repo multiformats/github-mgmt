@@ -156,44 +156,6 @@ repositories:
     archived: true
   c-multihashing:
     archived: true
-  cid-utils-website:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - 2color
-        - lidel
-        - olizilla
-      push:
-        - web3-bot
-    default_branch: main
-    description: A website for decoding CIDs
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - ipfs-gui
-        - w3dt-stewards
-      pull:
-        - ci
-        - github-mgmt stewards
-        - JavaScript Team
-    topics:
-      - cid
-      - content-addressing
-      - dag-pb
-      - ipfs
-    visibility: public
-    web_commit_signoff_required: false
   cid:
     advanced_security: false
     allow_update_branch: false
@@ -1893,37 +1855,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   website:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - olizilla
-      push:
-        - jessicaschilling
-        - web3-bot
-    default_branch: master
-    description: The multiformats website
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - ip-productivity
-        - ipdx
-        - ipfs-tech
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-      push:
-        - ci
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
 teams:
   Admin:
     create_default_maintainer: false
