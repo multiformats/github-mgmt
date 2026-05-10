@@ -143,7 +143,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -174,7 +173,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -224,7 +222,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -308,7 +305,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -335,7 +331,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -363,7 +358,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -396,7 +390,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -442,7 +435,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -470,7 +462,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -519,7 +510,6 @@ repositories:
       admin:
         - Admin
         - Go Team
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -545,7 +535,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -573,7 +562,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -602,7 +590,6 @@ repositories:
       admin:
         - Admin
         - Bots
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -630,7 +617,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -682,7 +668,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -727,7 +712,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -772,7 +756,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -815,7 +798,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -842,7 +824,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -875,7 +856,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -903,7 +883,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -933,7 +912,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -960,7 +938,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -990,7 +967,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1063,7 +1039,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       maintain:
@@ -1098,7 +1073,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1139,7 +1113,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1165,7 +1138,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1195,7 +1167,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1226,7 +1197,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1256,7 +1226,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1310,7 +1279,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1340,7 +1308,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1375,7 +1342,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1410,7 +1376,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1439,7 +1404,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1470,7 +1434,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1508,7 +1471,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1539,7 +1501,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1567,7 +1528,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1614,7 +1574,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1686,7 +1645,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1739,7 +1697,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1795,7 +1752,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1848,7 +1804,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1883,7 +1838,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - w3dt-stewards
       pull:
@@ -1912,7 +1866,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - ip-productivity
         - ipdx
         - ipfs-tech
         - w3dt-stewards
@@ -2069,13 +2022,6 @@ teams:
   Infra:
     create_default_maintainer: false
     description: https://github.com/protocol/infra-team/
-    privacy: closed
-  ip-productivity:
-    create_default_maintainer: false
-    members:
-      maintainer:
-        - galargh
-    parent_team_id: w3dt-stewards
     privacy: closed
   ipdx:
     create_default_maintainer: false
