@@ -1100,10 +1100,16 @@ repositories:
             schedule:
               interval: daily
               time: "10:00"
-            open-pull-requests-limit: 10
+            open-pull-requests-limit: 20
             commit-message:
               prefix: "deps"
-              prefix-development: "deps(dev)"
+              prefix-development: "chore"
+          - package-ecosystem: "github-actions"
+            directory: "/"
+            schedule:
+              interval: "weekly"
+            commit-message:
+              prefix: chore
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
