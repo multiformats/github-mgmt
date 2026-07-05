@@ -156,37 +156,7 @@ repositories:
   c-multihashing:
     archived: true
   cid:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Self-describing content-addressed identifiers for distributed systems
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - Admin
-        - github-mgmt stewards
-        - Go Team
-        - JavaScript Team
-    topics:
-      - cid
-      - ipfs
-      - ipld
-      - multiformats
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   clj-multihash:
     archived: true
   clj-multistream:
@@ -785,10 +755,16 @@ repositories:
             schedule:
               interval: daily
               time: "10:00"
-            open-pull-requests-limit: 10
+            open-pull-requests-limit: 20
             commit-message:
               prefix: "deps"
-              prefix-development: "deps(dev)"
+              prefix-development: "chore"
+          - package-ecosystem: "github-actions"
+            directory: "/"
+            schedule:
+              interval: "weekly"
+            commit-message:
+              prefix: chore
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
