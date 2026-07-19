@@ -1,3 +1,4 @@
+import 'reflect-metadata'
 import * as core from '@actions/core'
 import {pathToFileURL} from 'url'
 import {Config} from '../yaml/config.js'
