@@ -2005,15 +2005,6 @@ teams:
     create_default_maintainer: false
     description: https://github.com/protocol/infra-team/
     privacy: closed
-  ipdx:
-    create_default_maintainer: false
-    members:
-      maintainer:
-        - galargh
-      member:
-        - laurentsenta
-    parent_team_id: w3dt-stewards
-    privacy: closed
   ipfs-gui:
     create_default_maintainer: false
     description: IPFS GUI Team
