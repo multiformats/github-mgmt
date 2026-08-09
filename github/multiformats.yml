@@ -13,115 +13,32 @@ members:
     # 2. has close access to [sead](https://www.sead.ai/), which is charged with sysadmin for critical systems within the wider Protocol Labs Network
     # 3. general long-standing sysadmin for these organizations with his past roles at PL Inc
     # 4. This isn't andyschwab's day-to-day GitHub account
-    - andyschwab-admin
     # Why @galargh?
     # 1. co-founder of [IPDX](https://ipdx.co), and IPDX is contracted to look after GitHub for this organization.
     # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org.
     - galargh
   member:
-    - 0xDanomite
     - 2color
-    - aarshkshah1992
     - achingbrain
     - acul71
-    - adlrocha
-    - alanshaw
-    - alexh
-    - amstocker
-    - andyschwab
-    - arcinston
-    - arkpar
-    - aschmahmann
-    - BigLep
-    - bigs
-    - cloutiertyler
-    - darobin
-    - daviddias
-    - debris
     - dhruvbaldawa
-    - dhuseby
-    - dignifiedquire
-    - djdv
-    - dryajov
-    - eira-fransham
-    - ekroon
     - elenaf9
-    - Fil
-    - flyingzumwalt
-    - fredthomsen
-    - fsdiogo
-    - Gozala
-    - greglook
-    - guillaumemichel
-    - haadcode
-    - hacdias
-    - hannahhoward
-    - hsanjuan
-    - hugomrdias
     - ianopolous
-    - ipfsbot
-    - jacobheun
-    - jbenet
-    - jbenetsafer
-    - jesseclay
-    - Jorropo
     - jxs
-    - kevina
     - Kubuxu
-    - kumavis
-    - laurentsenta
     - lidel
-    - litzenberger
-    - locotorp
-    - lukehoersten
-    - magik6k
     - MarcoPolo
-    - marten-seemann
-    - masih
-    - mcollina
-    - mhchia
-    - michaelavila
-    - momack2
-    - mpetrunic
     - mriise
     - mxinden
-    - NeoTeo
-    - nicola
-    - olizilla
-    - p-shahi
     - pacrob
-    - pkafei
-    - raulk
-    - ribasushi
-    - RichardLitt
-    - richardschneider
-    - robzajac
-    - rphmeier
     - rvagg
-    - sbuss
     - seetadev
-    - SgtPooki
     - Stebalien
-    - stuckinaboot
     - sukunrt
     - thomaseizinger
-    - TinyTb
-    - tomaka
-    - travisperson
-    - vasco-santos
-    - victorb
     - vmx
-    - vyzo
-    - wanderer
-    - warpfork
     - web3-bot
-    - wemeetagain
-    - whizzzkid
-    - whyrusleeping
     - willscott
-    - yusefnapora
-    - zabirauf
-    - zixuanzh
 repositories:
   .github:
     archived: true
@@ -130,6 +47,32 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - aschmahmann
+        - biglep
+        - guillaumemichel
+        - jorropo
+        - laurentsenta
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
+      pull:
+        - alanshaw
+        - daviddias
+        - dignifiedquire
+        - gozala
+        - hsanjuan
+        - hugomrdias
+        - jacobheun
+        - jbenet
+        - kumavis
+        - marten-seemann
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - richardschneider
+        - vasco-santos
+        - wemeetagain
       push:
         - web3-bot
     default_branch: master
@@ -178,6 +121,22 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
         - web3-bot
     default_branch: master
@@ -228,7 +187,10 @@ repositories:
             - Comment
           strict: true
     collaborators:
+      admin:
+        - laurentsenta
       push:
+        - aschmahmann
         - web3-bot
     default_branch: master
     files:
@@ -262,8 +224,27 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - aschmahmann
+        - biglep
+        - guillaumemichel
+        - jorropo
+        - laurentsenta
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - hannahhoward
+        - hsanjuan
+        - magik6k
+        - masih
+        - raulk
+        - ribasushi
+        - vyzo
+        - warpfork
         - web3-bot
+        - whyrusleeping
     default_branch: master
     description: base32 encoding package from go with NoPadding option
     has_discussions: false
@@ -288,8 +269,33 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - hannahhoward
+        - magik6k
+        - masih
+        - raulk
+        - ribasushi
+        - vyzo
+        - warpfork
         - web3-bot
+        - whyrusleeping
     default_branch: master
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -314,8 +320,33 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - hannahhoward
+        - magik6k
+        - masih
+        - raulk
+        - ribasushi
+        - vyzo
+        - warpfork
         - web3-bot
+        - whyrusleeping
     default_branch: master
     description: Go library and CLI tool for /dns4, /dns6, /dnsaddr multiaddr resolution
     has_discussions: false
@@ -347,8 +378,27 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - aschmahmann
+        - biglep
+        - guillaumemichel
+        - jorropo
+        - laurentsenta
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - hannahhoward
+        - hsanjuan
+        - magik6k
+        - masih
+        - raulk
+        - ribasushi
+        - vyzo
+        - warpfork
         - web3-bot
+        - whyrusleeping
     default_branch: master
     description: A declarative validator for multiaddrs.
     has_discussions: false
@@ -391,8 +441,33 @@ repositories:
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - hannahhoward
+        - magik6k
+        - masih
+        - raulk
+        - ribasushi
+        - vyzo
+        - warpfork
         - web3-bot
+        - whyrusleeping
     default_branch: master
     description: Composable and future-proof network addresses
     has_discussions: false
@@ -418,8 +493,33 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - hannahhoward
+        - magik6k
+        - masih
+        - raulk
+        - ribasushi
+        - vyzo
+        - warpfork
         - web3-bot
+        - whyrusleeping
     default_branch: master
     description: Implementation of multibase parser in go
     has_discussions: false
@@ -464,7 +564,30 @@ repositories:
           restrict_dismissals: false
     collaborators:
       admin:
+        - aarshkshah1992
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hannahhoward
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - magik6k
+        - marten-seemann
         - masih
+        - p-shahi
+        - raulk
+        - ribasushi
+        - sgtpooki
+        - vyzo
+        - warpfork
+        - whizzzkid
+        - whyrusleeping
       push:
         - web3-bot
     default_branch: master
@@ -491,8 +614,33 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - hannahhoward
+        - magik6k
+        - masih
+        - raulk
+        - ribasushi
+        - vyzo
+        - warpfork
         - web3-bot
+        - whyrusleeping
     default_branch: master
     description: Go implementation of multigram
     has_discussions: false
@@ -518,8 +666,33 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - hannahhoward
+        - magik6k
+        - masih
+        - raulk
+        - ribasushi
+        - vyzo
+        - warpfork
         - web3-bot
+        - whyrusleeping
     default_branch: master
     description: Multihash implementation in Go
     has_discussions: false
@@ -545,8 +718,33 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - hannahhoward
+        - magik6k
+        - masih
+        - raulk
+        - ribasushi
+        - vyzo
+        - warpfork
         - web3-bot
+        - whyrusleeping
     default_branch: master
     description: an implementation of the multistream protocol in go
     has_discussions: false
@@ -574,9 +772,27 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - aschmahmann
+        - biglep
+        - guillaumemichel
+        - jorropo
+        - laurentsenta
+        - p-shahi
+        - sgtpooki
         - Stebalien
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - hannahhoward
+        - hsanjuan
+        - magik6k
+        - masih
+        - raulk
+        - ribasushi
+        - vyzo
+        - warpfork
         - web3-bot
+        - whyrusleeping
     default_branch: master
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -607,7 +823,22 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
         - ianopolous
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
         - kevodwyer
         - web3-bot
@@ -652,7 +883,22 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
         - ianopolous
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
         - web3-bot
     default_branch: master
@@ -696,7 +942,22 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
         - ianopolous
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
         - web3-bot
     default_branch: master
@@ -740,7 +1001,15 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - aschmahmann
+        - biglep
+        - guillaumemichel
+        - jorropo
+        - laurentsenta
+        - p-shahi
         - rvagg
+        - sgtpooki
+        - whizzzkid
       push:
         - web3-bot
     default_branch: master
@@ -787,8 +1056,32 @@ repositories:
     collaborators:
       admin:
         - alanshaw
+        - aschmahmann
+        - biglep
+        - guillaumemichel
+        - jorropo
+        - laurentsenta
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
+      pull:
+        - hsanjuan
+        - jbenet
+        - marten-seemann
       push:
+        - daviddias
+        - dignifiedquire
+        - gozala
+        - hugomrdias
+        - jacobheun
+        - kumavis
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - richardschneider
+        - vasco-santos
         - web3-bot
+        - wemeetagain
     default_branch: master
     description: A module and command line tool for converting, formatting and discovering properties of CIDs
     has_discussions: false
@@ -818,8 +1111,32 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - gozala
+        - hugomrdias
+        - kumavis
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - richardschneider
+        - vasco-santos
         - web3-bot
+        - wemeetagain
     default_branch: main
     description: Resolve DNS queries with browser fallback
     has_discussions: false
@@ -845,8 +1162,33 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - gozala
+        - hugomrdias
+        - kumavis
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - richardschneider
+        - vasco-santos
         - web3-bot
+        - wemeetagain
     default_branch: master
     description: javascript multiaddr validation
     has_discussions: false
@@ -874,8 +1216,32 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - gozala
+        - hugomrdias
+        - kumavis
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - richardschneider
+        - vasco-santos
         - web3-bot
+        - wemeetagain
     default_branch: main
     description: Match different multiaddr formats
     has_discussions: false
@@ -901,8 +1267,34 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
+      admin:
+        - aschmahmann
+        - biglep
+        - guillaumemichel
+        - jorropo
+        - laurentsenta
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
+      pull:
+        - hsanjuan
+        - jbenet
+        - marten-seemann
       push:
+        - alanshaw
+        - daviddias
+        - dignifiedquire
+        - gozala
+        - hugomrdias
+        - jacobheun
+        - kumavis
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - richardschneider
+        - vasco-santos
         - web3-bot
+        - wemeetagain
     default_branch: main
     description: Convert a Multiaddr to a URI /dnsaddr/ipfs.io/http -> http://ipfs.io
     has_discussions: false
@@ -929,8 +1321,33 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - gozala
+        - hugomrdias
+        - kumavis
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - richardschneider
+        - vasco-santos
         - web3-bot
+        - wemeetagain
     default_branch: main
     description: JavaScript implementation of multiaddr
     has_discussions: false
@@ -958,6 +1375,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      pull:
+        - aschmahmann
       push:
         - web3-bot
     default_branch: main
@@ -981,6 +1400,32 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
+      maintain:
+        - gozala
+        - hugomrdias
+        - kumavis
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - richardschneider
+        - vasco-santos
+        - wemeetagain
       push:
         - geomatrick
         - RangerMauve
@@ -1036,8 +1481,30 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - aschmahmann
+        - biglep
+        - guillaumemichel
+        - jorropo
+        - laurentsenta
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - alanshaw
+        - daviddias
+        - dignifiedquire
+        - gozala
+        - hugomrdias
+        - jacobheun
+        - kumavis
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - richardschneider
+        - vasco-santos
         - web3-bot
+        - wemeetagain
     default_branch: master
     description: Multiformats hash functions for MurmurHash3
     has_discussions: false
@@ -1062,6 +1529,29 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - aschmahmann
+        - biglep
+        - guillaumemichel
+        - jorropo
+        - laurentsenta
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
+      pull:
+        - alanshaw
+        - daviddias
+        - dignifiedquire
+        - gozala
+        - hugomrdias
+        - jacobheun
+        - kumavis
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - richardschneider
+        - vasco-santos
+        - wemeetagain
       push:
         - web3-bot
     default_branch: master
@@ -1107,8 +1597,34 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - aschmahmann
+        - biglep
+        - guillaumemichel
+        - jorropo
+        - laurentsenta
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
+      pull:
+        - hsanjuan
+        - jbenet
+        - marten-seemann
       push:
+        - alanshaw
+        - daviddias
+        - dignifiedquire
+        - gozala
+        - hugomrdias
+        - jacobheun
+        - kumavis
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - richardschneider
+        - vasco-santos
         - web3-bot
+        - wemeetagain
     default_branch: main
     description: "Convert a URI to a Multiaddr: https://protocol.ai -> /dns4/protocol.ai/tcp/443/https"
     has_discussions: false
@@ -1135,8 +1651,33 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - hannahhoward
+        - magik6k
+        - masih
+        - raulk
+        - ribasushi
+        - vyzo
+        - warpfork
         - web3-bot
+        - whyrusleeping
     default_branch: master
     description: multiaddr powered pipes
     has_discussions: false
@@ -1162,8 +1703,43 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - darobin
+        - gozala
+        - hannahhoward
+        - hugomrdias
+        - kumavis
+        - magik6k
+        - masih
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - raulk
+        - ribasushi
+        - richardschneider
+        - vasco-santos
+        - vyzo
+        - warpfork
         - web3-bot
+        - wemeetagain
+        - whyrusleeping
     default_branch: master
     description: Composable and future-proof network addresses
     files:
@@ -1194,8 +1770,43 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - darobin
+        - gozala
+        - hannahhoward
+        - hugomrdias
+        - kumavis
+        - magik6k
+        - masih
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - raulk
+        - ribasushi
+        - richardschneider
+        - vasco-santos
+        - vyzo
+        - warpfork
         - web3-bot
+        - wemeetagain
+        - whyrusleeping
     default_branch: master
     description: Self identifying base encodings
     has_discussions: true
@@ -1243,8 +1854,43 @@ repositories:
             - validate
           strict: true
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - darobin
+        - gozala
+        - hannahhoward
+        - hugomrdias
+        - kumavis
+        - magik6k
+        - masih
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - raulk
+        - ribasushi
+        - richardschneider
+        - vasco-santos
+        - vyzo
+        - warpfork
         - web3-bot
+        - wemeetagain
+        - whyrusleeping
     default_branch: master
     description: Compact self-describing codecs. Save space by using predefined multicodec tables.
     files:
@@ -1276,8 +1922,43 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - darobin
+        - gozala
+        - hannahhoward
+        - hugomrdias
+        - kumavis
+        - magik6k
+        - masih
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - raulk
+        - ribasushi
+        - richardschneider
+        - vasco-santos
+        - vyzo
+        - warpfork
         - web3-bot
+        - wemeetagain
+        - whyrusleeping
     default_branch: master
     description: The main repository for discussing multiformats.
     has_discussions: true
@@ -1310,8 +1991,42 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - gozala
+        - hannahhoward
+        - hugomrdias
+        - kumavis
+        - magik6k
+        - masih
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - raulk
+        - ribasushi
+        - richardschneider
+        - vasco-santos
+        - vyzo
+        - warpfork
         - web3-bot
+        - wemeetagain
+        - whyrusleeping
     default_branch: master
     description: Self describing hashes - for future proofing
     has_discussions: false
@@ -1344,8 +2059,42 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - gozala
+        - hannahhoward
+        - hugomrdias
+        - kumavis
+        - magik6k
+        - masih
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - raulk
+        - ribasushi
+        - richardschneider
+        - vasco-santos
+        - vyzo
+        - warpfork
         - web3-bot
+        - wemeetagain
+        - whyrusleeping
     default_branch: master
     description: Friendly protocol negotiation. It enables a multicodec to be negotiated between two entities.
     has_discussions: false
@@ -1372,8 +2121,42 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - aarshkshah1992
+        - gozala
+        - hannahhoward
+        - hugomrdias
+        - kumavis
+        - magik6k
+        - masih
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - raulk
+        - ribasushi
+        - richardschneider
+        - vasco-santos
+        - vyzo
+        - warpfork
         - web3-bot
+        - wemeetagain
+        - whyrusleeping
     default_branch: master
     description: Make data and streams self-described by prefixing them with human readable codecs.
     has_discussions: false
@@ -1402,7 +2185,26 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - aschmahmann
+        - biglep
+        - guillaumemichel
+        - jorropo
+        - laurentsenta
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
+      pull:
+        - alanshaw
+        - daviddias
+        - dignifiedquire
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - marten-seemann
       push:
+        - arcinston
+        - dhuseby
         - sbuss
         - web3-bot
     default_branch: master
@@ -1437,8 +2239,25 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
         - dhruvbaldawa
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - arcinston
+        - dhuseby
         - sbuss
         - web3-bot
     default_branch: master
@@ -1467,8 +2286,25 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
         - dhruvbaldawa
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - arcinston
+        - dhuseby
         - sbuss
         - web3-bot
     default_branch: master
@@ -1496,7 +2332,18 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - aschmahmann
+        - biglep
+        - guillaumemichel
+        - jorropo
+        - laurentsenta
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - arcinston
+        - dhuseby
         - sbuss
         - web3-bot
     default_branch: master
@@ -1526,8 +2373,25 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - aschmahmann
+        - biglep
         - dignifiedquire
+        - guillaumemichel
+        - jorropo
+        - laurentsenta
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
+      pull:
+        - alanshaw
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - marten-seemann
       push:
+        - daviddias
+        - gozala
+        - tomaka
         - web3-bot
       triage:
         - dvc94ch
@@ -1598,8 +2462,24 @@ repositories:
           strict: true
     collaborators:
       admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
         - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - gozala
+        - tomaka
         - web3-bot
     default_branch: master
     description: multiaddr implementation in rust
@@ -1642,8 +2522,24 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
         - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - gozala
+        - tomaka
         - web3-bot
     default_branch: master
     description: Multibase in rust
@@ -1702,8 +2598,24 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
         - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
+        - gozala
+        - tomaka
         - web3-bot
       triage:
         - dvc94ch
@@ -1772,7 +2684,44 @@ repositories:
             push_allowances:
               - multiformats/admin
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
+      pull:
+        - aarshkshah1992
+        - gozala
+        - hannahhoward
+        - hugomrdias
+        - kumavis
+        - magik6k
+        - masih
+        - mcollina
+        - mpetrunic
+        - olizilla
+        - raulk
+        - ribasushi
+        - richardschneider
+        - tomaka
+        - vasco-santos
+        - vyzo
+        - warpfork
+        - wemeetagain
+        - whyrusleeping
       push:
+        - darobin
         - web3-bot
     default_branch: master
     description: Specification work regarding multihash, multiaddr, and others
@@ -1806,6 +2755,22 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
         - web3-bot
     default_branch: master
@@ -1832,7 +2797,23 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - alanshaw
+        - aschmahmann
+        - biglep
+        - darobin
+        - daviddias
+        - dignifiedquire
+        - guillaumemichel
+        - hsanjuan
+        - jacobheun
+        - jbenet
+        - jorropo
+        - laurentsenta
+        - marten-seemann
         - olizilla
+        - p-shahi
+        - sgtpooki
+        - whizzzkid
       push:
         - jessicaschilling
         - web3-bot
@@ -1863,55 +2844,11 @@ teams:
     description: Should have Admin access on every repo
     members:
       member:
-        - alanshaw
-        - aschmahmann
-        - BigLep
-        - daviddias
-        - dignifiedquire
-        - hsanjuan
-        - jacobheun
-        - jbenet
         - Kubuxu
-        - marten-seemann
         - Stebalien
     privacy: closed
   Alumni:
     create_default_maintainer: false
-    members:
-      member:
-        - adlrocha
-        - alexh
-        - amstocker
-        - arkpar
-        - cloutiertyler
-        - debris
-        - dryajov
-        - eira-fransham
-        - ekroon
-        - Fil
-        - flyingzumwalt
-        - fredthomsen
-        - fsdiogo
-        - greglook
-        - haadcode
-        - ipfsbot
-        - jbenetsafer
-        - jesseclay
-        - kevina
-        - litzenberger
-        - lukehoersten
-        - michaelavila
-        - momack2
-        - NeoTeo
-        - nicola
-        - pkafei
-        - rphmeier
-        - sbuss
-        - stuckinaboot
-        - TinyTb
-        - travisperson
-        - victorb
-        - wanderer
     privacy: closed
   Bots:
     create_default_maintainer: false
@@ -1965,10 +2902,6 @@ teams:
         # 1. libp2p is a key stakeholer of some of the multiformats repos (e.g., multiaddr).  @achingbrain helps represent that community (and the JS IPFS side as well).
         # 2. Active maintainer of JS repos in the org.
         - achingbrain
-        # Why @aschmahmann?
-        # 1. Long-time and still very active contributor to important Go-based IPFS repos that consume and occasionally require changes of multiformats repos.
-        # 2. Director of IP Shipyard, which is an organization receiving significant grant funding for "IPFS development and maintenance", which includes multiformats as needed.
-        - aschmahmann
         # Why @rvagg?
         # 1. Continued Multiformats maintainer since the pre-2021 days of an "IPLD core team".
         - rvagg
@@ -1981,20 +2914,9 @@ teams:
     description: Go multiformats people
     members:
       member:
-        - aarshkshah1992
-        - aschmahmann
-        - hannahhoward
-        - hsanjuan
         - Kubuxu
-        - magik6k
-        - masih
-        - raulk
-        - ribasushi
         - rvagg
         - Stebalien
-        - vyzo
-        - warpfork
-        - whyrusleeping
         - willscott
     privacy: closed
   Haskell Team:
@@ -2010,8 +2932,6 @@ teams:
     members:
       maintainer:
         - galargh
-      member:
-        - laurentsenta
     parent_team_id: w3dt-stewards
     privacy: closed
   ipfs-gui:
@@ -2020,14 +2940,10 @@ teams:
     members:
       maintainer:
         - lidel
-        - SgtPooki
     privacy: closed
   ipfs-tech:
     create_default_maintainer: false
     description: IPFS Foundation spec and registry maintenance crew
-    members:
-      maintainer:
-        - darobin
     privacy: secret
   Java Team:
     create_default_maintainer: false
@@ -2043,28 +2959,12 @@ teams:
       member:
         - 2color
         - achingbrain
-        - alanshaw
-        - daviddias
-        - dignifiedquire
-        - Gozala
-        - hugomrdias
-        - jacobheun
-        - kumavis
         - lidel
-        - mcollina
-        - mpetrunic
-        - olizilla
-        - richardschneider
         - rvagg
-        - vasco-santos
         - vmx
-        - wemeetagain
     privacy: closed
   Parity Tech:
     create_default_maintainer: false
-    members:
-      maintainer:
-        - tomaka
     privacy: closed
   PHP Team:
     create_default_maintainer: false
@@ -2076,8 +2976,6 @@ teams:
     members:
       member:
         - acul71
-        - arcinston
-        - dhuseby
         - pacrob
         - seetadev
     privacy: closed
@@ -2090,17 +2988,12 @@ teams:
     description: ⚙ The Iron Giant
     members:
       member:
-        - daviddias
-        - dignifiedquire
         - elenaf9
-        - Gozala
-        - guillaumemichel
         - jxs
         - mriise
         - mxinden
         - Stebalien
         - thomaseizinger
-        - tomaka
         - vmx
     privacy: closed
   Scala Team:
@@ -2113,21 +3006,12 @@ teams:
   w3dt-stewards:
     create_default_maintainer: false
     members:
-      maintainer:
-        - BigLep
       member:
         - achingbrain
-        - aschmahmann
         - galargh
-        - guillaumemichel
-        - Jorropo
-        - laurentsenta
         - lidel
         - MarcoPolo
         - mxinden
-        - p-shahi
-        - SgtPooki
         - Stebalien
         - sukunrt
-        - whizzzkid
     privacy: closed
