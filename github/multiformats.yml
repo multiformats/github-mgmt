@@ -19,18 +19,15 @@ members:
     # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org.
     - galargh
   member:
-    - 0xDanomite
     - 2color
     - aarshkshah1992
     - achingbrain
     - acul71
-    - adlrocha
     - alanshaw
     - alexh
     - amstocker
     - andyschwab
     - arcinston
-    - arkpar
     - aschmahmann
     - BigLep
     - bigs
@@ -53,17 +50,13 @@ members:
     - Gozala
     - greglook
     - guillaumemichel
-    - haadcode
     - hacdias
     - hannahhoward
     - hsanjuan
     - hugomrdias
     - ianopolous
-    - ipfsbot
     - jacobheun
     - jbenet
-    - jbenetsafer
-    - jesseclay
     - Jorropo
     - jxs
     - kevina
@@ -71,7 +64,6 @@ members:
     - kumavis
     - laurentsenta
     - lidel
-    - litzenberger
     - locotorp
     - lukehoersten
     - magik6k
@@ -80,8 +72,6 @@ members:
     - masih
     - mcollina
     - mhchia
-    - michaelavila
-    - momack2
     - mpetrunic
     - mriise
     - mxinden
@@ -1879,10 +1869,8 @@ teams:
     create_default_maintainer: false
     members:
       member:
-        - adlrocha
         - alexh
         - amstocker
-        - arkpar
         - cloutiertyler
         - debris
         - dryajov
@@ -1893,15 +1881,8 @@ teams:
         - fredthomsen
         - fsdiogo
         - greglook
-        - haadcode
-        - ipfsbot
-        - jbenetsafer
-        - jesseclay
         - kevina
-        - litzenberger
         - lukehoersten
-        - michaelavila
-        - momack2
         - NeoTeo
         - nicola
         - pkafei
