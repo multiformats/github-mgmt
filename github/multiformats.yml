@@ -2009,8 +2009,6 @@ teams:
     members:
       maintainer:
         - galargh
-      member:
-        - laurentsenta
     parent_team_id: w3dt-stewards
     privacy: closed
   ipfs-gui:
@@ -2120,7 +2118,6 @@ teams:
         - galargh
         - guillaumemichel
         - Jorropo
-        - laurentsenta
         - lidel
         - MarcoPolo
         - mxinden
