@@ -206,7 +206,9 @@ members:
 
     const comment = describeAccessChangesComment(state, config)
 
-    assert.match(comment, /<summary>Access Changes<\/summary>/)
+    assert.match(comment, /The following access changes/)
+    assert.match(comment, /For the full access breakdown/)
+    assert.match(comment, /<details><summary>Access Changes<\/summary>/)
     assert.doesNotMatch(comment, /Potential no members/)
     assert.doesNotMatch(comment, /Any other members/)
   })
