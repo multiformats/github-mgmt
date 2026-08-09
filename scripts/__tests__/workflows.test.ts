@@ -5,6 +5,8 @@ import * as YAML from 'yaml'
 
 type WorkflowStep = {
   name?: string
+  if?: string
+  uses?: string
   run?: string
   env?: Record<string, string>
   with?: Record<string, unknown>
@@ -17,6 +19,7 @@ type Workflow = {
   jobs: Record<
     string,
     {
+      permissions?: Record<string, string>
       environment?: string
       steps: WorkflowStep[]
     }
@@ -48,8 +51,34 @@ describe('workflows', () => {
     assert.match(applyStep.run ?? '', /allow_destroy_override\.tf\.disabled/)
   })
 
-  it('does not provide a manual access report workflow', () => {
-    assert.equal(existsSync('../.github/workflows/access-report.yml'), false)
+  it('provides a manual access report workflow through the shared formatter helper', () => {
+    assert.equal(existsSync('../.github/workflows/access-report.yml'), true)
+
+    const accessReport = workflow('access-report.yml')
+    const reportJob = accessReport.jobs.report
+    const steps = reportJob.steps
+    const generateStep = steps.find(
+      step => step.name === 'Generate access report'
+    )
+    const publishStep = steps.find(
+      step => step.name === 'Publish access report summary'
+    )
+    const uploadStep = steps.find(step => step.name === 'Upload access report')
+
+    assert.ok(accessReport.on.workflow_dispatch)
+    assert.equal(reportJob.environment, 'read')
+    assert.ok(generateStep)
+    assert.equal(generateStep.env?.ACCESS_REPORT_PATH, '../ACCESS_REPORT.md')
+    assert.match(generateStep.run ?? '', /runDescribeAccessChanges/)
+    assert.doesNotMatch(generateStep.run ?? '', /access-report\.js/)
+    assert.ok(publishStep)
+    assert.equal(
+      publishStep.run,
+      'cat ACCESS_REPORT.md >> "$GITHUB_STEP_SUMMARY"'
+    )
+    assert.ok(uploadStep)
+    assert.equal(uploadStep.with?.name, 'access-report-${{ env.TF_WORKSPACE }}')
+    assert.equal(uploadStep.with?.path, 'ACCESS_REPORT.md')
   })
 
   it('publishes the full access report from the fix workflow', () => {
@@ -168,6 +197,94 @@ describe('workflows', () => {
     assert.equal(
       compareStep.run,
       'diff -u "${TF_WORKSPACE}.reviewed.txt" "${TF_WORKSPACE}.merged.txt"\n'
+    )
+  })
+
+  it('creates update-members pull requests with the GitHub App token', () => {
+    const updateMembers = workflow('update-members.yml')
+    const job = updateMembers.jobs.update
+    const steps = job.steps
+    const generateTokenStep = steps.find(
+      step => step.name === 'Generate app token'
+    )
+    const checkoutStep = steps.find(
+      step => step.name === 'Checkout with app token'
+    )
+    const configureGitStep = steps.find(
+      step => step.name === 'Configure git user'
+    )
+    const createPullRequestStep = steps.find(
+      step => step.name === 'Create draft pull request'
+    )
+
+    assert.equal(job.permissions?.contents, 'read')
+    assert.equal(job.permissions?.['pull-requests'], 'read')
+    assert.ok(generateTokenStep)
+    assert.equal(
+      generateTokenStep.if,
+      "github.event.inputs['draft-run'] != 'true'"
+    )
+    assert.equal(
+      generateTokenStep.with?.app_id,
+      '${{ secrets.RW_GITHUB_APP_ID }}'
+    )
+    assert.ok(checkoutStep)
+    assert.equal(checkoutStep.if, "github.event.inputs['draft-run'] != 'true'")
+    assert.equal(checkoutStep.with?.token, '${{ steps.token.outputs.token }}')
+    assert.ok(configureGitStep)
+    assert.equal(
+      configureGitStep.if,
+      "steps.config-modified.outputs.this == 'true' && github.event.inputs['draft-run'] != 'true'"
+    )
+    assert.equal(
+      configureGitStep.env?.GITHUB_MGMT_APP_ID,
+      '${{ secrets.RW_GITHUB_APP_ID }}'
+    )
+    assert.match(configureGitStep.run ?? '', /github-mgmt\[bot\]/)
+    assert.ok(createPullRequestStep)
+    assert.equal(
+      createPullRequestStep.env?.GITHUB_TOKEN,
+      '${{ steps.token.outputs.token }}'
+    )
+  })
+
+  it('supports update-members draft runs without creating pull requests', () => {
+    const updateMembers = workflow('update-members.yml')
+    const workflowDispatch = updateMembers.on.workflow_dispatch as {
+      inputs: Record<string, {default?: boolean; type?: string}>
+    }
+    const job = updateMembers.jobs.update
+    const steps = job.steps
+    const checkoutStep = steps.find(step => step.name === 'Checkout')
+    const summaryStep = steps.find(
+      step => step.name === 'Summarize member update'
+    )
+    const createPullRequestStep = steps.find(
+      step => step.name === 'Create draft pull request'
+    )
+
+    assert.equal(workflowDispatch.inputs['draft-run'].default, false)
+    assert.equal(workflowDispatch.inputs['draft-run'].type, 'boolean')
+    assert.equal(
+      job.environment,
+      "${{ github.event.inputs['draft-run'] == 'true' && 'read' || 'push' }}"
+    )
+    assert.ok(checkoutStep)
+    assert.equal(checkoutStep.if, "github.event.inputs['draft-run'] == 'true'")
+    assert.ok(summaryStep)
+    assert.match(summaryStep.run ?? '', /## Update members/)
+    assert.match(
+      summaryStep.run ?? '',
+      /Pull request: not created because draft run is enabled/
+    )
+    assert.match(
+      summaryStep.run ?? '',
+      /git diff -- "github\/\$\{ORGANIZATION\}\.yml"/
+    )
+    assert.ok(createPullRequestStep)
+    assert.equal(
+      createPullRequestStep.if,
+      "steps.config-modified.outputs.this == 'true' && github.event.inputs['draft-run'] != 'true'"
     )
   })
 })
