@@ -21,7 +21,7 @@ jobs:
     env:
       TF_IN_AUTOMATION: 1
       TF_INPUT: 0
-      TF_WORKSPACE: ${{ github.event.inputs.organization }}
+      TF_WORKSPACE: ${{ inputs.organization }}
       AWS_ACCESS_KEY_ID: ${{ secrets.RO_AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.RO_AWS_SECRET_ACCESS_KEY }}
     steps:
@@ -48,7 +48,7 @@ jobs:
         run: pnpm install --frozen-lockfile && pnpm run build
         working-directory: scripts
       - name: Generate access report
-        run: node lib/actions/access-report.js
+        run: node --input-type=module --eval "import {runDescribeAccessChanges} from './lib/actions/shared/describe-access-changes.js'; await runDescribeAccessChanges();"
         working-directory: scripts
         env:
           ACCESS_REPORT_PATH: ../ACCESS_REPORT.md
