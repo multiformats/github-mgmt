@@ -229,7 +229,6 @@ repositories:
           strict: true
     collaborators:
       push:
-        - gfjalar
         - web3-bot
     default_branch: master
     files:
