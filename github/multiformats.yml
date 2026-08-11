@@ -50,6 +50,7 @@ members:
     - flyingzumwalt
     - fredthomsen
     - fsdiogo
+    - gfjalar
     - Gozala
     - greglook
     - guillaumemichel
@@ -230,6 +231,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+        - gfjalar
     default_branch: master
     files:
       CODEOWNERS:
